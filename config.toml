@@ -1,4 +1,4 @@
-baseURL = "http://rpi.analyticsdojo.com/"
+baseURL = "https://rpi-data.github.io/website/"
 languageCode = "en-us"
 title = "Data@Rensselaer"
 theme = "docdock"
