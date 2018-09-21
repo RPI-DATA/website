@@ -1,11 +1,11 @@
 +++
-title = "RPI Analytics Dojo"
+title = "DATA@RENSSELAER"
 description = "Technology and Infrastructure for Teaching Data & Computation Courses"
 date = "2017-04-24T18:36:24+02:00"
 
 +++
 
-![](/images/dojo.png)
+![](/images/rpilogo.png)
 
 Welcome to the alpha version of the RPI AnalyticsDojo, an infrastructure for teaching and learning analytics.
 

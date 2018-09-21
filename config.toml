@@ -4,20 +4,19 @@ title = "Data@Rensselaer"
 theme = "docdock"
 publishDir = "docs"
 [params]
-noHomeIcon = false # default is false
+noHomeIcon = true # default is false
 noSearch = false # default is false
 showVisitedLinks = false # default is false
 # themeStyle = "theme" # overide base css
-themeVariant = "gray" # choose theme variant "green", "gold" , "gray", "blue" (default)
-ordersectionsby = "weight" # ordersectionsby = "title"
+#themeVariant = "gray" # choose theme variant "green", "gold" , "gray", "blue" (default)
+#ordersectionsby = "weight" # ordersectionsby = "title"
 
 [outputs]
 home = [ "HTML", "RSS", "JSON"]
 
-
 [[menu.shortcuts]]
 pre = "<h3>Important Links</h3>"
-name = "<i class='fa fa-github'></i> Course Materials"
+name = "<i class='fa fa-github'></i> Github"
 url = "https://github.com/rpi-data/"
 weight = 1
 
@@ -43,7 +42,7 @@ weight = 20
 #url = "https://www.dropbox.com/sh/tn7xmg9qo2u8ydz/AAD2SMEPa28NpIGuea25TJUIa?dl=0"
 #weight = 30
 
-[[menu.shortcuts]]
-name = "<i class='fa fa-github'></i> Website"
-url = "http://data.rpi.edu"
-weight = 40
+#[[menu.shortcuts]]
+#name = "<i class='fa fa-github'></i> Website"
+#url = "http://data.rpi.edu"
+#weight = 40

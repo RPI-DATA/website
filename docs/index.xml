@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>RPI Analytics Dojo on Data@Rensselaer</title>
+    <title>DATA@RENSSELAER on Data@Rensselaer</title>
     <link>http://rpi-data.analyticsdojo.com/</link>
-    <description>Recent content in RPI Analytics Dojo on Data@Rensselaer</description>
+    <description>Recent content in DATA@RENSSELAER on Data@Rensselaer</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 24 Apr 2017 18:36:24 +0200</lastBuildDate>
@@ -135,7 +135,7 @@ This proposal suggests creating an instance of the Data 8 class @ Rensselaer. Al
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://rpi-data.analyticsdojo.com/_header/</guid>
-      <description></description>
+      <description>DATA@RENSSELAER</description>
     </item>
     
     <item>
