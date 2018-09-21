@@ -1,0 +1,49 @@
+baseURL = "http://rpi.analyticsdojo.com/"
+languageCode = "en-us"
+title = "Data@Rensselaer"
+theme = "docdock"
+publishDir = "docs"
+[params]
+noHomeIcon = false # default is false
+noSearch = false # default is false
+showVisitedLinks = false # default is false
+# themeStyle = "theme" # overide base css
+themeVariant = "green" # choose theme variant "green", "gold" , "gray", "blue" (default)
+ordersectionsby = "weight" # ordersectionsby = "title"
+
+[outputs]
+home = [ "HTML", "RSS", "JSON"]
+
+
+[[menu.shortcuts]]
+pre = "<h3>Important Links</h3>"
+name = "<i class='fa fa-github'></i> Course Materials"
+url = "https://github.com/rpi-data/"
+weight = 1
+
+[[menu.shortcuts]]
+name = "<i class='fa fa-cloud'></i> Jupyterhub"
+url = "http://lab.analyticsdojo.com"
+weight = 5
+
+#[[menu.shortcuts]]
+#name = "<i class='fa fa-sign-in'></i> LMS"
+#url = "https://lms.rpi.edu"
+#weight = 10
+
+[[menu.shortcuts]]
+name = "<i class='fa fa-slack'></i>Slack"
+identifier = "Signup for Slack Channel"
+url = "https://join.slack.com/t/rpi-data/signup"
+weight = 20
+
+#[[menu.shortcuts]]
+#name = "<i class='fa fa-dropbox'></i> Dropbox Share"
+#identifier = "Dropbox"
+#url = "https://www.dropbox.com/sh/tn7xmg9qo2u8ydz/AAD2SMEPa28NpIGuea25TJUIa?dl=0"
+#weight = 30
+
+[[menu.shortcuts]]
+name = "<i class='fa fa-github'></i> Website"
+url = "http://data.rpi.edu"
+weight = 40
