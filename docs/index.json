@@ -1,132 +1,132 @@
 [
 {
-	"uri": "https://rpi-data.github.io/website/setup/",
+	"uri": "http://rpi-data.analyticsdojo.com/setup/",
 	"title": "Compute Environment",
 	"tags": [],
 	"description": "",
 	"content": " Often technical issues around computer configuration can be frustrating, but they are an important component of doing data science. You will need a number of different systems setup on your computer for this class.\nWe will be testing this semester a online JupyterHub instance that should simplify a lot of the setup. However this is still in an alpha release and it would be good to get an alternate compute environment setup on your laptop.\nIn describing options, there are cloud and laptop based ways of doing the exercises.\nCloud A cloud based way of doing data science doesn\u0026rsquo;t require you to install anything and you can be up and running in working with concepts asap.\nOur Cloud: lab.analyticsdojo.com For the cloud instance at lab.analyticsdojo.com, there is some cool technology that is driving this. We are utilizing Kubernetes on the Google Cloud Platform to run Jupyterhub. This is based on some amazing work by a talented community of open source developers.\nWhen someone logs into the platform, the students obtain their own container to run on, giving them access to a compute environment that is much more flexible than a typical brower.\n##Laptop When running on your laptop, there are 2 different configuration options that that are possible.\nFor most users, managing the analytics environment with Anaconda seems to work quite well. Anaconda is a package manager with detailed instructions for Mac/Windows/Linux users. In this clase\nIt is also possible to run Docker on your laptop, mirroring the same compute environment that you enjoyed on JupyterHub cloud environment. This has worked perfectly in the past for Mac users and not so well for Windows users, but I understand Docker for Windows has come a long way.\nPlease feel free to post issues on the Slack channel.\nFollow the instructions to install git/GitHub Desktop and Anaconda.\n"
 },
 {
-	"uri": "https://rpi-data.github.io/website/setup/git/",
+	"uri": "http://rpi-data.analyticsdojo.com/setup/git/",
 	"title": "Git/GitHub",
 	"tags": [],
 	"description": "",
 	"content": " Git and Github Git is a version control system use to track changes to code, and when combined with Github it is an extremely powerful way to collaborate.\n(1) Install the git command line tool. There are a lot of options but you should be able to just utilize the defaults.\n(2) Create an account on github.com.\n(3) Install Github desktop if using OSX or Windows. Click here for download instructions for Github Desktop.\n(4) Once you are done installing Github desktop, open the program. Sign in with your Github Credentials to link the desktop application with your Github account.\n(5) Clone the class repository either from the desktop tool or from the command line.\nFrom the Github tool: From the command line:\ngit clone https://github.com/jkuruzovich/techfundamentals-spring2018-materials  (6) In the future when you want to update the repository, you can do so either from the command line or the GitHub Desktop tool.\nFrom the GitHub Desktop, press the sync button after selecting the repository: From the command line:\ngit pull  "
 },
 {
-	"uri": "https://rpi-data.github.io/website/resources/classes/",
+	"uri": "http://rpi-data.analyticsdojo.com/resources/classes/",
 	"title": "Online Classes",
 	"tags": [],
 	"description": "",
 	"content": " Data Camp As part of this class you get a free subscription to Data Camp. I can\u0026rsquo;t post it here but will provide via email. Fast-AI Deep learning class. Siraj Rival Extremely entertaining YouTube star covers a wide variety of things in machine learning.  "
 },
 {
-	"uri": "https://rpi-data.github.io/website/resources/",
+	"uri": "http://rpi-data.analyticsdojo.com/resources/",
 	"title": "Additional Resources",
 	"tags": [],
 	"description": "",
 	"content": "As a data scientist, there are a wide variety of technologies you can be expected to understand and use. These are a number of recommended resources.\nPlease help to augment these resources by issuing pull requests.\nNote: As a student you are welcome to a really cool student developer pack that even faculty don\u0026rsquo;t qualify for. You can download it at https://education.github.com/pack.\n"
 },
 {
-	"uri": "https://rpi-data.github.io/website/resources/podcasts/",
+	"uri": "http://rpi-data.analyticsdojo.com/resources/podcasts/",
 	"title": "Podcasts",
 	"tags": [],
 	"description": "",
 	"content": " Linear Digressions  "
 },
 {
-	"uri": "https://rpi-data.github.io/website/resources/git/",
+	"uri": "http://rpi-data.analyticsdojo.com/resources/git/",
 	"title": "Git",
 	"tags": [],
 	"description": "",
 	"content": " Pro Git\n Codeschool Git Class\n Learning about Branches\n Explaining Git with D3\n Understanding the Git Flow\n  "
 },
 {
-	"uri": "https://rpi-data.github.io/website/resources/python/",
+	"uri": "http://rpi-data.analyticsdojo.com/resources/python/",
 	"title": "Python",
 	"tags": [],
 	"description": "",
 	"content": "  Introduction to Machine Learning with Python by Andreas C. Müller; Sarah Guido (Available through library) Think Stats Probability and Statistics for Programmers in Python (free download)\n Conda\n Python + Numpy Tutorial\n Python Docs Tutorial\nPython: Conda\n Python + Numpy Tutorial\n Python Docs Tutorial\n Plotting:\n matplotlib.pyplot tutorial: This short tutorial provides an overview of the basic plotting utilities we will be using.\n seaborn: The Seaborn library has some nice additional visualization functions that we may use occasionally.\n Pandas:\n Learn Pandas A set of lessons providing an overview of the Pandas library.\n Python for Data Science Another set of notebook demonstrating Pandas functionality.\n  "
 },
 {
-	"uri": "https://rpi-data.github.io/website/setup/anaconda/",
+	"uri": "http://rpi-data.analyticsdojo.com/setup/anaconda/",
 	"title": "Anaconda",
 	"tags": [],
 	"description": "",
 	"content": " Step 2: Install and Configure Anaconda We will be using Anaconda to provide a Jupyter environment for both R and Python.\nFollow the following instructions to install Anaconda from Continuum Analytics. OSX Windows Linux\nOnce you have the Anaconda Distribution, follow below for advanced configuration.\nOSX  Follow the online instructions to install the Anaconda Distribution with Python 3.6 Follow below for advanced configuration.  Windows Windows may often have issues associated with installation if you have had previous versions of Anaconda installed. If it doesn\u0026rsquo;t work, start by uninstalling everything\n Follow the online instructions to install the Anaconda Distribution with Python 3.6 Follow below for advanced configuration.  Linux If you are a Linux user, please help in supporting the class. You likely won\u0026rsquo;t need my help. ;) 1. Follow the online instructions to install the Anaconda Distribution with Python 3.6 2. Follow below for advanced configuration.\nAdvanced Configuration (a.) Windows users, open an \u0026lsquo;Anaconda Prompt\u0026rsquo;. Mac/Linux users open a standard terminal.\n(b.) Change directories to the techfundamentals-spring2018-materials folder you cloned earlier.\ncd \u0026lt;insert full path \u0026gt;\\techfundamentals-spring2018-materials  For the above, changing directories differs for Windows or Mac users. For example, on a Mac it might be:\ncd /Users/jasonkuruzovich/githubdesktop/techfundamentals-spring2018-materials  On Windows, if you have a space somewhere in your path make sure that you include quotes:\ncd \u0026quot;c:\\Users\\jasonkuruzovich\\github\\techfundamentals-spring2018-materials\u0026quot;  (c.) Install required packages. First install pip, which is a package manager similar to conda.\nconda install -c anaconda pip  Then, from the repository install all the packages in requirements.txt.\npip install -r requirements.txt  (d.) Launch a Jupyter notebook with the command:\njupyter notebook  You will need to run c-d each time to launch Jupyter.\n*There may be some other packages you still have to install. You will know this is an issue if an import command fails. You can install packages with:\nconda install \u0026lt;packagename\u0026gt;  or\npip install \u0026lt;packagename\u0026gt;  For example, to install the R Kernal for Jupyter, install the r-essentials package:\nconda install r-essentials  "
 },
 {
-	"uri": "https://rpi-data.github.io/website/resources/r/",
+	"uri": "http://rpi-data.analyticsdojo.com/resources/r/",
 	"title": "R",
 	"tags": [],
 	"description": "",
 	"content": " Introduction to Statistical Learning (Free online PDF)\n R for Data Science (available online)\n Berkeley R Bootcamp\n  "
 },
 {
-	"uri": "https://rpi-data.github.io/website/resources/books/",
+	"uri": "http://rpi-data.analyticsdojo.com/resources/books/",
 	"title": "Books",
 	"tags": [],
 	"description": "",
 	"content": " O\u0026rsquo;Reilly Media titles can be accessed through the RPI library subscription. If there is a specific title you would like access to that isn\u0026rsquo;t listed, the library can adjust the list.\nData Science \u0026amp; Business Data Science for Business \nDoing Data Science\nGit  Pro Git  PYTHON  Introduction to Machine Learning with Python Data Science Handbook Data Science from Scratch  R  Introduction to Statistical Learning (Free online PDF) R for Data Science (available online)\n Introduction to Machine Learning with Python by Andreas C. Müller; Sarah Guido (Available through library)\n Think Stats Probability and Statistics for Programmers in Python (free download)\n  Deep Learning  Hands-On Machine Learning with Scikit-Learn and TensorFlow by Aurélien Géron  Big Data  Mining Massive Datasets  "
 },
 {
-	"uri": "https://rpi-data.github.io/website/proposals/data8/",
+	"uri": "http://rpi-data.analyticsdojo.com/proposals/data8/",
 	"title": "Data 8 @ Rensselaer",
 	"tags": [],
 	"description": "",
 	"content": "Data literacy is a foundational component of a modern technical and scientific education. Critical to creating data literate graduates.\nFor the Data 8 class, the University of California at Berkley has developed an open curriculum and extensive teaching infrastructure (online textbook, auto-grader, Jupyter-based cloud computing infrastructure for data science) created the worlds largest data science class.\nThis proposal suggests creating an instance of the Data 8 class @ Rensselaer. All materials for the Data 8 course have been released under a compatible Creative Commons license.\nThis course integrates programming, statistics, and analysis in a single course using the Python programming language.\nSharing of highly developed classes from one university to another has had a positive impact in other cases. For example, CS50 @ Yale-companion course to Harvard\u0026rsquo;s popular introductory CS course-was the most popular course at Yale last year.\nBringing a well developed curriculum regarding data science to campus would provide an extremely well documented platform on which to build additional bridge course, which could follow the Connector Courses model but be aligned with the Unique offerings of Rensselaer.\nFollowing the marketing of the course at Berkley, Data 8 @ Rensselaer would be cross-listed as an introductory course across a variety of disciplines, potentially including ITWS, MATH, MGMT, ISYE, and any other areas that would see value.\n"
 },
 {
-	"uri": "https://rpi-data.github.io/website/proposals/winterbreak/",
+	"uri": "http://rpi-data.analyticsdojo.com/proposals/winterbreak/",
 	"title": "Winter Break Projects",
 	"tags": [],
 	"description": "",
 	"content": " It\u0026rsquo;s great to have stories as an outcome of the program. Why not work on something over the break that will create one? Here is a list of a few projects where you could get involved.\n Autograding with TravisCI. As part of this class we incorporate tests as a way to see that the the student has completed the assignment. However, there is a risk that students could \u0026ldquo;fake the tests\u0026rdquo; and as a result not do the work. There are some prototypes around for using TravisCI and as a testing mechanism. There is also an open source project called Submitty that has been developed locally. I\u0026rsquo;d like some help figuring out autograding.\n Kuberlytics. Currently there are a number of students from the RPI Center for Open Source (RCOS) working on a project called Kuberlytics. We have started looking at different ways Kubernetes could be used in data science. Lots of opportunity and a new Google project called kubeflow has me really excited that Kubernetes. I\u0026rsquo;m looking for help in documenting ways of launching things on Kubernetes, as we started here in the launch project.\n  Some specifics related to 2.\n(a.) Solidify deployments for Jupyterhub using new version of helm chart (enabling ssl.), load testing of Jupyterhub server, shared storage. (b.) Work on deployment of Airflow on Kubernetes. Airflow can be used to (c.) Simplified python package for committing code. (d.) Demonstration cases of installing and using pachyderm.\n Entrepreneurship and Big Unstructured Data. I\u0026rsquo;m currently working as part of Kuberlytics and CISL to assemble data related to startups for additional analysis. Current data collections involve, Crunchbase, Twitter, \u0026amp; Kickstarter. However, additional efforts are needed to pull things together and start some interesting visualizations and modeling.  Some specific use cases from 3.\n(a.) How can we understand \u0026ldquo;pivots\u0026rdquo; in a companies strategy and in the introduction of new products and services? While the web is a way for companies to enact their strategies. By observing website changes over time, we can understand shifts in strategies. But how can we observe shifts in strategies over time? The Internet Wayback machine is an effort to capture websites at different periods of time. The first objective of this subproject is to develop capabilities to extract website data in a way that can be further analyzed. This python package might help py-wayback, but it is a bit dated. No existing work has been done in this area.\n(b.) Crunchbase API. Crunchbase has one of the premier sources of company data, providing an index of the startup community over time. Currently, while much data is available through direct download, some additional data requires Because of the licensing agreement, this repository is private and all people associated with the project have to sign a terms of service agreement. The goal is to build on the crunch-time. In addition to data manipulation and management, there is a need to use Gensim topic modeling and cosine similarity as in this paper\n(c.) Kickstarter. While quiet a lot of work has been done one understanding Kickstarter, less work has examined how organizations utilize Kickstarter. In particular, we suggest that Kickstarter can be an alternative to fund raising. We have started the process of collecting data and just need to link it to different datasets. See github.\nOther datasets that could be relevant include patents, news, etc.\nCrunchbase 2013 Data\nJoin the Kuberlytics slack (make sure you have a pic) If working on startup data make sure you turn on notifications for the #startupdata channel. Kuberlytics Slack\n(b.) Crunchbase API. Crunchbase has one of the premier sources of company data, providing an index of the startup community over time. Currently, while much data is available through direct download, some additional data requires Because of the licensing agreement, this repository is private and all people associated with the project have to sign a terms of service agreement. The goal is to build on the crunch-time. In addition to data manipulation and management, there is a need to use Gensim topic modeling and cosine similarity as in this paper\nSteps. 1. Get familiar with what crunchbase is..view website. 2. Download Crunchbase 2013 Data\nGroup A 3. Modeling group..request access to repository\u0026hellip;.. Install Gensim. Load Company CSV. Load to Pandas. Read about topic modeling and review MISQ paper. Try topic modeling. Figure out cosine similarity.\nGroup B 4. API group. Request Access to repository. Fill out form and say you are working with me. Try accessing API using crunch-time (need api access) and figure out how to pull Founder and School data.\n"
 },
 {
-	"uri": "https://rpi-data.github.io/website/ai/",
+	"uri": "http://rpi-data.analyticsdojo.com/ai/",
 	"title": "Artificial Intelligence",
 	"tags": [],
 	"description": "",
 	"content": " My Notes on Things to Do/Learn FastAI FastAI has put together some amazing videos on AI. Here are some relevant links. Forum\nRequired Setup: Paperspace Docker []()\n"
 },
 {
-	"uri": "https://rpi-data.github.io/website/",
+	"uri": "http://rpi-data.analyticsdojo.com/",
 	"title": "RPI Analytics Dojo",
 	"tags": [],
 	"description": "Technology and Infrastructure for Teaching Data &amp; Computation Courses",
 	"content": " Welcome to the alpha version of the RPI AnalyticsDojo, an infrastructure for teaching and learning analytics.\nCurrently the learning stack associated with these courses includes: (1) Jupyterhub (2) GitHub Classroom (3) Travis-CI Based Autograding and (4) Slack. The idea is by adopting a common tecnology stack across different classes, we will be better able to coordinate learning.\nCurrent Courses: Technology Fundamentals for Business Analytics (mgmt6560 Fall 2018)\nPrevious Courses: Technology Fundamentals for Business Analytics (mgmt6560 Fall 2017) Technology Fundamentals for Business Analytics (mgmt6560 Spring 2018)\n"
 },
 {
-	"uri": "https://rpi-data.github.io/website/_header/",
+	"uri": "http://rpi-data.analyticsdojo.com/_header/",
 	"title": "",
 	"tags": [],
 	"description": "",
 	"content": ""
 },
 {
-	"uri": "https://rpi-data.github.io/website/proposals/self-driving-rc/",
+	"uri": "http://rpi-data.analyticsdojo.com/proposals/self-driving-rc/",
 	"title": "",
 	"tags": [],
 	"description": "",
 	"content": " Autonomous RC Racing @Rensselaer\u0026rdquo; description = \u0026ldquo;\u0026rdquo; weight = 20 +++\nData literacy is a foundational component of a modern technical and scientific education. Critical to creating data literate graduates.\nFor the Data 8 class, the University of California at Berkley has developed an open [curriculum]() and extensive teaching infrastructure (online textbook, auto-grader, Jupyter-based cloud computing infrastructure for data science) created the worlds largest data science class.\nThis proposal suggests creating an instance of the Data 8 class @ Rensselaer. All materials for the Data 8 course have been released under a compatible Creative Commons license.\nThis course integrates programming, statistics, and analysis in a single course using the Python programming language.\nSharing of highly developed classes from one university to another has had a positive impact in other cases. For example, CS50 @ Yale-companion course to Harvard\u0026rsquo;s popular introductory CS course-was the most popular course at Yale last year.\nBringing a well developed curriculum regarding data science to campus would provide an extremely well documented platform on which to build additional bridge course, which could follow the Connector Courses model but be aligned with the Unique offerings of Rensselaer.\nFollowing the marketing of the course at Berkley, Data 8 @ Rensselaer would be cross-listed as an introductory course across a variety of disciplines, potentially including ITWS, MATH, MGMT, ISYE, and any other areas that would see value.\n"
 },
 {
-	"uri": "https://rpi-data.github.io/website/categories/",
+	"uri": "http://rpi-data.analyticsdojo.com/categories/",
 	"title": "Categories",
 	"tags": [],
 	"description": "",
 	"content": ""
 },
 {
-	"uri": "https://rpi-data.github.io/website/proposals/",
+	"uri": "http://rpi-data.analyticsdojo.com/proposals/",
 	"title": "Proposals",
 	"tags": [],
 	"description": "",
 	"content": ""
 },
 {
-	"uri": "https://rpi-data.github.io/website/tags/",
+	"uri": "http://rpi-data.analyticsdojo.com/tags/",
 	"title": "Tags",
 	"tags": [],
 	"description": "",
