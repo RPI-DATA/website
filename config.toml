@@ -4,7 +4,10 @@ title = "Data@Rensselaer"
 theme = "docdock"
 publishDir = "docs"
 [params]
-noHomeIcon = true # default is false
+disableHomeIcon = true
+
+pygmentsCodeFences = true
+pygmentsStyle = "monokailight"
 noSearch = false # default is false
 showVisitedLinks = false # default is false
 # themeStyle = "theme" # overide base css
