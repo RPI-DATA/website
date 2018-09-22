@@ -13,4 +13,4 @@ binder_link = "https://mybinder.org/v2/gh/rpi-data/regression/master"
 
 This is a test.
 
-Github Organization: {{github_org}}
+Github Organization: {{% github_org %}}

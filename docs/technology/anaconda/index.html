@@ -6,7 +6,7 @@
       <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 <meta name="generator" content="Hugo 0.37.1" />
-<title>Podcasts :: Data@Rensselaer</title>
+<title>Anaconda :: Data@Rensselaer</title>
 <link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon" />
 <link href="/css/font-awesome.min.css" rel="stylesheet">
 <link href="/css/nucleus.css" rel="stylesheet">
@@ -23,7 +23,7 @@
 
     
   </head>
-  <body data-url="/resources/podcasts/">
+  <body data-url="/technology/anaconda/">
     
       <header>
   <div class="logo">
@@ -73,7 +73,7 @@
     </li>
         </ul>
     </li>
-    <li data-nav-id="/technology/" class="dd-item alwaysopen haschildren
+    <li data-nav-id="/technology/" class="dd-item parent alwaysopen haschildren
         ">
       <div>
       <a href="/technology/">Technology</a>
@@ -87,7 +87,7 @@
           </a>
         </div>
     </li>
-      <li data-nav-id="/technology/anaconda/" class="dd-item">
+      <li data-nav-id="/technology/anaconda/" class="dd-item active">
         <div>
           <a href="/technology/anaconda/">
             Anaconda
@@ -96,11 +96,10 @@
     </li>
         </ul>
     </li>
-    <li data-nav-id="/resources/" class="dd-item parent haschildren
+    <li data-nav-id="/resources/" class="dd-item haschildren
         ">
       <div>
-      <a href="/resources/">Additional Resources</a>
-            <i class="fa fa-angle-down fa-lg category-icon"></i>
+      <a href="/resources/">Additional Resources</a><i class="fa fa-angle-right fa-lg category-icon"></i>
       </div>
         <ul>
       <li data-nav-id="/resources/classes/" class="dd-item">
@@ -110,7 +109,7 @@
           </a>
         </div>
     </li>
-      <li data-nav-id="/resources/podcasts/" class="dd-item active">
+      <li data-nav-id="/resources/podcasts/" class="dd-item">
         <div>
           <a href="/resources/podcasts/">
             Podcasts
@@ -190,17 +189,10 @@
     <option value="/technology/" >
    Technology</option> 
       <option value="/technology/git/" >- Git/GitHub</option>
-      <option value="/technology/anaconda/" >- Anaconda</option>
+      <option value="/technology/anaconda/"  selected>- Anaconda</option>
   
     <option value="/resources/" >
-   Additional Resources</option> 
-      <option value="/resources/classes/" >- Online Classes</option>
-      <option value="/resources/podcasts/"  selected>- Podcasts</option>
-      <option value="/resources/git/" >- Git</option>
-      <option value="/resources/python/" >- Python</option>
-      <option value="/resources/r/" >- R</option>
-      <option value="/resources/books/" >- Books</option>
-  
+   Additional Resources</option>
     <option value="/projects/" >
    Projects</option>
 
@@ -225,21 +217,104 @@
       </div>
     
 
-    <h1>Podcasts</h1>
+    <h1>Anaconda</h1>
     
     
     
-    <ul>
-<li><a href="http://lineardigressions.com">Linear Digressions</a></li>
-</ul>
+    
+
+<h3 id="step-2-install-and-configure-anaconda">Step 2: Install and Configure Anaconda</h3>
+
+<p>We will be using Anaconda to provide a Jupyter environment for both R and Python.</p>
+
+<p>Follow the following instructions to install Anaconda from <a href="https://www.continuum.io/">Continuum Analytics</a>.
+<a href="#osx">OSX</a>
+<a href="#windows">Windows</a>
+<a href="#linux">Linux</a></p>
+
+<p>Once you have the Anaconda Distribution, follow below for <a href="#advanced-configuration">advanced configuration</a>.</p>
+
+<h3 id="osx">OSX</h3>
+
+<ol>
+<li>Follow the online instructions to <a href="https://docs.continuum.io/anaconda/install/mac-os">install the Anaconda Distribution with Python 3.6</a></li>
+<li>Follow below for <a href="#advanced-configuration">advanced configuration</a>.</li>
+</ol>
+
+<h3 id="windows">Windows</h3>
+
+<p>Windows may often have issues associated with installation if you have had previous versions of Anaconda installed.  If it doesn&rsquo;t work, start by uninstalling everything</p>
+
+<ol>
+<li>Follow the online instructions to <a href="https://docs.continuum.io/anaconda/install/windows">install the Anaconda Distribution with Python 3.6</a></li>
+<li>Follow below for <a href="#advanced-configuration">advanced configuration</a>.</li>
+</ol>
+
+<h3 id="linux">Linux</h3>
+
+<p>If you are a Linux user, please help in supporting the class. You likely won&rsquo;t need my help. ;)
+1. Follow the online instructions to <a href="https://docs.continuum.io/anaconda/install/linux">install the Anaconda Distribution with Python 3.6</a>
+2. Follow below for <a href="#advanced-configuration">advanced configuration</a>.</p>
+
+<h3 id="advanced-configuration">Advanced Configuration</h3>
+
+<p>(a.) Windows users, open an &lsquo;Anaconda Prompt&rsquo;.  Mac/Linux users open a standard terminal.</p>
+
+<p>(b.) Change directories to the <code>techfundamentals-spring2018-materials</code> folder you cloned earlier.</p>
+
+<pre><code>cd &lt;insert full path &gt;\techfundamentals-spring2018-materials
+</code></pre>
+
+<p>For the above, changing directories differs for Windows or Mac users. For example, on a Mac it might be:</p>
+
+<pre><code>cd /Users/jasonkuruzovich/githubdesktop/techfundamentals-spring2018-materials
+</code></pre>
+
+<p>On Windows, if you have a space somewhere in your path make sure that you include quotes:</p>
+
+<pre><code>cd &quot;c:\Users\jasonkuruzovich\github\techfundamentals-spring2018-materials&quot;
+</code></pre>
+
+<p>(c.) Install required packages.
+First install pip, which is a package manager similar to conda.</p>
+
+<pre><code>conda install -c anaconda pip
+</code></pre>
+
+<p>Then, from the repository install all the packages in requirements.txt.</p>
+
+<pre><code>pip install -r requirements.txt
+</code></pre>
+
+<p>(d.) Launch a Jupyter notebook with the command:</p>
+
+<pre><code>jupyter notebook
+</code></pre>
+
+<p>You will need to run c-d each time to launch Jupyter.</p>
+
+<p>*There may be some other packages you still have to install.  You will know this is an issue if an <code>import</code> command fails.  You can install packages with:</p>
+
+<pre><code>conda install &lt;packagename&gt;
+</code></pre>
+
+<p>or</p>
+
+<pre><code>pip install &lt;packagename&gt;
+</code></pre>
+
+<p>For example, to install the R Kernal for Jupyter, install the r-essentials package:</p>
+
+<pre><code>conda install r-essentials
+</code></pre>
 
 
     
     
         <div class="chevrons">
     <div id="navigation">
-<a class="nav nav-prev" href="/resources/classes/" title="Online Classes"> <i class="fa fa-chevron-left"></i><label>Online Classes</label></a>
-    <a class="nav nav-next" href="/resources/git/" title="Git" style="margin-right: 0px;"><label>Git</label><i class="fa fa-chevron-right"></i></a></div>
+<a class="nav nav-prev" href="/technology/git/" title="Git/GitHub"> <i class="fa fa-chevron-left"></i><label>Git/GitHub</label></a>
+    <a class="nav nav-next" href="/resources/" title="Additional Resources" style="margin-right: 0px;"><label>Additional Resources</label><i class="fa fa-chevron-right"></i></a></div>
   </div>
 
   </section>
@@ -255,7 +330,7 @@
   
 
     <div class="github-link">
-      <a href="resources/podcasts.md" target="blank"><i class="fa fa-code-fork"></i>
+      <a href="technology/anaconda.md" target="blank"><i class="fa fa-code-fork"></i>
         Improve this page</a>
     </div>
   </div>

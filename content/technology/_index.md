@@ -1,5 +1,5 @@
 +++
-title = "Compute Environment"
+title = "Technology"
 description = ""
 weight = 2
 alwaysopen = true
@@ -24,7 +24,7 @@ When running on your laptop, there are 2 different configuration options that th
 
 For most users, managing the analytics environment with Anaconda seems to work quite well. Anaconda is a package manager with detailed instructions for Mac/Windows/Linux users.  In this clase
 
-It is also possible to run Docker on your laptop, mirroring the same compute environment that you enjoyed on JupyterHub cloud environment. This has worked perfectly in the past for Mac users and not so well for Windows users, but I understand Docker for Windows has come a long way. 
+It is also possible to run Docker on your laptop, mirroring the same compute environment that you enjoyed on JupyterHub cloud environment. This has worked perfectly in the past for Mac users and not so well for Windows users, but I understand Docker for Windows has come a long way.
 
 
 

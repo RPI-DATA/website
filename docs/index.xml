@@ -13,10 +13,10 @@
     
     <item>
       <title>Git/GitHub</title>
-      <link>http://rpi-data.analyticsdojo.com/setup/git/</link>
+      <link>http://rpi-data.analyticsdojo.com/technology/git/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://rpi-data.analyticsdojo.com/setup/git/</guid>
+      <guid>http://rpi-data.analyticsdojo.com/technology/git/</guid>
       <description>Git and Github Git is a version control system use to track changes to code, and when combined with Github it is an extremely powerful way to collaborate.
 (1) Install the git command line tool. There are a lot of options but you should be able to just utilize the defaults.
 (2) Create an account on github.com.
@@ -74,10 +74,10 @@ Python: Conda
     
     <item>
       <title>Anaconda</title>
-      <link>http://rpi-data.analyticsdojo.com/setup/anaconda/</link>
+      <link>http://rpi-data.analyticsdojo.com/technology/anaconda/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://rpi-data.analyticsdojo.com/setup/anaconda/</guid>
+      <guid>http://rpi-data.analyticsdojo.com/technology/anaconda/</guid>
       <description>Step 2: Install and Configure Anaconda We will be using Anaconda to provide a Jupyter environment for both R and Python.
 Follow the following instructions to install Anaconda from Continuum Analytics. OSX Windows Linux
 Once you have the Anaconda Distribution, follow below for advanced configuration.
@@ -110,10 +110,10 @@ Git  Pro Git  PYTHON  Introduction to Machine Learning with Python Data Science 
     
     <item>
       <title>Data 8 @ Rensselaer</title>
-      <link>http://rpi-data.analyticsdojo.com/proposals/data8/</link>
+      <link>http://rpi-data.analyticsdojo.com/projects/data8/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://rpi-data.analyticsdojo.com/proposals/data8/</guid>
+      <guid>http://rpi-data.analyticsdojo.com/projects/data8/</guid>
       <description>Data literacy is a foundational component of a modern technical and scientific education. Critical to creating data literate graduates.
 For the Data 8 class, the University of California at Berkley has developed an open curriculum and extensive teaching infrastructure (online textbook, auto-grader, Jupyter-based cloud computing infrastructure for data science) created the worlds largest data science class.
 This proposal suggests creating an instance of the Data 8 class @ Rensselaer. All materials for the Data 8 course have been released under a compatible Creative Commons license.</description>
@@ -126,17 +126,7 @@ This proposal suggests creating an instance of the Data 8 class @ Rensselaer. Al
       
       <guid>http://rpi-data.analyticsdojo.com/modules/test/</guid>
       <description>This is a test.
-Github Organization: {{github_org}}</description>
-    </item>
-    
-    <item>
-      <title>Winter Break Projects</title>
-      <link>http://rpi-data.analyticsdojo.com/proposals/winterbreak/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://rpi-data.analyticsdojo.com/proposals/winterbreak/</guid>
-      <description>It&amp;rsquo;s great to have stories as an outcome of the program. Why not work on something over the break that will create one? Here is a list of a few projects where you could get involved.
- Autograding with TravisCI. As part of this class we incorporate tests as a way to see that the the student has completed the assignment. However, there is a risk that students could &amp;ldquo;fake the tests&amp;rdquo; and as a result not do the work.</description>
+Github Organization: {{% github_org %}}</description>
     </item>
     
     <item>
@@ -159,10 +149,10 @@ Github Organization: {{github_org}}</description>
     
     <item>
       <title></title>
-      <link>http://rpi-data.analyticsdojo.com/proposals/self-driving-rc/</link>
+      <link>http://rpi-data.analyticsdojo.com/projects/self-driving-rc/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://rpi-data.analyticsdojo.com/proposals/self-driving-rc/</guid>
+      <guid>http://rpi-data.analyticsdojo.com/projects/self-driving-rc/</guid>
       <description>Autonomous RC Racing @Rensselaer&amp;rdquo; description = &amp;ldquo;&amp;rdquo; weight = 20 +++
 Data literacy is a foundational component of a modern technical and scientific education. Critical to creating data literate graduates.
 For the Data 8 class, the University of California at Berkley has developed an open [curriculum]() and extensive teaching infrastructure (online textbook, auto-grader, Jupyter-based cloud computing infrastructure for data science) created the worlds largest data science class.

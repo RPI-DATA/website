@@ -3,15 +3,19 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://rpi-data.analyticsdojo.com/setup/</loc>
+    <loc>http://rpi-data.analyticsdojo.com/modules/</loc>
   </url>
   
   <url>
-    <loc>http://rpi-data.analyticsdojo.com/setup/git/</loc>
+    <loc>http://rpi-data.analyticsdojo.com/technology/git/</loc>
   </url>
   
   <url>
     <loc>http://rpi-data.analyticsdojo.com/resources/classes/</loc>
+  </url>
+  
+  <url>
+    <loc>http://rpi-data.analyticsdojo.com/technology/</loc>
   </url>
   
   <url>
@@ -31,7 +35,7 @@
   </url>
   
   <url>
-    <loc>http://rpi-data.analyticsdojo.com/setup/anaconda/</loc>
+    <loc>http://rpi-data.analyticsdojo.com/technology/anaconda/</loc>
   </url>
   
   <url>
@@ -43,7 +47,7 @@
   </url>
   
   <url>
-    <loc>http://rpi-data.analyticsdojo.com/proposals/data8/</loc>
+    <loc>http://rpi-data.analyticsdojo.com/projects/data8/</loc>
   </url>
   
   <url>
@@ -51,7 +55,7 @@
   </url>
   
   <url>
-    <loc>http://rpi-data.analyticsdojo.com/proposals/winterbreak/</loc>
+    <loc>http://rpi-data.analyticsdojo.com/projects/</loc>
   </url>
   
   <url>
@@ -68,21 +72,11 @@
   </url>
   
   <url>
-    <loc>http://rpi-data.analyticsdojo.com/proposals/self-driving-rc/</loc>
+    <loc>http://rpi-data.analyticsdojo.com/projects/self-driving-rc/</loc>
   </url>
   
   <url>
     <loc>http://rpi-data.analyticsdojo.com/categories/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://rpi-data.analyticsdojo.com/modules/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://rpi-data.analyticsdojo.com/proposals/</loc>
     <priority>0</priority>
   </url>
   

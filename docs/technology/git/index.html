@@ -6,7 +6,7 @@
       <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 <meta name="generator" content="Hugo 0.37.1" />
-<title>Podcasts :: Data@Rensselaer</title>
+<title>Git/GitHub :: Data@Rensselaer</title>
 <link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon" />
 <link href="/css/font-awesome.min.css" rel="stylesheet">
 <link href="/css/nucleus.css" rel="stylesheet">
@@ -23,7 +23,7 @@
 
     
   </head>
-  <body data-url="/resources/podcasts/">
+  <body data-url="/technology/git/">
     
       <header>
   <div class="logo">
@@ -73,14 +73,14 @@
     </li>
         </ul>
     </li>
-    <li data-nav-id="/technology/" class="dd-item alwaysopen haschildren
+    <li data-nav-id="/technology/" class="dd-item parent alwaysopen haschildren
         ">
       <div>
       <a href="/technology/">Technology</a>
             <i class="fa fa-angle-down fa-lg category-icon"></i>
       </div>
         <ul>
-      <li data-nav-id="/technology/git/" class="dd-item">
+      <li data-nav-id="/technology/git/" class="dd-item active">
         <div>
           <a href="/technology/git/">
             Git/GitHub
@@ -96,11 +96,10 @@
     </li>
         </ul>
     </li>
-    <li data-nav-id="/resources/" class="dd-item parent haschildren
+    <li data-nav-id="/resources/" class="dd-item haschildren
         ">
       <div>
-      <a href="/resources/">Additional Resources</a>
-            <i class="fa fa-angle-down fa-lg category-icon"></i>
+      <a href="/resources/">Additional Resources</a><i class="fa fa-angle-right fa-lg category-icon"></i>
       </div>
         <ul>
       <li data-nav-id="/resources/classes/" class="dd-item">
@@ -110,7 +109,7 @@
           </a>
         </div>
     </li>
-      <li data-nav-id="/resources/podcasts/" class="dd-item active">
+      <li data-nav-id="/resources/podcasts/" class="dd-item">
         <div>
           <a href="/resources/podcasts/">
             Podcasts
@@ -189,18 +188,11 @@
   
     <option value="/technology/" >
    Technology</option> 
-      <option value="/technology/git/" >- Git/GitHub</option>
+      <option value="/technology/git/"  selected>- Git/GitHub</option>
       <option value="/technology/anaconda/" >- Anaconda</option>
   
     <option value="/resources/" >
-   Additional Resources</option> 
-      <option value="/resources/classes/" >- Online Classes</option>
-      <option value="/resources/podcasts/"  selected>- Podcasts</option>
-      <option value="/resources/git/" >- Git</option>
-      <option value="/resources/python/" >- Python</option>
-      <option value="/resources/r/" >- R</option>
-      <option value="/resources/books/" >- Books</option>
-  
+   Additional Resources</option>
     <option value="/projects/" >
    Projects</option>
 
@@ -225,21 +217,51 @@
       </div>
     
 
-    <h1>Podcasts</h1>
+    <h1>Git/GitHub</h1>
     
     
     
-    <ul>
-<li><a href="http://lineardigressions.com">Linear Digressions</a></li>
-</ul>
+    
+
+<h3 id="git-and-github">Git and Github</h3>
+
+<p>Git is a version control system use to track changes to code, and when combined with Github it is an extremely powerful way to collaborate.</p>
+
+<p>(1) Install the <a href="https://git-scm.com/downloads">git command line tool</a>. There are a lot of options but you should be able to just utilize the defaults.</p>
+
+<p>(2) Create an account on <a href="https://github.com">github.com</a>.</p>
+
+<p>(3) Install Github desktop if using OSX or Windows. <a href="https://desktop.github.com/">Click here for download instructions for Github Desktop</a>.</p>
+
+<p>(4) Once you are done installing Github desktop, open the program.  Sign in with your Github Credentials to link the desktop application with your Github account.</p>
+
+<p>(5) Clone the <a href="https://github.com/jkuruzovich/techfundamentals-spring2018-materials">class repository</a> either from the desktop tool or from the command line.</p>
+
+<p>From the Github tool:
+<img src="clone.png" alt="clone" /></p>
+
+<p>From the command line:</p>
+
+<pre><code>git clone https://github.com/jkuruzovich/techfundamentals-spring2018-materials
+</code></pre>
+
+<p>(6) In the future when you want to update the repository, you can do so either from the command line or the GitHub Desktop tool.</p>
+
+<p>From the GitHub Desktop, press the sync button after selecting the repository:
+<img src="sync.png" alt="" /></p>
+
+<p>From the command line:</p>
+
+<pre><code>git pull
+</code></pre>
 
 
     
     
         <div class="chevrons">
     <div id="navigation">
-<a class="nav nav-prev" href="/resources/classes/" title="Online Classes"> <i class="fa fa-chevron-left"></i><label>Online Classes</label></a>
-    <a class="nav nav-next" href="/resources/git/" title="Git" style="margin-right: 0px;"><label>Git</label><i class="fa fa-chevron-right"></i></a></div>
+<a class="nav nav-prev" href="/technology/" title="Technology"> <i class="fa fa-chevron-left"></i><label>Technology</label></a>
+    <a class="nav nav-next" href="/technology/anaconda/" title="Anaconda" style="margin-right: 0px;"><label>Anaconda</label><i class="fa fa-chevron-right"></i></a></div>
   </div>
 
   </section>
@@ -255,7 +277,7 @@
   
 
     <div class="github-link">
-      <a href="resources/podcasts.md" target="blank"><i class="fa fa-code-fork"></i>
+      <a href="technology/git.md" target="blank"><i class="fa fa-code-fork"></i>
         Improve this page</a>
     </div>
   </div>

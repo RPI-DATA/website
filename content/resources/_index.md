@@ -2,7 +2,7 @@
 title = "Additional Resources"
 description = ""
 weight = 3
-alwaysopen = false  
+alwaysopen = false
 +++
 
 As a data scientist, there are a wide variety of technologies you can be expected to understand and use.  These are a number of recommended resources.
