@@ -6,7 +6,7 @@
     <description>Recent content in DATA@RENSSELAER on Data@Rensselaer</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 24 Apr 2017 18:36:24 +0200</lastBuildDate>
+    <lastBuildDate>Fri, 21 Sep 2018 18:36:24 +0200</lastBuildDate>
     
 	<atom:link href="http://rpi-data.analyticsdojo.com/index.xml" rel="self" type="application/rss+xml" />
     
@@ -117,6 +117,16 @@ Git  Pro Git  PYTHON  Introduction to Machine Learning with Python Data Science 
       <description>Data literacy is a foundational component of a modern technical and scientific education. Critical to creating data literate graduates.
 For the Data 8 class, the University of California at Berkley has developed an open curriculum and extensive teaching infrastructure (online textbook, auto-grader, Jupyter-based cloud computing infrastructure for data science) created the worlds largest data science class.
 This proposal suggests creating an instance of the Data 8 class @ Rensselaer. All materials for the Data 8 course have been released under a compatible Creative Commons license.</description>
+    </item>
+    
+    <item>
+      <title>Regression</title>
+      <link>http://rpi-data.analyticsdojo.com/modules/test/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://rpi-data.analyticsdojo.com/modules/test/</guid>
+      <description>This is a test.
+Github Organization: {{github_org}}</description>
     </item>
     
     <item>

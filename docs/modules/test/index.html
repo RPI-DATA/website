@@ -6,7 +6,7 @@
       <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 <meta name="generator" content="Hugo 0.37.1" />
-<title> :: Data@Rensselaer</title>
+<title>Regression :: Data@Rensselaer</title>
 <link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon" />
 <link href="/css/font-awesome.min.css" rel="stylesheet">
 <link href="/css/nucleus.css" rel="stylesheet">
@@ -23,7 +23,7 @@
 
     
   </head>
-  <body data-url="/_footer/">
+  <body data-url="/modules/test/">
     
       <header>
   <div class="logo">
@@ -135,13 +135,14 @@
     </li>
         </ul>
     </li>
-    <li data-nav-id="/modules/" class="dd-item haschildren
+    <li data-nav-id="/modules/" class="dd-item parent haschildren
         ">
       <div>
-      <a href="/modules/">Modules</a><i class="fa fa-angle-right fa-lg category-icon"></i>
+      <a href="/modules/">Modules</a>
+            <i class="fa fa-angle-down fa-lg category-icon"></i>
       </div>
         <ul>
-      <li data-nav-id="/modules/test/" class="dd-item">
+      <li data-nav-id="/modules/test/" class="dd-item active">
         <div>
           <a href="/modules/test/">
             Regression
@@ -201,7 +202,9 @@
     <option value="/resources/" >
    Additional Resources</option>
     <option value="/modules/" >
-   Modules</option>
+   Modules</option> 
+      <option value="/modules/test/"  selected>- Regression</option>
+  
     <option value="/proposals/" >
    Proposals</option>
 
@@ -226,18 +229,21 @@
       </div>
     
 
-    <h1></h1>
+    <h1>Regression</h1>
     
     
     
-    <p>DATA@RENSSELAER was funded by the teaching and learning collaboratory.</p>
+    <p>This is a test.</p>
+
+<p>Github Organization: {{github_org}}</p>
 
 
     
     
         <div class="chevrons">
     <div id="navigation">
-<a class="nav nav-next" href="/setup/" title="Compute Environment" style="margin-right: 0px;"><label>Compute Environment</label><i class="fa fa-chevron-right"></i></a></div>
+<a class="nav nav-prev" href="/modules/" title="Modules"> <i class="fa fa-chevron-left"></i><label>Modules</label></a>
+    <a class="nav nav-next" href="/proposals/" title="Proposals" style="margin-right: 0px;"><label>Proposals</label><i class="fa fa-chevron-right"></i></a></div>
   </div>
 
   </section>
@@ -253,7 +259,7 @@
   
 
     <div class="github-link">
-      <a href="_footer.md" target="blank"><i class="fa fa-code-fork"></i>
+      <a href="modules/test.md" target="blank"><i class="fa fa-code-fork"></i>
         Improve this page</a>
     </div>
   </div>

@@ -77,6 +77,13 @@
 	"content": "Data literacy is a foundational component of a modern technical and scientific education. Critical to creating data literate graduates.\nFor the Data 8 class, the University of California at Berkley has developed an open curriculum and extensive teaching infrastructure (online textbook, auto-grader, Jupyter-based cloud computing infrastructure for data science) created the worlds largest data science class.\nThis proposal suggests creating an instance of the Data 8 class @ Rensselaer. All materials for the Data 8 course have been released under a compatible Creative Commons license.\nThis course integrates programming, statistics, and analysis in a single course using the Python programming language.\nSharing of highly developed classes from one university to another has had a positive impact in other cases. For example, CS50 @ Yale-companion course to Harvard\u0026rsquo;s popular introductory CS course-was the most popular course at Yale last year.\nBringing a well developed curriculum regarding data science to campus would provide an extremely well documented platform on which to build additional bridge course, which could follow the Connector Courses model but be aligned with the Unique offerings of Rensselaer.\nFollowing the marketing of the course at Berkley, Data 8 @ Rensselaer would be cross-listed as an introductory course across a variety of disciplines, potentially including ITWS, MATH, MGMT, ISYE, and any other areas that would see value.\n"
 },
 {
+	"uri": "http://rpi-data.analyticsdojo.com/modules/test/",
+	"title": "Regression",
+	"tags": [],
+	"description": "",
+	"content": "This is a test.\nGithub Organization: {{github_org}}\n"
+},
+{
 	"uri": "http://rpi-data.analyticsdojo.com/proposals/winterbreak/",
 	"title": "Winter Break Projects",
 	"tags": [],
@@ -88,7 +95,7 @@
 	"title": "DATA@RENSSELAER",
 	"tags": [],
 	"description": "Technology and Infrastructure for Teaching Data &amp; Computation Courses",
-	"content": "Welcome to the alpha version of the DATA@RENSSELAR, a platform for enabling data science across the cirriculum.\nCurrently the learning stack associated with these courses includes: (1) Jupyterhub (2) GitHub Classroom (3) Travis-CI Based Autograding and (4) Slack. The idea is by adopting a common tecnology stack across different classes, we will be better able to coordinate learning.\n"
+	"content": "Welcome to the alpha version of the DATA@RENSSELAR, a platform for enabling data science across the curriculum.\nCurrently the learning stack associated with these courses includes: (1) Jupyter (2) GitHub Classroom (3) Slack and (4) [coming soon] autograding. The idea is by adopting a common technology stack across different classes, we will be better able to coordinate learning.\n"
 },
 {
 	"uri": "http://rpi-data.analyticsdojo.com/_footer/",
@@ -114,6 +121,13 @@
 {
 	"uri": "http://rpi-data.analyticsdojo.com/categories/",
 	"title": "Categories",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "http://rpi-data.analyticsdojo.com/modules/",
+	"title": "Modules",
 	"tags": [],
 	"description": "",
 	"content": ""
