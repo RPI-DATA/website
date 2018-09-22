@@ -4,48 +4,37 @@ title = "Data@Rensselaer"
 theme = "docdock"
 publishDir = "docs"
 [params]
-disableHomeIcon = true
-
-pygmentsCodeFences = true
+#disableHomeIcon = true
+pygmentsCodeFences = false
 pygmentsStyle = "monokailight"
 noSearch = false # default is false
 showVisitedLinks = false # default is false
 # themeStyle = "theme" # overide base css
 #themeVariant = "gray" # choose theme variant "green", "gold" , "gray", "blue" (default)
 #ordersectionsby = "weight" # ordersectionsby = "title"
-
+github_org="rpi-data"
 [outputs]
 home = [ "HTML", "RSS", "JSON"]
 
 [[menu.shortcuts]]
-pre = "<h3>Important Links</h3>"
-name = "<i class='fa fa-github'></i> Github"
+pre = "<h3>More</h3>"
+name = "<i class='fa fa-github'></i> <label>Github</label>"
+identifier = "ds"
 url = "https://github.com/rpi-data/"
-weight = 1
+weight = 10
 
 [[menu.shortcuts]]
-name = "<i class='fa fa-cloud'></i> Jupyterhub"
-url = "http://lab.analyticsdojo.com"
-weight = 5
-
-#[[menu.shortcuts]]
-#name = "<i class='fa fa-sign-in'></i> LMS"
-#url = "https://lms.rpi.edu"
-#weight = 10
+name = "<i class='fa fa-cloud-download'></i> <label>JupyterHub</label>"
+url = "https://lab.analyticsdojo.com"
+weight = 11
 
 [[menu.shortcuts]]
-name = "<i class='fa fa-slack'></i>Slack"
-identifier = "Signup for Slack Channel"
+name = "<i class='fa fa-slack'></i> <label>Slack</label>"
+identifier = "slack"
 url = "https://join.slack.com/t/rpi-data/signup"
 weight = 20
 
 #[[menu.shortcuts]]
-#name = "<i class='fa fa-dropbox'></i> Dropbox Share"
-#identifier = "Dropbox"
-#url = "https://www.dropbox.com/sh/tn7xmg9qo2u8ydz/AAD2SMEPa28NpIGuea25TJUIa?dl=0"
+#name = "<i class='fa fa-bullhorn'></i> <label>Credits</label>"
+#url = "/credits"
 #weight = 30
-
-#[[menu.shortcuts]]
-#name = "<i class='fa fa-github'></i> Website"
-#url = "http://data.rpi.edu"
-#weight = 40

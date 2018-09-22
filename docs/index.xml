@@ -120,13 +120,22 @@ This proposal suggests creating an instance of the Data 8 class @ Rensselaer. Al
     </item>
     
     <item>
-      <title>Regression</title>
+      <title>Regressi</title>
       <link>http://rpi-data.analyticsdojo.com/modules/test/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://rpi-data.analyticsdojo.com/modules/test/</guid>
-      <description>This is a test.
-Github Organization: {{% github_org %}}</description>
+      <description>Github Organization:
+coming from links.html test test1 It was recommended by </description>
+    </item>
+    
+    <item>
+      <title>My First Post</title>
+      <link>http://rpi-data.analyticsdojo.com/modules/new/</link>
+      <pubDate>Mon, 20 Feb 2017 15:26:23 -0600</pubDate>
+      
+      <guid>http://rpi-data.analyticsdojo.com/modules/new/</guid>
+      <description>Github Organization:  go to google  go to google  go to google  github </description>
     </item>
     
     <item>

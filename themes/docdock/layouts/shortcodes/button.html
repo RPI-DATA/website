@@ -2,5 +2,17 @@
 {{ with .Get "align" }}<center>{{end}}
 <button class="btn  {{with .Get "theme"}}btn-{{.}}{{else}}btn-primary{{end}}" type="button" {{ with .Get "href" }} onclick="location.href='{{.}}'"{{end}} >{{.Inner}}</button>
 {{ with .Get "align" }}</center>{{end}}
-
+{{ if .IsNamedParams }}
+{{if not (hasPrefix (.Get "name") "fa-") }}
+<span class="glyphicon glyphicon-{{.Get "name"}}" {{with .Get "size"}}style="font-size:{{.}}"{{end}} aria-hidden="true"></span>
+{{else}}
+<span class="fa {{.Get "name"}}"  {{with .Get "size"}}style="font-size:{{.}}"{{end}} aria-hidden="true"></span>
+{{end}}
+{{else}}
+{{if not (hasPrefix (.Get 0) "fa-") }}
+<span class="glyphicon glyphicon-{{.Get 0}}" aria-hidden="true"></span>
+{{else}}
+<span class="fa {{.Get 0}}" aria-hidden="true"></span>
+{{end}}
+{{end}}
 <!-- Boutton -->

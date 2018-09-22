@@ -10,6 +10,8 @@ repo = "https://github.com/vjeantet/hugo-theme-docdock"
 tags = ["documentation", "menu","slide","search"]
 features = ["documentation","menu","nested sections","search","slide", "attachments"]
 min_version = 0.32
+github_org=github_org
+
 
 [author]
   name = "Valere JEANTET"

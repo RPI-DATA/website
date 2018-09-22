@@ -85,10 +85,10 @@
 },
 {
 	"uri": "http://rpi-data.analyticsdojo.com/modules/test/",
-	"title": "Regression",
+	"title": "Regressi",
 	"tags": [],
 	"description": "",
-	"content": "This is a test.\nGithub Organization: {{% github_org %}}\n"
+	"content": "Github Organization:\ncoming from links.html test test1 It was recommended by "
 },
 {
 	"uri": "http://rpi-data.analyticsdojo.com/projects/",
@@ -103,6 +103,13 @@
 	"tags": [],
 	"description": "Technology and Infrastructure for Teaching Data &amp; Computation Courses",
 	"content": "Welcome to the alpha version of the DATA@RENSSELAR, a platform for enabling data science across the curriculum.\nCurrently the learning stack associated with these courses includes: (1) Jupyter (2) GitHub Classroom (3) Slack and (4) [coming soon] autograding. The idea is by adopting a common technology stack across different classes, we will be better able to coordinate learning.\n"
+},
+{
+	"uri": "http://rpi-data.analyticsdojo.com/modules/new/",
+	"title": "My First Post",
+	"tags": ["two", "three", "four"],
+	"description": "",
+	"content": "Github Organization:  go to google  go to google  go to google  github "
 },
 {
 	"uri": "http://rpi-data.analyticsdojo.com/_footer/",
@@ -133,8 +140,36 @@
 	"content": ""
 },
 {
+	"uri": "http://rpi-data.analyticsdojo.com/tags/four/",
+	"title": "Four",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "http://rpi-data.analyticsdojo.com/categories/one/",
+	"title": "One",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
 	"uri": "http://rpi-data.analyticsdojo.com/tags/",
 	"title": "Tags",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "http://rpi-data.analyticsdojo.com/tags/three/",
+	"title": "Three",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "http://rpi-data.analyticsdojo.com/tags/two/",
+	"title": "Two",
 	"tags": [],
 	"description": "",
 	"content": ""

@@ -39,17 +39,17 @@
     <nav class="shortcuts">
             <li class="" role="">
                 <a href="https://github.com/rpi-data/"  rel="noopener">
-                  <i class='fa fa-github'></i> Github
+                  <i class='fa fa-github'></i> <label>Github</label>
                 </a>
             </li>
             <li class="" role="">
-                <a href="http://lab.analyticsdojo.com"  rel="noopener">
-                  <i class='fa fa-cloud'></i> Jupyterhub
+                <a href="https://lab.analyticsdojo.com"  rel="noopener">
+                  <i class='fa fa-cloud-download'></i> <label>JupyterHub</label>
                 </a>
             </li>
             <li class="" role="">
                 <a href="https://join.slack.com/t/rpi-data/signup"  rel="noopener">
-                  <i class='fa fa-slack'></i>Slack
+                  <i class='fa fa-slack'></i> <label>Slack</label>
                 </a>
             </li>
     </nav>
@@ -57,6 +57,11 @@
 <article>
   <aside>
     <ul class="menu">
+          <li data-nav-id="/" class="dd-item">
+          <a href="/">
+            <i class="fa fa-fw fa-home"></i>
+          </a>
+          </li>
     <li data-nav-id="/modules/" class="dd-item parent active alwaysopen haschildren
         ">
       <div>
@@ -67,7 +72,14 @@
       <li data-nav-id="/modules/test/" class="dd-item">
         <div>
           <a href="/modules/test/">
-            Regression
+            Regressi
+          </a>
+        </div>
+    </li>
+      <li data-nav-id="/modules/new/" class="dd-item">
+        <div>
+          <a href="/modules/new/">
+            My First Post
           </a>
         </div>
     </li>
@@ -184,7 +196,8 @@
           
     <option value="/modules/"  selected>
    Modules</option> 
-      <option value="/modules/test/" >- Regression</option>
+      <option value="/modules/test/" >- Regressi</option>
+      <option value="/modules/new/" >- My First Post</option>
   
     <option value="/technology/" >
    Technology</option> 
@@ -235,7 +248,7 @@
         <div class="chevrons">
     <div id="navigation">
 <a class="nav nav-prev" href="/" title="DATA@RENSSELAER"> <i class="fa fa-chevron-left"></i><label>DATA@RENSSELAER</label></a>
-    <a class="nav nav-next" href="/modules/test/" title="Regression" style="margin-right: 0px;"><label>Regression</label><i class="fa fa-chevron-right"></i></a></div>
+    <a class="nav nav-next" href="/modules/test/" title="Regressi" style="margin-right: 0px;"><label>Regressi</label><i class="fa fa-chevron-right"></i></a></div>
   </div>
 
   </section>
@@ -249,6 +262,10 @@
     
 
   
+    <div class="date">
+        <i class='fa fa-calendar'></i> Last update on 20/02/2017
+    </div>
+    
 
     <div class="github-link">
       <a href="modules/_index.md" target="blank"><i class="fa fa-code-fork"></i>
