@@ -123,7 +123,7 @@
 	"title": "",
 	"tags": [],
 	"description": "",
-	"content": "DATA@RENSSELAER\n"
+	"content": "DATA@RENSSELAER\nThis is the header.\n"
 },
 {
 	"uri": "http://rpi-data.analyticsdojo.com/projects/self-driving-rc/",
