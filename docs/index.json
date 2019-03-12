@@ -102,7 +102,7 @@
 	"title": "DATA@RENSSELAER",
 	"tags": [],
 	"description": "Technology and Infrastructure for Teaching Data &amp; Computation Courses",
-	"content": "Welcome to the alpha version of the DATA@RENSSELAR, a platform for enabling data science across the curriculum.\nCurrently the learning stack associated with these courses includes: (1) Jupyter (2) GitHub Classroom (3) Slack and (4) [coming soon] autograding. The idea is by adopting a common technology stack across different classes, we will be better able to coordinate learning.\n"
+	"content": "Welcome to the alpha version of the DATA@RENSSELAR, a platform for enabling data science across the curriculum.\nCurrently the learning stack associated with these courses includes: (1) Jupyter (2) GitHub Classroom (3) Slack and (4) [coming soon] autograding. The idea is by adopting a common technology stack across different classes, we will be better able to coordinate learning.\nAdditional content coming soon.\n"
 },
 {
 	"uri": "http://rpi-data.analyticsdojo.com/modules/new/",
