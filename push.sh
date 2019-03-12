@@ -1,4 +1,4 @@
 hugo
 git add -A
-git commit -m "push to public"
+git commit -m "$1"
 git push
