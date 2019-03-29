@@ -11,4 +11,4 @@ Welcome to the alpha version of the DATA@RENSSELAR, a platform for enabling data
 
 Currently the learning stack associated with these courses includes: (1) Jupyter (2) GitHub Classroom (3) Slack and (4) [coming soon] autograding. The idea is by adopting a common technology stack across different classes, we will be better able to coordinate learning.
 
-Additional content coming soon. 
+Additional content coming soon I promise. 
