@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>DATA@RENSSELAER on Data@Rensselaer</title>
+    <link>http://rpi-data.analyticsdojo.com/</link>
+    <description>Recent content in DATA@RENSSELAER on Data@Rensselaer</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 21 Sep 2018 18:36:24 +0200</lastBuildDate>
+    
+	<atom:link href="http://rpi-data.analyticsdojo.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Git/GitHub</title>
+      <link>http://rpi-data.analyticsdojo.com/technology/git/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://rpi-data.analyticsdojo.com/technology/git/</guid>
+      <description>Git and Github Git is a version control system use to track changes to code, and when combined with Github it is an extremely powerful way to collaborate.
+(1) Install the git command line tool. There are a lot of options but you should be able to just utilize the defaults.
+(2) Create an account on github.com.
+(3) Install Github desktop if using OSX or Windows. Click here for download instructions for Github Desktop.</description>
+    </item>
+    
+    <item>
+      <title>Online Classes</title>
+      <link>http://rpi-data.analyticsdojo.com/resources/classes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://rpi-data.analyticsdojo.com/resources/classes/</guid>
+      <description> Data Camp As part of this class you get a free subscription to Data Camp. I can&amp;rsquo;t post it here but will provide via email. Fast-AI Deep learning class. Siraj Rival Extremely entertaining YouTube star covers a wide variety of things in machine learning.  </description>
+    </item>
+    
+    <item>
+      <title>Podcasts</title>
+      <link>http://rpi-data.analyticsdojo.com/resources/podcasts/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://rpi-data.analyticsdojo.com/resources/podcasts/</guid>
+      <description> Linear Digressions  </description>
+    </item>
+    
+    <item>
+      <title>Git</title>
+      <link>http://rpi-data.analyticsdojo.com/resources/git/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://rpi-data.analyticsdojo.com/resources/git/</guid>
+      <description> Pro Git
+ Codeschool Git Class
+ Learning about Branches
+ Explaining Git with D3
+ Understanding the Git Flow
+  </description>
+    </item>
+    
+    <item>
+      <title>Python</title>
+      <link>http://rpi-data.analyticsdojo.com/resources/python/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://rpi-data.analyticsdojo.com/resources/python/</guid>
+      <description>Introduction to Machine Learning with Python by Andreas C. Müller; Sarah Guido (Available through library) Think Stats Probability and Statistics for Programmers in Python (free download)
+ Conda
+ Python + Numpy Tutorial
+ Python Docs Tutorial
+Python: Conda
+ Python + Numpy Tutorial
+ Python Docs Tutorial
+ Plotting:
+ matplotlib.pyplot tutorial: This short tutorial provides an overview of the basic plotting utilities we will be using.</description>
+    </item>
+    
+    <item>
+      <title>Anaconda</title>
+      <link>http://rpi-data.analyticsdojo.com/technology/anaconda/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://rpi-data.analyticsdojo.com/technology/anaconda/</guid>
+      <description>Step 2: Install and Configure Anaconda We will be using Anaconda to provide a Jupyter environment for both R and Python.
+Follow the following instructions to install Anaconda from Continuum Analytics. OSX Windows Linux
+Once you have the Anaconda Distribution, follow below for advanced configuration.
+OSX  Follow the online instructions to install the Anaconda Distribution with Python 3.6 Follow below for advanced configuration.  Windows Windows may often have issues associated with installation if you have had previous versions of Anaconda installed.</description>
+    </item>
+    
+    <item>
+      <title>R</title>
+      <link>http://rpi-data.analyticsdojo.com/resources/r/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://rpi-data.analyticsdojo.com/resources/r/</guid>
+      <description> Introduction to Statistical Learning (Free online PDF)
+ R for Data Science (available online)
+ Berkeley R Bootcamp
+  </description>
+    </item>
+    
+    <item>
+      <title>Books</title>
+      <link>http://rpi-data.analyticsdojo.com/resources/books/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://rpi-data.analyticsdojo.com/resources/books/</guid>
+      <description>O&amp;rsquo;Reilly Media titles can be accessed through the RPI library subscription. If there is a specific title you would like access to that isn&amp;rsquo;t listed, the library can adjust the list.
+Data Science &amp;amp; Business Data Science for Business 
+Doing Data Science
+Git  Pro Git  PYTHON  Introduction to Machine Learning with Python Data Science Handbook Data Science from Scratch  R  Introduction to Statistical Learning (Free online PDF) R for Data Science (available online)</description>
+    </item>
+    
+    <item>
+      <title>Data 8 @ Rensselaer</title>
+      <link>http://rpi-data.analyticsdojo.com/projects/data8/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://rpi-data.analyticsdojo.com/projects/data8/</guid>
+      <description>Data literacy is a foundational component of a modern technical and scientific education. Critical to creating data literate graduates.
+For the Data 8 class, the University of California at Berkley has developed an open curriculum and extensive teaching infrastructure (online textbook, auto-grader, Jupyter-based cloud computing infrastructure for data science) created the worlds largest data science class.
+This proposal suggests creating an instance of the Data 8 class @ Rensselaer. All materials for the Data 8 course have been released under a compatible Creative Commons license.</description>
+    </item>
+    
+    <item>
+      <title>Regressi</title>
+      <link>http://rpi-data.analyticsdojo.com/modules/test/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://rpi-data.analyticsdojo.com/modules/test/</guid>
+      <description>Github Organization:
+   github </description>
+    </item>
+    
+    <item>
+      <title>My First Post</title>
+      <link>http://rpi-data.analyticsdojo.com/modules/new/</link>
+      <pubDate>Mon, 20 Feb 2017 15:26:23 -0600</pubDate>
+      
+      <guid>http://rpi-data.analyticsdojo.com/modules/new/</guid>
+      <description>Github Organization:  go to google  </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://rpi-data.analyticsdojo.com/_footer/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://rpi-data.analyticsdojo.com/_footer/</guid>
+      <description>DATA@RENSSELAER was funded by the teaching and learning collaboratory.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://rpi-data.analyticsdojo.com/_header/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://rpi-data.analyticsdojo.com/_header/</guid>
+      <description>DATA@RENSSELAER
+This is the header.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://rpi-data.analyticsdojo.com/modules/forecasting-the-rossmann-store-sales/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://rpi-data.analyticsdojo.com/modules/forecasting-the-rossmann-store-sales/</guid>
+      <description>Forecasting the Rossmann Store Sales   /*! * * Twitter Bootstrap * */ /*! * Bootstrap v3.3.7 (http://getbootstrap.com) * Copyright 2011-2016 Twitter, Inc. * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE) */ /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */ html { font-family: sans-serif; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; } body { margin: 0; } article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary { display: block; } audio, canvas, progress, video { display: inline-block; vertical-align: baseline; } audio:not([controls]) { display: none; height: 0; } [hidden], template { display: none; } a { background-color: transparent; } a:active, a:hover { outline: 0; } abbr[title] { border-bottom: 1px dotted; } b, strong { font-weight: bold; } dfn { font-style: italic; } h1 { font-size: 2em; margin: 0.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://rpi-data.analyticsdojo.com/projects/self-driving-rc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://rpi-data.analyticsdojo.com/projects/self-driving-rc/</guid>
+      <description>Autonomous RC Racing @Rensselaer&amp;rdquo; description = &amp;ldquo;&amp;rdquo; weight = 20 +++
+Data literacy is a foundational component of a modern technical and scientific education. Critical to creating data literate graduates.
+For the Data 8 class, the University of California at Berkley has developed an open [curriculum]() and extensive teaching infrastructure (online textbook, auto-grader, Jupyter-based cloud computing infrastructure for data science) created the worlds largest data science class.
+This proposal suggests creating an instance of the Data 8 class @ Rensselaer.</description>
+    </item>
+    
+  </channel>
+</rss>
