@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Example Notebooks on Data@Rensselaer</title>
+    <link>http://rpi-data.analyticsdojo.com/modules/</link>
+    <description>Recent content in Example Notebooks on Data@Rensselaer</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 20 Feb 2017 15:26:23 -0600</lastBuildDate>
+    
+	<atom:link href="http://rpi-data.analyticsdojo.com/modules/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Regressi</title>
+      <link>http://rpi-data.analyticsdojo.com/modules/test/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://rpi-data.analyticsdojo.com/modules/test/</guid>
+      <description>Github Organization:
+   github </description>
+    </item>
+    
+    <item>
+      <title>My First Post</title>
+      <link>http://rpi-data.analyticsdojo.com/modules/new/</link>
+      <pubDate>Mon, 20 Feb 2017 15:26:23 -0600</pubDate>
+      
+      <guid>http://rpi-data.analyticsdojo.com/modules/new/</guid>
+      <description>Github Organization:  go to google  </description>
+    </item>
+    
+    <item>
+      <title>Time Series example</title>
+      <link>http://rpi-data.analyticsdojo.com/modules/time_series/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://rpi-data.analyticsdojo.com/modules/time_series/</guid>
+      <description>Forecasting the Rossmann Store Sales
+  /*! * * Twitter Bootstrap * */ /*! * Bootstrap v3.3.7 (http://getbootstrap.com) * Copyright 2011-2016 Twitter, Inc. * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE) */ /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */ html { font-family: sans-serif; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; } body { margin: 0; } article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary { display: block; } audio, canvas, progress, video { display: inline-block; vertical-align: baseline; } audio:not([controls]) { display: none; height: 0; } [hidden], template { display: none; } a { background-color: transparent; } a:active, a:hover { outline: 0; } abbr[title] { border-bottom: 1px dotted; } b, strong { font-weight: bold; } dfn { font-style: italic; } h1 { font-size: 2em; margin: 0.</description>
+    </item>
+    
+  </channel>
+</rss>

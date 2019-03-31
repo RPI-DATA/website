@@ -78,10 +78,6 @@
   </url>
   
   <url>
-    <loc>http://rpi-data.analyticsdojo.com/modules/forecasting-the-rossmann-store-sales/</loc>
-  </url>
-  
-  <url>
     <loc>http://rpi-data.analyticsdojo.com/projects/self-driving-rc/</loc>
   </url>
   
@@ -112,6 +108,10 @@
     <loc>http://rpi-data.analyticsdojo.com/tags/three/</loc>
     <lastmod>2017-02-20T15:26:23-06:00</lastmod>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://rpi-data.analyticsdojo.com/modules/time_series/</loc>
   </url>
   
   <url>

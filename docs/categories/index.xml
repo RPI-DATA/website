@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on Data@Rensselaer</title>
+    <link>http://rpi-data.analyticsdojo.com/categories/</link>
+    <description>Recent content in Categories on Data@Rensselaer</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="http://rpi-data.analyticsdojo.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>One</title>
+      <link>http://rpi-data.analyticsdojo.com/categories/one/</link>
+      <pubDate>Mon, 20 Feb 2017 15:26:23 -0600</pubDate>
+      
+      <guid>http://rpi-data.analyticsdojo.com/categories/one/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

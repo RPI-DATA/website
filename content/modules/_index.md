@@ -1,8 +1,8 @@
 +++
-title = "List"
+title = "Example Notebooks"
 description = ""
 weight = 5
-alwaysopen = true
+alwaysopen = false
 +++
 
 ## Modules
