@@ -5,7 +5,7 @@ date = "2018-09-21T18:36:24+02:00"
 
 +++
 
-![](/images/rpilogo.png)
+![](/images/data-rpi_logo.jpg)
 
 Welcome to the alpha version of the DATA@RENSSELAR, a platform for enabling data science across the curriculum.
 

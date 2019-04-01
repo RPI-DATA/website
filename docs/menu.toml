@@ -1,0 +1,29 @@
+[home]
+	Name = "Home"
+	Title = "DATA@RENSSELAER"
+	URL = "/home"
+	weight = 1
+	
+[modules]
+	Name = "modules"
+	Title = "Example Notebooks"
+	URL = "/Example%20Notebooks"
+	weight = 2
+	
+[projects]
+	Name = "projects"
+	Title = "Projects"
+	URL = "/projects"
+	weight = 3
+	
+[resources]
+	Name = "resources"
+	Title = "Additional Resources"
+	URL = "/additional%20resources"
+	weight = 4
+	
+[technology]
+	Name = "technology"
+	Title = "Technology"
+	URL = "/technology"
+	weight = 4

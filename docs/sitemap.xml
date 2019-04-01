@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://rpi-data.analyticsdojo.com/modules/</loc>
+    <lastmod>2017-02-20T15:26:23-06:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://rpi-data.analyticsdojo.com/technology/git/</loc>
   </url>
   
@@ -16,11 +21,6 @@
   
   <url>
     <loc>http://rpi-data.analyticsdojo.com/resources/</loc>
-  </url>
-  
-  <url>
-    <loc>http://rpi-data.analyticsdojo.com/modules/</loc>
-    <lastmod>2017-02-20T15:26:23-06:00</lastmod>
   </url>
   
   <url>
@@ -93,9 +93,17 @@
   </url>
   
   <url>
+    <loc>http://rpi-data.analyticsdojo.com/modules/linearregression/</loc>
+  </url>
+  
+  <url>
     <loc>http://rpi-data.analyticsdojo.com/categories/one/</loc>
     <lastmod>2017-02-20T15:26:23-06:00</lastmod>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://rpi-data.analyticsdojo.com/modules/pca/</loc>
   </url>
   
   <url>
