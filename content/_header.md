@@ -1,4 +1,1 @@
-
-![](/images/rpi.png) DATA@RENSSELAER
-
-This is the header. 
+<img src="/images/rpi.png" alt="This is the header.">

@@ -1,5 +1,6 @@
 ---
 title: "Principle Component Analysis"
+weight: 2
 ---
 <html>
 <head><meta charset="utf-8" />

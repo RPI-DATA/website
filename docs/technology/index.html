@@ -5,7 +5,7 @@
     
       <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-<meta name="revised" content="2019-04-01T16:22:45 EDT">
+<meta name="revised" content="2019-04-01T16:42:54 EDT">
 <title>Technology :: Data@Rensselaer</title>
 <link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon" />
 <link href="/css/font-awesome.min.css" rel="stylesheet">
@@ -30,9 +30,7 @@
     
 	
   
-    <p><img src="/images/rpi.png" alt="" /> DATA@RENSSELAER</p>
-
-<p>This is the header.</p>
+    <p><img src="/images/rpi.png" alt="This is the header."></p>
 
   
 
@@ -65,26 +63,13 @@
             <i class="fa fa-fw fa-home"></i>
           </a>
           </li>
-    <li data-nav-id="/modules/" class="dd-item haschildren
+    <li data-nav-id="/modules/" class="dd-item alwaysopen haschildren
         ">
       <div>
-      <a href="/modules/">Example Notebooks</a><i class="fa fa-angle-right fa-lg category-icon"></i>
+      <a href="/modules/">Example Notebooks</a>
+            <i class="fa fa-angle-down fa-lg category-icon"></i>
       </div>
         <ul>
-      <li data-nav-id="/modules/test/" class="dd-item">
-        <div>
-          <a href="/modules/test/">
-            Regressi
-          </a>
-        </div>
-    </li>
-      <li data-nav-id="/modules/new/" class="dd-item">
-        <div>
-          <a href="/modules/new/">
-            My First Post
-          </a>
-        </div>
-    </li>
       <li data-nav-id="/modules/linearregression/" class="dd-item">
         <div>
           <a href="/modules/linearregression/">
@@ -106,9 +91,30 @@
           </a>
         </div>
     </li>
+      <li data-nav-id="/modules/time_series_basic/" class="dd-item">
+        <div>
+          <a href="/modules/time_series_basic/">
+            Time Series Basic
+          </a>
+        </div>
+    </li>
+      <li data-nav-id="/modules/test/" class="dd-item">
+        <div>
+          <a href="/modules/test/">
+            Regressi
+          </a>
+        </div>
+    </li>
+      <li data-nav-id="/modules/new/" class="dd-item">
+        <div>
+          <a href="/modules/new/">
+            My First Post
+          </a>
+        </div>
+    </li>
         </ul>
     </li>
-    <li data-nav-id="/technology/" class="dd-item parent active alwaysopen haschildren
+    <li data-nav-id="/technology/" class="dd-item parent active haschildren
         ">
       <div>
       <a href="/technology/">Technology</a>
@@ -218,7 +224,14 @@
         <select onchange="javascript:location.href = this.value;">
           
     <option value="/modules/" >
-   Example Notebooks</option>
+   Example Notebooks</option> 
+      <option value="/modules/linearregression/" >- Linear Regression</option>
+      <option value="/modules/pca/" >- Principle Component Analysis</option>
+      <option value="/modules/time_series/" >- Time Series Analysis</option>
+      <option value="/modules/time_series_basic/" >- Time Series Basic</option>
+      <option value="/modules/test/" >- Regressi</option>
+      <option value="/modules/new/" >- My First Post</option>
+  
     <option value="/technology/"  selected>
    Technology</option> 
       <option value="/technology/git/" >- Git/GitHub</option>
@@ -290,7 +303,7 @@ When running on your laptop, there are 2 different configuration options that th
     
         <div class="chevrons">
     <div id="navigation">
-<a class="nav nav-prev" href="/modules/time_series/" title="Time Series Analysis"> <i class="fa fa-chevron-left"></i><label>Time Series Analysis</label></a>
+<a class="nav nav-prev" href="/modules/new/" title="My First Post"> <i class="fa fa-chevron-left"></i><label>My First Post</label></a>
     <a class="nav nav-next" href="/technology/git/" title="Git/GitHub" style="margin-right: 0px;"><label>Git/GitHub</label><i class="fa fa-chevron-right"></i></a></div>
   </div>
 

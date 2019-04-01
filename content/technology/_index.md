@@ -2,7 +2,7 @@
 title = "Technology"
 description = ""
 weight = 2
-alwaysopen = true
+alwaysopen = false
 +++
 
 Often technical issues around computer configuration can be frustrating, but they are an important component of doing data science. You will need a number of different systems setup on your computer for this class.

@@ -2,7 +2,7 @@
 title = "Example Notebooks"
 description = ""
 weight = 1
-alwaysopen = false
+alwaysopen = true
 +++
 
 
