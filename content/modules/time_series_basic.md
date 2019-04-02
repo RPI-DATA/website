@@ -3,8 +3,10 @@ title: "Time Series Basic"
 weight: 4
 ---
 
+<div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
+</div>
+<div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <head>
     <title>Time Series Analysis</title>
@@ -15,15 +17,19 @@ weight: 4
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p><img src="https://raw.githubusercontent.com/RPI-DATA/website/master/static/images/rpilogo.png" alt="RPI LOGO"></p>
+<p>
+	<a href="https://colab.research.google.com/drive/1CxcMY06maKEcCwUtWwVUCFhP3FTtykCf" target="_blank"><img src=https://colab.research.google.com/assets/colab-badge.svg alt="Open in Colab"></a>
+	<img src="https://raw.githubusercontent.com/RPI-DATA/website/master/static/images/rpilogo.png" class="resize" alt="RPI LOGO">
+</p>
 
 </div>
 </div>
 </div>
+<div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Time-Series-Analysis">Time Series Analysis<a class="anchor-link" href="#Time-Series-Analysis">&#182;</a></h1><hr>
+<hr>
 <p>A <strong><em>time series</em></strong> is a series of data points indexed (or listed or graphed) in time order. Time series analysis pertains to methods extracting meaningful statistics from time series data. This is commonly used for forecasting and other models.</p>
 
 </div>
@@ -72,7 +78,6 @@ weight: 4
 
 </div>
 </div>
-</div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
 <div class="prompt input_prompt">In&nbsp;[1]:</div>
@@ -101,7 +106,7 @@ weight: 4
 <span class="o">%</span><span class="k">matplotlib</span> inline
 </pre></div>
 
-    </div>
+</div>
 </div>
 </div>
 
@@ -116,7 +121,7 @@ weight: 4
 <span class="n">store</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s1">&#39;https://raw.githubusercontent.com/RPI-DATA/tutorials-intro/master/rossmann-store-sales/rossmann-store-sales/store.csv&#39;</span><span class="p">,</span> <span class="n">low_memory</span> <span class="o">=</span> <span class="kc">False</span><span class="p">)</span>
 </pre></div>
 
-    </div>
+</div>
 </div>
 </div>
 
@@ -140,7 +145,7 @@ weight: 4
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">train</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
 </pre></div>
 
-    </div>
+</div>
 </div>
 </div>
 
@@ -269,7 +274,7 @@ weight: 4
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">train</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
 </pre></div>
 
-    </div>
+</div>
 </div>
 </div>
 
@@ -398,7 +403,7 @@ weight: 4
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">train</span><span class="o">.</span><span class="n">shape</span>
 </pre></div>
 
-    </div>
+</div>
 </div>
 </div>
 
@@ -439,7 +444,7 @@ weight: 4
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">train</span><span class="o">.</span><span class="n">describe</span><span class="p">()</span>
 </pre></div>
 
-    </div>
+</div>
 </div>
 </div>
 
@@ -590,7 +595,7 @@ weight: 4
 <span class="n">missing</span><span class="o">.</span><span class="n">sort_values</span><span class="p">(</span><span class="n">ascending</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
 </pre></div>
 
-    </div>
+</div>
 </div>
 </div>
 
@@ -640,7 +645,7 @@ dtype: int64</pre>
 <span class="n">train</span><span class="p">[</span><span class="s1">&#39;SalesPerCustomer&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
 </pre></div>
 
-    </div>
+</div>
 </div>
 </div>
 
@@ -688,7 +693,7 @@ Name: SalesPerCustomer, dtype: float64</pre>
 <span class="n">missing</span><span class="o">.</span><span class="n">sort_values</span><span class="p">(</span><span class="n">ascending</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
 </pre></div>
 
-    </div>
+</div>
 </div>
 </div>
 
@@ -730,7 +735,7 @@ dtype: int64</pre>
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">train</span><span class="o">.</span><span class="n">dropna</span><span class="p">()</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
 </pre></div>
 
-    </div>
+</div>
 </div>
 </div>
 
@@ -876,7 +881,7 @@ dtype: int64</pre>
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">store</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
 </pre></div>
 
-    </div>
+</div>
 </div>
 </div>
 
@@ -1006,7 +1011,7 @@ dtype: int64</pre>
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">store</span><span class="o">.</span><span class="n">shape</span>
 </pre></div>
 
-    </div>
+</div>
 </div>
 </div>
 
@@ -1039,7 +1044,7 @@ dtype: int64</pre>
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">store</span><span class="o">.</span><span class="n">isnull</span><span class="p">()</span><span class="o">.</span><span class="n">sum</span><span class="p">()</span>
 </pre></div>
 
-    </div>
+</div>
 </div>
 </div>
 
@@ -1090,7 +1095,7 @@ dtype: int64</pre>
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">store</span><span class="p">[</span><span class="s1">&#39;CompetitionDistance&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">fillna</span><span class="p">(</span><span class="n">store</span><span class="p">[</span><span class="s1">&#39;CompetitionDistance&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">mean</span><span class="p">(),</span> <span class="n">inplace</span> <span class="o">=</span> <span class="kc">True</span><span class="p">)</span>
 </pre></div>
 
-    </div>
+</div>
 </div>
 </div>
 
@@ -1111,7 +1116,7 @@ dtype: int64</pre>
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">store</span><span class="o">.</span><span class="n">fillna</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="n">inplace</span> <span class="o">=</span> <span class="kc">True</span><span class="p">)</span>
 </pre></div>
 
-    </div>
+</div>
 </div>
 </div>
 
@@ -1124,7 +1129,7 @@ dtype: int64</pre>
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">store</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
 </pre></div>
 
-    </div>
+</div>
 </div>
 </div>
 
@@ -1262,7 +1267,7 @@ dtype: int64</pre>
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">train</span> <span class="o">=</span> <span class="n">train</span><span class="o">.</span><span class="n">merge</span><span class="p">(</span><span class="n">right</span><span class="o">=</span><span class="n">store</span><span class="p">,</span> <span class="n">on</span><span class="o">=</span><span class="s1">&#39;Store&#39;</span><span class="p">,</span> <span class="n">how</span><span class="o">=</span><span class="s1">&#39;left&#39;</span><span class="p">)</span>
 </pre></div>
 
-    </div>
+</div>
 </div>
 </div>
 
@@ -1287,7 +1292,7 @@ dtype: int64</pre>
 <span class="n">train</span> <span class="o">=</span> <span class="n">train</span><span class="o">.</span><span class="n">sort_index</span><span class="p">(</span><span class="n">ascending</span> <span class="o">=</span> <span class="kc">True</span><span class="p">)</span>
 </pre></div>
 
-    </div>
+</div>
 </div>
 </div>
 
@@ -1301,7 +1306,7 @@ dtype: int64</pre>
 <span class="n">train</span><span class="p">[</span><span class="s1">&#39;SalesPerCustomer&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
 </pre></div>
 
-    </div>
+</div>
 </div>
 </div>
 
@@ -1340,7 +1345,7 @@ Name: SalesPerCustomer, dtype: float64</pre>
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">train</span> <span class="o">=</span> <span class="n">train</span><span class="o">.</span><span class="n">dropna</span><span class="p">()</span>
 </pre></div>
 
-    </div>
+</div>
 </div>
 </div>
 
@@ -1364,7 +1369,7 @@ Name: SalesPerCustomer, dtype: float64</pre>
 <span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
 </pre></div>
 
-    </div>
+</div>
 </div>
 </div>
 
@@ -1413,7 +1418,7 @@ height=266
 <span class="n">train</span><span class="p">[</span><span class="s1">&#39;sales&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="mi">0</span>
 </pre></div>
 
-    </div>
+</div>
 </div>
 </div>
 
@@ -1436,7 +1441,7 @@ height=266
 <span class="n">test_store</span><span class="o">=</span><span class="n">train</span><span class="p">[</span><span class="mi">675472</span><span class="p">:]</span>
 </pre></div>
 
-    </div>
+</div>
 </div>
 </div>
 
@@ -1458,7 +1463,7 @@ height=266
 <span class="n">test_store</span> <span class="o">=</span> <span class="n">test_store</span><span class="o">.</span><span class="n">interpolate</span><span class="p">(</span><span class="n">method</span><span class="o">=</span><span class="s1">&#39;linear&#39;</span><span class="p">)</span>
 </pre></div>
 
-    </div>
+</div>
 </div>
 </div>
 
@@ -1495,7 +1500,7 @@ See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stabl
 <span class="n">test_store</span><span class="o">.</span><span class="n">Sales</span><span class="o">.</span><span class="n">plot</span><span class="p">()</span>
 </pre></div>
 
-    </div>
+</div>
 </div>
 </div>
 
@@ -1552,7 +1557,7 @@ height=650
 <span class="n">plt</span><span class="o">.</span><span class="n">title</span><span class="p">(</span><span class="s1">&#39;Moving Average Forecast&#39;</span><span class="p">)</span>
 </pre></div>
 
-    </div>
+</div>
 </div>
 </div>
 
@@ -1603,7 +1608,7 @@ height=592
 <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;ROLLING AVERAGE&#39;</span><span class="p">,</span><span class="n">rms_avg_rolling</span><span class="p">)</span>
 </pre></div>
 
-    </div>
+</div>
 </div>
 </div>
 
@@ -1680,7 +1685,7 @@ inspired by <a href="https://research.fb.com/prophet-forecasting-at-scale/">http
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">train</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s2">&quot;https://raw.githubusercontent.com/RPI-DATA/tutorials-intro/master/rossmann-store-sales/rossmann-store-sales/train.csv&quot;</span><span class="p">,</span> <span class="n">parse_dates</span> <span class="o">=</span> <span class="kc">True</span><span class="p">,</span> <span class="n">low_memory</span> <span class="o">=</span> <span class="kc">False</span><span class="p">)</span>
 </pre></div>
 
-    </div>
+</div>
 </div>
 </div>
 
@@ -1696,7 +1701,7 @@ inspired by <a href="https://research.fb.com/prophet-forecasting-at-scale/">http
 <span class="n">train</span> <span class="o">=</span> <span class="n">train</span><span class="o">.</span><span class="n">dropna</span><span class="p">()</span>
 </pre></div>
 
-    </div>
+</div>
 </div>
 </div>
 
@@ -1715,7 +1720,7 @@ inspired by <a href="https://research.fb.com/prophet-forecasting-at-scale/">http
 <span class="n">sales</span><span class="o">.</span><span class="n">dtypes</span>
 </pre></div>
 
-    </div>
+</div>
 </div>
 </div>
 
@@ -1751,7 +1756,7 @@ dtype: object</pre>
                                 <span class="s1">&#39;Sales&#39;</span><span class="p">:</span> <span class="s1">&#39;y&#39;</span><span class="p">})</span>
 </pre></div>
 
-    </div>
+</div>
 </div>
 </div>
 
@@ -1764,7 +1769,7 @@ dtype: object</pre>
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">sales</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
 </pre></div>
 
-    </div>
+</div>
 </div>
 </div>
 
@@ -1855,7 +1860,7 @@ dtype: object</pre>
 <span class="n">sales_prophet</span><span class="o">.</span><span class="n">fit</span><span class="p">(</span><span class="n">sales</span><span class="p">)</span>
 </pre></div>
 
-    </div>
+</div>
 </div>
 </div>
 
@@ -1907,7 +1912,7 @@ dtype: object</pre>
     <span class="n">sales</span><span class="p">[</span><span class="n">changepoint</span><span class="p">]</span> <span class="o">=</span> <span class="n">future</span><span class="p">[</span><span class="s1">&#39;yhat&#39;</span><span class="p">]</span>
 </pre></div>
 
-    </div>
+</div>
 </div>
 </div>
 
@@ -1940,7 +1945,7 @@ dtype: object</pre>
 <span class="n">plt</span><span class="o">.</span><span class="n">xlabel</span><span class="p">(</span><span class="s1">&#39;Date&#39;</span><span class="p">);</span> <span class="n">plt</span><span class="o">.</span><span class="n">ylabel</span><span class="p">(</span><span class="s1">&#39;Rossmann Sales&#39;</span><span class="p">);</span> <span class="n">plt</span><span class="o">.</span><span class="n">title</span><span class="p">(</span><span class="s1">&#39;Rossmann Effect of Changepoint Prior Scale&#39;</span><span class="p">);</span>
 </pre></div>
 
-    </div>
+</div>
 </div>
 </div>
 
@@ -1991,7 +1996,7 @@ In order to make forecasts, we need to create a future dataframe. We need to spe
 <span class="n">sales_forecast</span> <span class="o">=</span> <span class="n">sales_prophet</span><span class="o">.</span><span class="n">predict</span><span class="p">(</span><span class="n">sales_forecast</span><span class="p">)</span>
 </pre></div>
 
-    </div>
+</div>
 </div>
 </div>
 
@@ -2005,7 +2010,7 @@ In order to make forecasts, we need to create a future dataframe. We need to spe
 <span class="n">plt</span><span class="o">.</span><span class="n">title</span><span class="p">(</span><span class="s1">&#39;Rossmann Sales&#39;</span><span class="p">);</span>
 </pre></div>
 
-    </div>
+</div>
 </div>
 </div>
 
@@ -2042,7 +2047,7 @@ height=435
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">sales_prophet</span><span class="o">.</span><span class="n">changepoints</span><span class="p">[:</span><span class="mi">10</span><span class="p">]</span>
 </pre></div>
 
-    </div>
+</div>
 </div>
 </div>
 
@@ -2123,7 +2128,7 @@ Name: ds, dtype: datetime64[ns]</pre>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p><a href="https://colab.research.google.com/drive/1CxcMY06maKEcCwUtWwVUCFhP3FTtykCf"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"></a></p>
+<p><a href="https://colab.research.google.com/drive/1CxcMY06maKEcCwUtWwVUCFhP3FTtykCf" target="_blank"><img src=https://colab.research.google.com/assets/colab-badge.svg alt="Open in Colab"></a></p>
 
 </div>
 </div>
