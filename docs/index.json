@@ -119,6 +119,13 @@
 	"content": "Github Organization:\n   github "
 },
 {
+	"uri": "http://rpi-data.analyticsdojo.com/faq/",
+	"title": "FAQ",
+	"tags": [],
+	"description": "",
+	"content": " Frequently Asked Question:  What is the Data@Rensselaer ?  Data@Rensselaer is an open resource for all rpi members to use. We are trying to use data since to create a new way for people to coordinate learning.\n Is their any requirement for people to use Data@Rensselaer ?  Every one can use our notebook to get a general learning experience. Most of our notebooks are written in python. People with coding experience can take full advantage of our notebooks and the code behind. Also, we do have the prerequsite for some of the notebook.\n What kind of topic will be presented ?  We will go through the topics in engineering and science such as linear regression.\n Do we have to download the software(Anaconda/ jupyter notebook) to use the notebook ?  You don\u0026rsquo;t need to download any software to use our resource. You can go through all the notebook by our website or collab. For people who want to modify our notebook or use the extra assignment notebook for learning, downloading the jupyter notebook is required.\n How can i use those notebooks ?  People can use those notebook for learning and teaching. We do allow people modify our notebooks under certain license.\n Can i be a contributor for Data@Rensselaer ? \u0026hellip;  "
+},
+{
 	"uri": "http://rpi-data.analyticsdojo.com/modules/new/",
 	"title": "My First Post",
 	"tags": ["two", "three", "four"],
@@ -137,7 +144,7 @@
 	"title": "DATA@RENSSELAER",
 	"tags": [],
 	"description": "Technology and Infrastructure for Teaching Data &amp; Computation Courses",
-	"content": "Welcome to the alpha version of the DATA@RENSSELAR, a platform for enabling data science across the curriculum.\nCurrently the learning stack associated with these courses includes: (1) Jupyter (2) GitHub Classroom (3) Slack and (4) [coming soon] autograding. The idea is by adopting a common technology stack across different classes, we will be better able to coordinate learning.\nAdditional content coming soon.\n"
+	"content": "Welcome to DATA@RENSSELAR, a platform for enabling data science across the curriculum.\nWe are an open source project that helps analytics programs to both create a community and deliver the highest quality education experience in the rapidly changing world of analytics and data science.\nCurrently the learning stack associated with these courses includes:\n Jupyter GitHub Classroom Slack [coming soon] autograding  Our idea is by adopting a common technology stack across different classes, we will be better able to coordinate learning.\nContact Us:\nEmail lewisd2@rpi.edu and kuruzj@rpi.edu\n"
 },
 {
 	"uri": "http://rpi-data.analyticsdojo.com/_footer/",

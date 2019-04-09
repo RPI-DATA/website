@@ -27,3 +27,9 @@
 	Title = "Technology"
 	URL = "/technology"
 	weight = 4
+	
+[about]
+	Name = "about"
+	Title = "about"
+	URL = "/about"
+	weight = 2
