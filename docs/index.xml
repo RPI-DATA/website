@@ -22,15 +22,6 @@
     </item>
     
     <item>
-      <title>Online Classes</title>
-      <link>http://rpi-data.analyticsdojo.com/resources/classes/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://rpi-data.analyticsdojo.com/resources/classes/</guid>
-      <description> Data Camp As part of this class you get a free subscription to Data Camp. I can&amp;rsquo;t post it here but will provide via email. Fast-AI Deep learning class. Siraj Rival Extremely entertaining YouTube star covers a wide variety of things in machine learning.  </description>
-    </item>
-    
-    <item>
       <title>Principle Component Analysis</title>
       <link>http://rpi-data.analyticsdojo.com/modules/pca/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -51,70 +42,6 @@ This notebook provides examples for eigenvalues and eigenvectors in LaTeX and py
       <guid>http://rpi-data.analyticsdojo.com/modules/time_series_basic/</guid>
       <description>Time Series Analysis            A time series is a series of data points indexed (or listed or graphed) in time order. Time series analysis pertains to methods extracting meaningful statistics from time series data. This is commonly used for forecasting and other models.
    Learning Objectives&amp;#182;  Understand the uses of Time Series Analysis Understand the pros and cons of various TSA methods, including differentiating between linear and non-linear methods.</description>
-    </item>
-    
-    <item>
-      <title>Podcasts</title>
-      <link>http://rpi-data.analyticsdojo.com/resources/podcasts/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://rpi-data.analyticsdojo.com/resources/podcasts/</guid>
-      <description> Linear Digressions  </description>
-    </item>
-    
-    <item>
-      <title>Git</title>
-      <link>http://rpi-data.analyticsdojo.com/resources/git/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://rpi-data.analyticsdojo.com/resources/git/</guid>
-      <description> Pro Git
- Codeschool Git Class
- Learning about Branches
- Explaining Git with D3
- Understanding the Git Flow
-  </description>
-    </item>
-    
-    <item>
-      <title>Python</title>
-      <link>http://rpi-data.analyticsdojo.com/resources/python/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://rpi-data.analyticsdojo.com/resources/python/</guid>
-      <description>Introduction to Machine Learning with Python by Andreas C. Müller; Sarah Guido (Available through library) Think Stats Probability and Statistics for Programmers in Python (free download)
- Conda
- Python + Numpy Tutorial
- Python Docs Tutorial
-Python: Conda
- Python + Numpy Tutorial
- Python Docs Tutorial
- Plotting:
- matplotlib.pyplot tutorial: This short tutorial provides an overview of the basic plotting utilities we will be using.</description>
-    </item>
-    
-    <item>
-      <title>R</title>
-      <link>http://rpi-data.analyticsdojo.com/resources/r/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://rpi-data.analyticsdojo.com/resources/r/</guid>
-      <description> Introduction to Statistical Learning (Free online PDF)
- R for Data Science (available online)
- Berkeley R Bootcamp
-  </description>
-    </item>
-    
-    <item>
-      <title>Books</title>
-      <link>http://rpi-data.analyticsdojo.com/resources/books/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://rpi-data.analyticsdojo.com/resources/books/</guid>
-      <description>O&amp;rsquo;Reilly Media titles can be accessed through the RPI library subscription. If there is a specific title you would like access to that isn&amp;rsquo;t listed, the library can adjust the list.
-Data Science &amp;amp; Business Data Science for Business 
-Doing Data Science
-Git  Pro Git  PYTHON  Introduction to Machine Learning with Python Data Science Handbook Data Science from Scratch  R  Introduction to Statistical Learning (Free online PDF) R for Data Science (available online)</description>
     </item>
     
     <item>
