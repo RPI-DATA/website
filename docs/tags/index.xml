@@ -6,37 +6,9 @@
     <description>Recent content in Tags on Data@Rensselaer</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 20 Feb 2017 15:26:23 -0600</lastBuildDate>
     
 	<atom:link href="http://rpi-data.analyticsdojo.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Four</title>
-      <link>http://rpi-data.analyticsdojo.com/tags/four/</link>
-      <pubDate>Mon, 20 Feb 2017 15:26:23 -0600</pubDate>
-      
-      <guid>http://rpi-data.analyticsdojo.com/tags/four/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Three</title>
-      <link>http://rpi-data.analyticsdojo.com/tags/three/</link>
-      <pubDate>Mon, 20 Feb 2017 15:26:23 -0600</pubDate>
-      
-      <guid>http://rpi-data.analyticsdojo.com/tags/three/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Two</title>
-      <link>http://rpi-data.analyticsdojo.com/tags/two/</link>
-      <pubDate>Mon, 20 Feb 2017 15:26:23 -0600</pubDate>
-      
-      <guid>http://rpi-data.analyticsdojo.com/tags/two/</guid>
-      <description></description>
-    </item>
     
   </channel>
 </rss>

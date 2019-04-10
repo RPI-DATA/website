@@ -3,12 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://rpi-data.analyticsdojo.com/modules/</loc>
-    <lastmod>2017-02-20T15:26:23-06:00</lastmod>
+    <loc>http://rpi-data.analyticsdojo.com/modules/linearregression/</loc>
   </url>
   
   <url>
-    <loc>http://rpi-data.analyticsdojo.com/modules/linearregression/</loc>
+    <loc>http://rpi-data.analyticsdojo.com/modules/</loc>
   </url>
   
   <url>
@@ -29,10 +28,6 @@
   
   <url>
     <loc>http://rpi-data.analyticsdojo.com/resources/</loc>
-  </url>
-  
-  <url>
-    <loc>http://rpi-data.analyticsdojo.com/modules/time_series/</loc>
   </url>
   
   <url>
@@ -68,16 +63,7 @@
   </url>
   
   <url>
-    <loc>http://rpi-data.analyticsdojo.com/modules/test/</loc>
-  </url>
-  
-  <url>
     <loc>http://rpi-data.analyticsdojo.com/faq/</loc>
-  </url>
-  
-  <url>
-    <loc>http://rpi-data.analyticsdojo.com/modules/new/</loc>
-    <lastmod>2017-02-20T15:26:23-06:00</lastmod>
   </url>
   
   <url>
@@ -107,32 +93,7 @@
   </url>
   
   <url>
-    <loc>http://rpi-data.analyticsdojo.com/tags/four/</loc>
-    <lastmod>2017-02-20T15:26:23-06:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://rpi-data.analyticsdojo.com/categories/one/</loc>
-    <lastmod>2017-02-20T15:26:23-06:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>http://rpi-data.analyticsdojo.com/tags/</loc>
-    <lastmod>2017-02-20T15:26:23-06:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://rpi-data.analyticsdojo.com/tags/three/</loc>
-    <lastmod>2017-02-20T15:26:23-06:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://rpi-data.analyticsdojo.com/tags/two/</loc>
-    <lastmod>2017-02-20T15:26:23-06:00</lastmod>
     <priority>0</priority>
   </url>
   

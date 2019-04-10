@@ -1,5 +1,5 @@
 +++
-title = "Example Notebooks"
+title = "Notebooks"
 description = ""
 weight = 1
 alwaysopen = true

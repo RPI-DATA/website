@@ -17,8 +17,8 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://rpi-data.analyticsdojo.com/modules/linearregression/</guid>
-      <description>linearregression
-  /*! * * Twitter Bootstrap * */ /*! * Bootstrap v3.3.7 (http://getbootstrap.com) * Copyright 2011-2016 Twitter, Inc. * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE) */ /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */ html { font-family: sans-serif; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; } body { margin: 0; } article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary { display: block; } audio, canvas, progress, video { display: inline-block; vertical-align: baseline; } audio:not([controls]) { display: none; height: 0; } [hidden], template { display: none; } a { background-color: transparent; } a:active, a:hover { outline: 0; } abbr[title] { border-bottom: 1px dotted; } b, strong { font-weight: bold; } dfn { font-style: italic; } h1 { font-size: 2em; margin: 0.</description>
+      <description>This project will work on how to predict the prices of homes based on the properties of the house. I will determine which house affected the final sale price and how effectively we can predict the sale price.Here&#39;s a brief description of the columns in the data:
+   Learning Objectives&amp;#182;By the end of this notebook, the reader should be able to perform Linear Regression techniques in python.</description>
     </item>
     
     <item>
@@ -48,22 +48,15 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://rpi-data.analyticsdojo.com/modules/pca/</guid>
-      <description>PCA_Introduction
-  /*! * * Twitter Bootstrap * */ /*! * Bootstrap v3.3.7 (http://getbootstrap.com) * Copyright 2011-2016 Twitter, Inc. * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE) */ /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */ html { font-family: sans-serif; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; } body { margin: 0; } article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary { display: block; } audio, canvas, progress, video { display: inline-block; vertical-align: baseline; } audio:not([controls]) { display: none; height: 0; } [hidden], template { display: none; } a { background-color: transparent; } a:active, a:hover { outline: 0; } abbr[title] { border-bottom: 1px dotted; } b, strong { font-weight: bold; } dfn { font-style: italic; } h1 { font-size: 2em; margin: 0.</description>
+      <description>&amp;lt; 
+   Sections:&amp;#182; PCA (Principal Component Analysis)) Origin Learning Objective PCA  Eigenvectors Running PCA Homework 
+   Origin&amp;#182; This notebook was adapted from amueller&amp;rsquo;s notebook, &amp;ldquo;1 - PCA&amp;rdquo;. Here is the link to his repository https://github.com/amueller/tutorial_ml_gkbionics.git .
+This notebook provides examples for eigenvalues and eigenvectors in LaTeX and python.
+   Learning Objective&amp;#182;  How the Principal Componenet Analysis (PCA) works. How PCA can be used to do dimensionality reduction.</description>
     </item>
     
     <item>
       <title>Time Series Analysis</title>
-      <link>http://rpi-data.analyticsdojo.com/modules/time_series/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://rpi-data.analyticsdojo.com/modules/time_series/</guid>
-      <description>Forecasting the Rossmann Store Sales
-  /*! * * Twitter Bootstrap * */ /*! * Bootstrap v3.3.7 (http://getbootstrap.com) * Copyright 2011-2016 Twitter, Inc. * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE) */ /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */ html { font-family: sans-serif; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; } body { margin: 0; } article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary { display: block; } audio, canvas, progress, video { display: inline-block; vertical-align: baseline; } audio:not([controls]) { display: none; height: 0; } [hidden], template { display: none; } a { background-color: transparent; } a:active, a:hover { outline: 0; } abbr[title] { border-bottom: 1px dotted; } b, strong { font-weight: bold; } dfn { font-style: italic; } h1 { font-size: 2em; margin: 0.</description>
-    </item>
-    
-    <item>
-      <title>Time Series Basic</title>
       <link>http://rpi-data.analyticsdojo.com/modules/time_series_basic/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -157,25 +150,6 @@ Git  Pro Git  PYTHON  Introduction to Machine Learning with Python Data Science 
       <description>Data literacy is a foundational component of a modern technical and scientific education. Critical to creating data literate graduates.
 For the Data 8 class, the University of California at Berkley has developed an open curriculum and extensive teaching infrastructure (online textbook, auto-grader, Jupyter-based cloud computing infrastructure for data science) created the worlds largest data science class.
 This proposal suggests creating an instance of the Data 8 class @ Rensselaer. All materials for the Data 8 course have been released under a compatible Creative Commons license.</description>
-    </item>
-    
-    <item>
-      <title>Regressi</title>
-      <link>http://rpi-data.analyticsdojo.com/modules/test/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://rpi-data.analyticsdojo.com/modules/test/</guid>
-      <description>Github Organization:
-   github </description>
-    </item>
-    
-    <item>
-      <title>My First Post</title>
-      <link>http://rpi-data.analyticsdojo.com/modules/new/</link>
-      <pubDate>Mon, 20 Feb 2017 15:26:23 -0600</pubDate>
-      
-      <guid>http://rpi-data.analyticsdojo.com/modules/new/</guid>
-      <description>Github Organization:  go to google  </description>
     </item>
     
     <item>

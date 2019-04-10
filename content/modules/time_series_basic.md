@@ -1,5 +1,5 @@
 ---
-title: "Time Series Basic"
+title: "Time Series Analysis"
 weight: 4
 ---
 
