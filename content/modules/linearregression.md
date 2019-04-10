@@ -1,6 +1,6 @@
 ---
 title: "Linear Regression"
-weight: 1
+weight: 2
 ---
 
 

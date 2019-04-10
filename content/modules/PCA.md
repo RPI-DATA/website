@@ -1,6 +1,6 @@
 ---
 title: "Principle Component Analysis"
-weight: 2
+weight: 3
 ---
 
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">

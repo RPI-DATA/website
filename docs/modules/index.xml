@@ -11,6 +11,17 @@
     
     
     <item>
+      <title>PyTorch</title>
+      <link>http://rpi-data.analyticsdojo.com/modules/pytorch/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://rpi-data.analyticsdojo.com/modules/pytorch/</guid>
+      <description>Pytorch with the MNIST Dataset - MINST rpi.analyticsdojo.com
+   From Kaggle: &#34;MNIST (&#34;Modified National Institute of Standards and Technology&#34;) is the de facto “hello world” dataset of computer vision. Since its release in 1999, this classic dataset of handwritten images has served as the basis for benchmarking classification algorithms. As new machine learning techniques emerge, MNIST remains a reliable resource for researchers and learners alike.&#34;
+Read more.</description>
+    </item>
+    
+    <item>
       <title>Linear Regression</title>
       <link>http://rpi-data.analyticsdojo.com/modules/linearregression/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>

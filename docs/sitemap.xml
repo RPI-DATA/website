@@ -3,11 +3,15 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://rpi-data.analyticsdojo.com/modules/linearregression/</loc>
+    <loc>http://rpi-data.analyticsdojo.com/modules/</loc>
   </url>
   
   <url>
-    <loc>http://rpi-data.analyticsdojo.com/modules/</loc>
+    <loc>http://rpi-data.analyticsdojo.com/modules/pytorch/</loc>
+  </url>
+  
+  <url>
+    <loc>http://rpi-data.analyticsdojo.com/modules/linearregression/</loc>
   </url>
   
   <url>
