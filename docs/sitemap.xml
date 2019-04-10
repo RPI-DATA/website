@@ -11,19 +11,11 @@
   </url>
   
   <url>
-    <loc>http://rpi-data.analyticsdojo.com/technology/git/</loc>
-  </url>
-  
-  <url>
     <loc>http://rpi-data.analyticsdojo.com/resources/classes/</loc>
   </url>
   
   <url>
     <loc>http://rpi-data.analyticsdojo.com/modules/pca/</loc>
-  </url>
-  
-  <url>
-    <loc>http://rpi-data.analyticsdojo.com/technology/</loc>
   </url>
   
   <url>
@@ -39,15 +31,15 @@
   </url>
   
   <url>
+    <loc>http://rpi-data.analyticsdojo.com/tech/</loc>
+  </url>
+  
+  <url>
     <loc>http://rpi-data.analyticsdojo.com/resources/git/</loc>
   </url>
   
   <url>
     <loc>http://rpi-data.analyticsdojo.com/resources/python/</loc>
-  </url>
-  
-  <url>
-    <loc>http://rpi-data.analyticsdojo.com/technology/anaconda/</loc>
   </url>
   
   <url>

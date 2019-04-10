@@ -22,18 +22,6 @@
     </item>
     
     <item>
-      <title>Git/GitHub</title>
-      <link>http://rpi-data.analyticsdojo.com/technology/git/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://rpi-data.analyticsdojo.com/technology/git/</guid>
-      <description>Git and Github Git is a version control system use to track changes to code, and when combined with Github it is an extremely powerful way to collaborate.
-(1) Install the git command line tool. There are a lot of options but you should be able to just utilize the defaults.
-(2) Create an account on github.com.
-(3) Install Github desktop if using OSX or Windows. Click here for download instructions for Github Desktop.</description>
-    </item>
-    
-    <item>
       <title>Online Classes</title>
       <link>http://rpi-data.analyticsdojo.com/resources/classes/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -75,6 +63,16 @@ This notebook provides examples for eigenvalues and eigenvectors in LaTeX and py
     </item>
     
     <item>
+      <title>Technology</title>
+      <link>http://rpi-data.analyticsdojo.com/tech/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://rpi-data.analyticsdojo.com/tech/</guid>
+      <description>Often technical issues around computer configuration can be frustrating, but they are an important component of doing data science. You will need a number of different systems setup on your computer for this class.
+We will be testing this semester a online JupyterHub instance that should simplify a lot of the setup. However this is still in an alpha release and it would be good to get an alternate compute environment setup on your laptop.</description>
+    </item>
+    
+    <item>
       <title>Git</title>
       <link>http://rpi-data.analyticsdojo.com/resources/git/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -103,18 +101,6 @@ Python: Conda
  Python Docs Tutorial
  Plotting:
  matplotlib.pyplot tutorial: This short tutorial provides an overview of the basic plotting utilities we will be using.</description>
-    </item>
-    
-    <item>
-      <title>Anaconda</title>
-      <link>http://rpi-data.analyticsdojo.com/technology/anaconda/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://rpi-data.analyticsdojo.com/technology/anaconda/</guid>
-      <description>Step 2: Install and Configure Anaconda We will be using Anaconda to provide a Jupyter environment for both R and Python.
-Follow the following instructions to install Anaconda from Continuum Analytics. OSX Windows Linux
-Once you have the Anaconda Distribution, follow below for advanced configuration.
-OSX  Follow the online instructions to install the Anaconda Distribution with Python 3.6 Follow below for advanced configuration.  Windows Windows may often have issues associated with installation if you have had previous versions of Anaconda installed.</description>
     </item>
     
     <item>
