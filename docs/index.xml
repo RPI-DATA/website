@@ -142,17 +142,6 @@ Git  Pro Git  PYTHON  Introduction to Machine Learning with Python Data Science 
     </item>
     
     <item>
-      <title>Data 8 @ Rensselaer</title>
-      <link>http://rpi-data.analyticsdojo.com/projects/data8/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://rpi-data.analyticsdojo.com/projects/data8/</guid>
-      <description>Data literacy is a foundational component of a modern technical and scientific education. Critical to creating data literate graduates.
-For the Data 8 class, the University of California at Berkley has developed an open curriculum and extensive teaching infrastructure (online textbook, auto-grader, Jupyter-based cloud computing infrastructure for data science) created the worlds largest data science class.
-This proposal suggests creating an instance of the Data 8 class @ Rensselaer. All materials for the Data 8 course have been released under a compatible Creative Commons license.</description>
-    </item>
-    
-    <item>
       <title></title>
       <link>http://rpi-data.analyticsdojo.com/_footer/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -168,18 +157,6 @@ This proposal suggests creating an instance of the Data 8 class @ Rensselaer. Al
       
       <guid>http://rpi-data.analyticsdojo.com/_header/</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>http://rpi-data.analyticsdojo.com/projects/self-driving-rc/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://rpi-data.analyticsdojo.com/projects/self-driving-rc/</guid>
-      <description>Autonomous RC Racing @Rensselaer&amp;rdquo; description = &amp;ldquo;&amp;rdquo; weight = 20 +++
-Data literacy is a foundational component of a modern technical and scientific education. Critical to creating data literate graduates.
-For the Data 8 class, the University of California at Berkley has developed an open [curriculum]() and extensive teaching infrastructure (online textbook, auto-grader, Jupyter-based cloud computing infrastructure for data science) created the worlds largest data science class.
-This proposal suggests creating an instance of the Data 8 class @ Rensselaer.</description>
     </item>
     
   </channel>

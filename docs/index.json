@@ -98,25 +98,11 @@
 	"content": " O\u0026rsquo;Reilly Media titles can be accessed through the RPI library subscription. If there is a specific title you would like access to that isn\u0026rsquo;t listed, the library can adjust the list.\nData Science \u0026amp; Business Data Science for Business \nDoing Data Science\nGit  Pro Git  PYTHON  Introduction to Machine Learning with Python Data Science Handbook Data Science from Scratch  R  Introduction to Statistical Learning (Free online PDF) R for Data Science (available online)\n Introduction to Machine Learning with Python by Andreas C. Müller; Sarah Guido (Available through library)\n Think Stats Probability and Statistics for Programmers in Python (free download)\n  Deep Learning  Hands-On Machine Learning with Scikit-Learn and TensorFlow by Aurélien Géron  Big Data  Mining Massive Datasets  "
 },
 {
-	"uri": "http://rpi-data.analyticsdojo.com/projects/data8/",
-	"title": "Data 8 @ Rensselaer",
-	"tags": [],
-	"description": "",
-	"content": "Data literacy is a foundational component of a modern technical and scientific education. Critical to creating data literate graduates.\nFor the Data 8 class, the University of California at Berkley has developed an open curriculum and extensive teaching infrastructure (online textbook, auto-grader, Jupyter-based cloud computing infrastructure for data science) created the worlds largest data science class.\nThis proposal suggests creating an instance of the Data 8 class @ Rensselaer. All materials for the Data 8 course have been released under a compatible Creative Commons license.\nThis course integrates programming, statistics, and analysis in a single course using the Python programming language.\nSharing of highly developed classes from one university to another has had a positive impact in other cases. For example, CS50 @ Yale-companion course to Harvard\u0026rsquo;s popular introductory CS course-was the most popular course at Yale last year.\nBringing a well developed curriculum regarding data science to campus would provide an extremely well documented platform on which to build additional bridge course, which could follow the Connector Courses model but be aligned with the Unique offerings of Rensselaer.\nFollowing the marketing of the course at Berkley, Data 8 @ Rensselaer would be cross-listed as an introductory course across a variety of disciplines, potentially including ITWS, MATH, MGMT, ISYE, and any other areas that would see value.\n"
-},
-{
 	"uri": "http://rpi-data.analyticsdojo.com/faq/",
 	"title": "FAQ",
 	"tags": [],
 	"description": "",
 	"content": " Frequently Asked Question:  What is the Data@Rensselaer ?  Data@Rensselaer is an open resource for all rpi members to use. We are trying to use data since to create a new way for people to coordinate learning.\n Is their any requirement for people to use Data@Rensselaer ?  Every one can use our notebook to get a general learning experience. Most of our notebooks are written in python. People with coding experience can take full advantage of our notebooks and the code behind. Also, we do have the prerequsite for some of the notebook.\n What kind of topic will be presented ?  We will go through the topics in engineering and science such as linear regression.\n Do we have to download the software(Anaconda/ jupyter notebook) to use the notebook ?  You don\u0026rsquo;t need to download any software to use our resource. You can go through all the notebook by our website or collab. For people who want to modify our notebook or use the extra assignment notebook for learning, downloading the jupyter notebook is required.\n How can i use those notebooks ?  People can use those notebook for learning and teaching. We do allow people modify our notebooks under certain license.\n Can i be a contributor for Data@Rensselaer ? \u0026hellip;  "
-},
-{
-	"uri": "http://rpi-data.analyticsdojo.com/projects/",
-	"title": "Projects",
-	"tags": [],
-	"description": "",
-	"content": " Technology Fundamentals for Business Analytics IMPORTANT INFORMATION:  When: Tuesday/Friday 10:00 AM - 11:30AM Where: PITTS 5216  The Schedule for the course.\nThe Course Materials, including all data and jupyter notebooks.\nThe LMS will be used for submissions of projects.\nGithub will be used for programming assignment collection. See assignments for more detailed procedures.\nSlack will be the primary method of communication. Please download the Slack App for your mobile and desktop.\nThis Dropbox Share will include all presentations.\n"
 },
 {
 	"uri": "http://rpi-data.analyticsdojo.com/",
@@ -138,13 +124,6 @@
 	"tags": [],
 	"description": "",
 	"content": ""
-},
-{
-	"uri": "http://rpi-data.analyticsdojo.com/projects/self-driving-rc/",
-	"title": "",
-	"tags": [],
-	"description": "",
-	"content": " Autonomous RC Racing @Rensselaer\u0026rdquo; description = \u0026ldquo;\u0026rdquo; weight = 20 +++\nData literacy is a foundational component of a modern technical and scientific education. Critical to creating data literate graduates.\nFor the Data 8 class, the University of California at Berkley has developed an open [curriculum]() and extensive teaching infrastructure (online textbook, auto-grader, Jupyter-based cloud computing infrastructure for data science) created the worlds largest data science class.\nThis proposal suggests creating an instance of the Data 8 class @ Rensselaer. All materials for the Data 8 course have been released under a compatible Creative Commons license.\nThis course integrates programming, statistics, and analysis in a single course using the Python programming language.\nSharing of highly developed classes from one university to another has had a positive impact in other cases. For example, CS50 @ Yale-companion course to Harvard\u0026rsquo;s popular introductory CS course-was the most popular course at Yale last year.\nBringing a well developed curriculum regarding data science to campus would provide an extremely well documented platform on which to build additional bridge course, which could follow the Connector Courses model but be aligned with the Unique offerings of Rensselaer.\nFollowing the marketing of the course at Berkley, Data 8 @ Rensselaer would be cross-listed as an introductory course across a variety of disciplines, potentially including ITWS, MATH, MGMT, ISYE, and any other areas that would see value.\n"
 },
 {
 	"uri": "http://rpi-data.analyticsdojo.com/categories/",
