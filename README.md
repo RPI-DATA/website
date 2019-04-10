@@ -1,5 +1,5 @@
 # Data@Rensselaer Website
-<img src="static/images/data-rpi_logo.jpg" alt="Data@Rensselaer" style="width:50%;height:50%;">
+<img src="static/images/data-rpi_logo.jpg" alt="Data@Rensselaer" width="650px;" height="400px">
 
 URL: https://rpi-data.analyticsdojo.com/
 
