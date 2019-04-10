@@ -5,7 +5,7 @@
     
       <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-<meta name="revised" content="2019-04-10T18:56:50 EDT">
+<meta name="revised" content="2019-04-10T18:59:42 EDT">
 <title>Principle Component Analysis :: Data@Rensselaer</title>
 <link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon" />
 <link href="/css/font-awesome.min.css" rel="stylesheet">
@@ -155,14 +155,13 @@
     
     
     
-    <p>&lt;
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+    <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p><a href="https://colab.research.google.com/drive/17QgRGFzHOMMOVTfnoK96Q8FeNCxcguc_" target="_blank"> <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open in Colab"> </a></p>
-<p><img src="https://raw.githubusercontent.com/RPI-DATA/website/master/static/images/rpilogo.png" alt="RPI LOGO"></p></p>
+<p><img src="https://raw.githubusercontent.com/RPI-DATA/website/master/static/images/rpilogo.png" alt="RPI LOGO"></p>
 
-<p></div>
+</div>
 </div>
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
@@ -176,19 +175,19 @@
 <li><a href="#Eigenvectors">Eigenvectors</a></li>
 <li><a href="#Running-PCA">Running PCA</a></li>
 <li><a href="#Homework">Homework</a></li>
-</ul></p>
+</ul>
 
-<p></div>
+</div>
 </div>
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h2 id="Origin">Origin<a class="anchor-link" href="#Origin">&#182;</a></h2><hr>
-<p>This notebook was adapted from amueller&rsquo;s notebook, &ldquo;<em>1 - PCA</em>&rdquo;. Here is the link to his repository <a href="https://github.com/amueller/tutorial_ml_gkbionics.git">https://github.com/amueller/tutorial_ml_gkbionics.git</a> .</p>
-<p>This notebook provides examples for eigenvalues and eigenvectors in LaTeX and python.</p></p>
+<p>This notebook was adapted from amueller's notebook, "<em>1 - PCA</em>". Here is the link to his repository <a href="https://github.com/amueller/tutorial_ml_gkbionics.git">https://github.com/amueller/tutorial_ml_gkbionics.git</a> .</p>
+<p>This notebook provides examples for eigenvalues and eigenvectors in LaTeX and python.</p>
 
-<p></div>
+</div>
 </div>
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
@@ -199,27 +198,27 @@
 <li>How the Principal Componenet Analysis (PCA) works.</li>
 <li>How PCA can be used to do dimensionality reduction.</li>
 <li>Understand how PCA deals with the covariance matrix by applying eigenvectors. </li>
-</ol></p>
+</ol>
 
-<p></div>
+</div>
 </div>
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h1 id="PCA">PCA<a class="anchor-link" href="#PCA">&#182;</a></h1><hr>
-<p>PCA can always be used to simplify the data with high dimensions (larger than 2) into 2-dimensional data by eliminating the least influntial features on the data. However, we should know the elimination of data makes the independent variable less interpretable. Before we start to deal with the PCA, we need to first learn how PCA utilizes eigenvectors to gain a diagonalization covariance matrix.</p></p>
+<p>PCA can always be used to simplify the data with high dimensions (larger than 2) into 2-dimensional data by eliminating the least influntial features on the data. However, we should know the elimination of data makes the independent variable less interpretable. Before we start to deal with the PCA, we need to first learn how PCA utilizes eigenvectors to gain a diagonalization covariance matrix.</p>
 
-<p></div>
+</div>
 </div>
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h1 id="Eigenvectors">Eigenvectors<a class="anchor-link" href="#Eigenvectors">&#182;</a></h1><hr>
-<p>Eigenvectors and eigenvalues are the main tools used by PCA to obtain a diagnolization covariance matrix. The eigenvector is a vector whos direction will not be affected by the linear transformation, hence eigenvectors represents the direction of largest variance of data while the eigenvalue decides the magnitude of this variance in those directions.</p></p>
+<p>Eigenvectors and eigenvalues are the main tools used by PCA to obtain a diagnolization covariance matrix. The eigenvector is a vector whos direction will not be affected by the linear transformation, hence eigenvectors represents the direction of largest variance of data while the eigenvalue decides the magnitude of this variance in those directions.</p>
 
-<p></div>
+</div>
 </div>
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
@@ -228,12 +227,12 @@
 <p>Here we using a simple (2x2) matrix $A$ to explain it.
 $$
 A = \begin{bmatrix}
-1 &amp; 4 <br />
-3 &amp; 2
+1 &amp; 4 \\
+3 &amp; 2 
 \end{bmatrix}
-$$</p></p>
+$$</p>
 
-<p></div>
+</div>
 </div>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
@@ -246,7 +245,7 @@ $$</p></p>
 <span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
 <span class="kn">import</span> <span class="nn">numpy.linalg</span> <span class="k">as</span> <span class="nn">lg</span>
 <span class="n">A</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">matrix</span><span class="p">([[</span><span class="mi">1</span><span class="p">,</span><span class="mi">4</span><span class="p">],[</span><span class="mi">3</span><span class="p">,</span><span class="mi">2</span><span class="p">]])</span>
-</pre></div></p>
+</pre></div>
 
 <p></div>
 </div>

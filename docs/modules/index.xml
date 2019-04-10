@@ -26,9 +26,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://rpi-data.analyticsdojo.com/modules/pca/</guid>
-      <description>&amp;lt; 
-   Sections:&amp;#182; PCA (Principal Component Analysis)) Origin Learning Objective PCA  Eigenvectors Running PCA Homework 
-   Origin&amp;#182; This notebook was adapted from amueller&amp;rsquo;s notebook, &amp;ldquo;1 - PCA&amp;rdquo;. Here is the link to his repository https://github.com/amueller/tutorial_ml_gkbionics.git .
+      <description>Sections:&amp;#182; PCA (Principal Component Analysis)) Origin Learning Objective PCA  Eigenvectors Running PCA Homework     Origin&amp;#182; This notebook was adapted from amueller&#39;s notebook, &#34;1 - PCA&#34;. Here is the link to his repository https://github.com/amueller/tutorial_ml_gkbionics.git .
 This notebook provides examples for eigenvalues and eigenvectors in LaTeX and python.
    Learning Objective&amp;#182;  How the Principal Componenet Analysis (PCA) works. How PCA can be used to do dimensionality reduction.</description>
     </item>
