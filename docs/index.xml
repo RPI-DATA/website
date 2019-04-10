@@ -63,16 +63,6 @@ This notebook provides examples for eigenvalues and eigenvectors in LaTeX and py
     </item>
     
     <item>
-      <title>Technology</title>
-      <link>http://rpi-data.analyticsdojo.com/tech/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://rpi-data.analyticsdojo.com/tech/</guid>
-      <description>Often technical issues around computer configuration can be frustrating, but they are an important component of doing data science. You will need a number of different systems setup on your computer for this class.
-We will be testing this semester a online JupyterHub instance that should simplify a lot of the setup. However this is still in an alpha release and it would be good to get an alternate compute environment setup on your laptop.</description>
-    </item>
-    
-    <item>
       <title>Git</title>
       <link>http://rpi-data.analyticsdojo.com/resources/git/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
