@@ -1,5 +1,5 @@
 # Data@Rensselaer Website
-<img src="static/images/data-rpi_logo.jpg" alt="Data@Rensselaer" width="650px;" height="400px">
+<img src="static/images/data-rpi_logo.jpg" alt="Data@Rensselaer" width="75%">
 
 URL: https://rpi-data.analyticsdojo.com/
 
@@ -27,7 +27,7 @@ weight: INTVALUE
 
 The weight corresponds with what order the notebooks appear on the menu.
 
-Below the header, copy and paste the html code you generated. Please have a live Colab links on your notebooks.
+Below the header, copy and paste the html code you generated. Please have live Colab links on your notebooks.
 
 ## Commiting Changes
 
