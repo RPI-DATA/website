@@ -9,6 +9,7 @@ pygmentsCodeFences = false
 pygmentsStyle = "monokailight"
 noSearch = false # default is false
 showVisitedLinks = false # default is false
+menushortcutsnewtab = true
 # themeStyle = "theme" # overide base css
 #themeVariant = "gray" # choose theme variant "green", "gold" , "gray", "blue" (default)
 #ordersectionsby = "weight" # ordersectionsby = "title"
@@ -24,8 +25,8 @@ url = "https://github.com/rpi-data/"
 weight = 10
 
 [[menu.shortcuts]]
-name = "<i class='fa fa-cloud-download'></i> <label>JupyterHub</label>"
-url = "https://lab.analyticsdojo.com"
+name = "<i class='fa fa-cloud-download'></i> <label>Colab</label>"
+url = "https://colab.research.google.com/"
 weight = 11
 
 [[menu.shortcuts]]
