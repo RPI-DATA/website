@@ -53,7 +53,7 @@
 	"title": "DATA@RENSSELAER",
 	"tags": [],
 	"description": "Technology and Infrastructure for Teaching Data &amp; Computation Courses",
-	"content": "Welcome to DATA@RENSSELAR, a platform for enabling data science across the curriculum.\nWe are an open source project that helps analytics programs to both create a community and deliver the highest quality education experience in the rapidly changing world of analytics and data science.\nCurrently the learning stack associated with these courses includes:\n Jupyter GitHub Classroom Slack [coming soon] autograding  Our idea is by adopting a common technology stack across different classes, we will be better able to coordinate learning.\nContact Us:\nEmail lewisd2@rpi.edu and kuruzj@rpi.edu\n"
+	"content": "    Welcome to DATA@RENSSELAR, a platform for enabling data science across the curriculum.\nWe are an open source project that helps analytics programs to both create a community and deliver the highest quality education experience in the rapidly changing world of analytics and data science.\n   Learning Stack\u0026#182;Currently the learning stack associated with these courses includes:\n Jupyter GitHub Classroom Slack [coming soon] autograding     Our idea is by adopting a common technology stack across different classes, we will be better able to coordinate learning.\n   Contact Us\u0026#182;Email lewisd2@rpi.edu and kuruzj@rpi.edu\n   \n   "
 },
 {
 	"uri": "http://rpi-data.analyticsdojo.com/_footer/",
