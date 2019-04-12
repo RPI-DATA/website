@@ -9,7 +9,7 @@ pygmentsCodeFences = false
 pygmentsStyle = "monokailight"
 noSearch = false # default is false
 showVisitedLinks = false # default is false
-menushortcutsnewtab = true
+menushortcutsnewtab = true # Opens links in new tabs
 # themeStyle = "theme" # overide base css
 #themeVariant = "gray" # choose theme variant "green", "gold" , "gray", "blue" (default)
 #ordersectionsby = "weight" # ordersectionsby = "title"
