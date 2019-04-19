@@ -17,6 +17,11 @@ github_org="rpi-data"
 [outputs]
 home = [ "HTML", "RSS", "JSON"]
 
+[params.widgets]
+    search = true
+    categories = true
+    tags = true
+	
 [[menu.shortcuts]]
 pre = "<h3>More</h3>"
 name = "<i class='fa fa-github'></i> <label>Github</label>"
