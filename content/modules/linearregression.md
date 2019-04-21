@@ -4,10 +4,11 @@ weight: 2
 ---
 
 
+
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p><a href="https://colab.research.google.com/drive/1s3-OohP5G6UAg4dmOmBJwuhN8V6ymKNh" target="_blank"> <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open in Colab"> </a></p>
+<p><a href="https://colab.research.google.com/github/RPI-DATA/tutorials-intro/blob/master/website/linearregression.ipynb" target="_blank"> <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open in Colab"> </a></p>
 <p><img src="https://raw.githubusercontent.com/RPI-DATA/website/master/static/images/rpilogo.png" alt="RPI LOGO"></p>
 
 </div>
@@ -1155,7 +1156,7 @@ dtype: int64
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p><a href="https://colab.research.google.com/drive/1s3-OohP5G6UAg4dmOmBJwuhN8V6ymKNh" target="_blank"> <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open in Colab"> </a></p>
+<p><a href="https://colab.research.google.com/github/RPI-DATA/tutorials-intro/blob/master/website/linearregression.ipynb" target="_blank"> <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open in Colab"> </a></p>
 
 </div>
 </div>

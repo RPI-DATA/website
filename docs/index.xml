@@ -49,7 +49,7 @@ This notebook provides examples for eigenvalues and eigenvectors in LaTeX and py
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://rpi-data.analyticsdojo.com/modules/time_series_basic/</guid>
-      <description>Time Series Analysis            A time series is a series of data points indexed (or listed or graphed) in time order. Time series analysis pertains to methods extracting meaningful statistics from time series data. This is commonly used for forecasting and other models.
+      <description>Time Series Analysis         Time Series Analysis&amp;#182; A time series is a series of data points indexed (or listed or graphed) in time order. Time series analysis pertains to methods extracting meaningful statistics from time series data. This is commonly used for forecasting and other models.
    Learning Objectives&amp;#182;  Understand the uses of Time Series Analysis Understand the pros and cons of various TSA methods, including differentiating between linear and non-linear methods.</description>
     </item>
     

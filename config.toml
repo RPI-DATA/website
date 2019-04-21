@@ -30,7 +30,7 @@ url = "https://github.com/rpi-data/"
 weight = 10
 
 [[menu.shortcuts]]
-name = "<i class='fa fa-cloud-download'></i> <label>Colab</label>"
+name = "<i class='fa fa-google'></i> <label>Colab</label>"
 url = "https://colab.research.google.com/"
 weight = 11
 

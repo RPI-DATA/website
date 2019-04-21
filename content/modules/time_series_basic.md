@@ -3,10 +3,9 @@ title: "Time Series Analysis"
 weight: 4
 ---
 
-<div>
+
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
+</div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <head>
     <title>Time Series Analysis</title>
@@ -17,19 +16,16 @@ weight: 4
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>
-	<a href="https://colab.research.google.com/drive/1CxcMY06maKEcCwUtWwVUCFhP3FTtykCf" target="_blank"><img src=https://colab.research.google.com/assets/colab-badge.svg alt="Open in Colab"></a>
-	<img src="https://raw.githubusercontent.com/RPI-DATA/website/master/static/images/rpilogo.png" class="resize" alt="RPI LOGO">
-</p>
+<p><a href="https://colab.research.google.com/github/RPI-DATA/tutorials-intro/blob/master/website/Forecasting%20the%20Rossmann%20Store%20Sales.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"></a>
+<img src="https://raw.githubusercontent.com/RPI-DATA/website/master/static/images/rpilogo.png" alt="RPI LOGO"></p>
 
 </div>
 </div>
 </div>
-<div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<hr>
+<h1 id="Time-Series-Analysis">Time Series Analysis<a class="anchor-link" href="#Time-Series-Analysis">&#182;</a></h1><hr>
 <p>A <strong><em>time series</em></strong> is a series of data points indexed (or listed or graphed) in time order. Time series analysis pertains to methods extracting meaningful statistics from time series data. This is commonly used for forecasting and other models.</p>
 
 </div>
@@ -76,6 +72,7 @@ weight: 4
 <p>We will use the rossman store sales database for this notebook. Following is the description of Data from the website:</p>
 <p>"Rossmann operates over 3,000 drug stores in 7 European countries. Currently, Rossmann store managers are tasked with predicting their daily sales for up to six weeks in advance. Store sales are influenced by many factors, including promotions, competition, school and state holidays, seasonality, and locality. With thousands of individual managers predicting sales based on their unique circumstances, the accuracy of results can be quite varied."</p>
 
+</div>
 </div>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
@@ -2128,7 +2125,7 @@ Name: ds, dtype: datetime64[ns]</pre>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p><a href="https://colab.research.google.com/drive/1CxcMY06maKEcCwUtWwVUCFhP3FTtykCf" target="_blank"><img src=https://colab.research.google.com/assets/colab-badge.svg alt="Open in Colab"></a></p>
+<p><a href="https://colab.research.google.com/github/RPI-DATA/tutorials-intro/blob/master/website/Forecasting%20the%20Rossmann%20Store%20Sales.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"></a></p>
 
 </div>
 </div>

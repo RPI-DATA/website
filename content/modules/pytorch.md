@@ -4,12 +4,13 @@ weight: 1
 ---
 
 
+
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p><a href="http://rpi.analyticsdojo.com"><img src="https://github.com/rpi-techfundamentals/fall2018-materials/blob/master/fig/final-logo.png?raw=1" alt="AnalyticsDojo"></a></p>
 <center><h1>Pytorch with the MNIST Dataset - MINST</h1></center>
-<center><h3><a href = 'http://rpi.analyticsdojo.com'>rpi.analyticsdojo.com</a></h3></center><p><a href="https://colab.research.google.com/github/rpi-techfundamentals/fall2018-materials/blob/master/10-deep-learning/04-pytorch-mnist.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"></a></p>
+<center><h3><a href = 'http://rpi.analyticsdojo.com'>rpi.analyticsdojo.com</a></h3></center><p><a href="https://colab.research.google.com/github/RPI-DATA/tutorials-intro/blob/master/website/04_pytorch_mnist.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"></a></p>
 
 </div>
 </div>
@@ -412,19 +413,13 @@ Test set: Average loss: 0.2524, Accuracy: 9284/10000 (93%)
 </div>
 
 </div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[0]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span> 
-</pre></div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p><a href="https://colab.research.google.com/github/RPI-DATA/tutorials-intro/blob/master/website/04_pytorch_mnist.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"></a></p>
 
 </div>
 </div>
-</div>
-
 </div>
  
 
-</div>
