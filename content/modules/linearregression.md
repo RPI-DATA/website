@@ -25,7 +25,7 @@ weight: 2
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Learning-Objectives">Learning Objectives<a class="anchor-link" href="#Learning-Objectives">&#182;</a></h2><p>By the end of this notebook, the reader should be able to perform Linear Regression techniques in python. This includes:</p>
+<h2 id="Learning-Objectives">Learning Objectives<a class="anchor-link" href="#Learning-Objectives"></a></h2><p>By the end of this notebook, the reader should be able to perform Linear Regression techniques in python. This includes:</p>
 <ol>
 <li>Importing and formating data</li>
 <li>Training the LinearRegression model from the <code>sklearn.linear_model</code> library</li>
@@ -40,7 +40,7 @@ weight: 2
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Read-Data">Read Data<a class="anchor-link" href="#Read-Data">&#182;</a></h2><p>The <code>pandas</code> library is an open source data analytics tool for python that allows the use of 'data frame' objects and clean file parsing.</p>
+<h2 id="Read-Data">Read Data<a class="anchor-link" href="#Read-Data"></a></h2><p>The <code>pandas</code> library is an open source data analytics tool for python that allows the use of 'data frame' objects and clean file parsing.</p>
 <p>Here we split the Ames housing data into training and testing data. The dataset contains 82 columns which are known as features of the data. Here are a few:</p>
 <ul>
 <li>Lot Area: Lot size in square feet.</li>
@@ -190,7 +190,7 @@ None
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Use-linear-regression-to-model-the-data">Use linear regression to model the data<a class="anchor-link" href="#Use-linear-regression-to-model-the-data">&#182;</a></h2><hr>
+<h2 id="Use-linear-regression-to-model-the-data">Use linear regression to model the data<a class="anchor-link" href="#Use-linear-regression-to-model-the-data"></a></h2><hr>
 <p>In this case, we will use the <strong>simple linear regression</strong> to evaluate the relationship between 2 variable--living area("Gr Liv Area") and price("SalePrice"). <code>linearRegression.fit()</code> is a pretty convinent function that it can turn the input data into the linear function and you dont need to worry about the calculation. We can also use the <code>mean_squared_error</code> to get the total cariance of the linear function.</p>
 
 </div>
@@ -380,7 +380,7 @@ None
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Use-Multiple-Regression-to-model-the-data">Use Multiple Regression to model the data<a class="anchor-link" href="#Use-Multiple-Regression-to-model-the-data">&#182;</a></h2><hr>
+<h2 id="Use-Multiple-Regression-to-model-the-data">Use Multiple Regression to model the data<a class="anchor-link" href="#Use-Multiple-Regression-to-model-the-data"></a></h2><hr>
 <p>In the real world, Multiple Regression is a more useful technique since we need to evaluate more than one correlation in most cases. Now, we will still predict the SalePrice, but with one more variable -- Overall Condition (Overall Cond). In this case the model will be a <strong>Binary Linear Equation</strong> in the form of : 
 $$
 Y = a_0 + coef_{Cond} * (Overall Cond) + coef_{Area} * (Gr Liv Area)
@@ -453,7 +453,7 @@ $$</p>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Handling-data-types-with-missing-values/non-numeric-values">Handling data types with missing values/non-numeric values<a class="anchor-link" href="#Handling-data-types-with-missing-values/non-numeric-values">&#182;</a></h2><p>In the machine learning workflow, once we've selected the model we want to use, selecting the appropriate features for that model is the next important step. In the following code snippets, I will explore how to use correlation between features and the target column, correlation between features, and variance of features to select features.</p>
+<h2 id="Handling-data-types-with-missing-values/non-numeric-values">Handling data types with missing values/non-numeric values<a class="anchor-link" href="#Handling-data-types-with-missing-values/non-numeric-values"></a></h2><p>In the machine learning workflow, once we've selected the model we want to use, selecting the appropriate features for that model is the next important step. In the following code snippets, I will explore how to use correlation between features and the target column, correlation between features, and variance of features to select features.</p>
 <p>I will specifically focus on selecting from feature columns that don't have any missing values or don't need to be transformed to be useful (e.g. columns like Year Built and Year Remod/Add).</p>
 
 </div>
@@ -522,7 +522,7 @@ dtype: int64
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Correlating-feature-columns-with-Target-Columns">Correlating feature columns with Target Columns<a class="anchor-link" href="#Correlating-feature-columns-with-Target-Columns">&#182;</a></h2><hr>
+<h2 id="Correlating-feature-columns-with-Target-Columns">Correlating feature columns with Target Columns<a class="anchor-link" href="#Correlating-feature-columns-with-Target-Columns"></a></h2><hr>
 <p>I will show the the correlation between feature columns and target columns(SalesPrice) by percentage.</p>
 
 </div>
@@ -590,7 +590,7 @@ Name: SalePrice, dtype: float64
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Correlation-Matrix-Heatmap">Correlation Matrix Heatmap<a class="anchor-link" href="#Correlation-Matrix-Heatmap">&#182;</a></h2><p>We now have a decent list of candidate features to use in our model, sorted by how strongly they're correlated with the SalePrice column. For now, I will keep only the features that have a correlation of 0.3 or higher. This cutoff is a bit arbitrary and, in general, it's a good idea to experiment with this cutoff. For example, you can train and test models using the columns selected using different cutoffs and see where your model stops improving.</p>
+<h2 id="Correlation-Matrix-Heatmap">Correlation Matrix Heatmap<a class="anchor-link" href="#Correlation-Matrix-Heatmap"></a></h2><p>We now have a decent list of candidate features to use in our model, sorted by how strongly they're correlated with the SalePrice column. For now, I will keep only the features that have a correlation of 0.3 or higher. This cutoff is a bit arbitrary and, in general, it's a good idea to experiment with this cutoff. For example, you can train and test models using the columns selected using different cutoffs and see where your model stops improving.</p>
 <p>The next thing we need to look for is for potential collinearity between some of these feature columns. Collinearity is when 2 feature columns are highly correlated and stand the risk of duplicating information. If we have 2 features that convey the same information using 2 different measures or metrics, we need to choose just one or predictive accuracy can suffer.</p>
 <p>While we can check for collinearity between 2 columns using the correlation matrix, we run the risk of information overload. We can instead generate a correlation matrix heatmap using Seaborn to visually compare the correlations and look for problematic pairwise feature correlations. Because we're looking for outlier values in the heatmap, this visual representation is easier.</p>
 
@@ -654,7 +654,7 @@ Name: SalePrice, dtype: float64
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Train-and-Test-the-model">Train and Test the model<a class="anchor-link" href="#Train-and-Test-the-model">&#182;</a></h2><p>Based on the correlation matrix heatmap, we can tell that the following pairs of columns are strongly correlated:</p>
+<h2 id="Train-and-Test-the-model">Train and Test the model<a class="anchor-link" href="#Train-and-Test-the-model"></a></h2><p>Based on the correlation matrix heatmap, we can tell that the following pairs of columns are strongly correlated:</p>
 <ul>
 <li>Gr Liv Area and TotRms AbvGrd</li>
 <li>Garage Area and Garage Cars</li>
@@ -717,7 +717,7 @@ Name: SalePrice, dtype: float64
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Removing-low-variance-features">Removing low variance features<a class="anchor-link" href="#Removing-low-variance-features">&#182;</a></h2><p>The last technique I will explore is removing features with low variance. When the values in a feature column have low variance, they don't meaningfully contribute to the model's predictive capability. On the extreme end, let's imagine a column with a variance of 0. This would mean that all of the values in that column were exactly the same. This means that the column isn't informative and isn't going to help the model make better predictions.</p>
+<h2 id="Removing-low-variance-features">Removing low variance features<a class="anchor-link" href="#Removing-low-variance-features"></a></h2><p>The last technique I will explore is removing features with low variance. When the values in a feature column have low variance, they don't meaningfully contribute to the model's predictive capability. On the extreme end, let's imagine a column with a variance of 0. This would mean that all of the values in that column were exactly the same. This means that the column isn't informative and isn't going to help the model make better predictions.</p>
 <p>To make apples to apples comparisions between columns, we need to standardize all of the columns to vary between 0 and 1. Then, we can set a cutoff value for variance and remove features that have less than that variance amount.</p>
 
 </div>
@@ -767,7 +767,7 @@ dtype: float64
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Final-Model">Final Model<a class="anchor-link" href="#Final-Model">&#182;</a></h2><p>Let's set a cutoff variance of 0.015, remove the Open Porch SF feature, and train and test a model using the remaining features.</p>
+<h2 id="Final-Model">Final Model<a class="anchor-link" href="#Final-Model"></a></h2><p>Let's set a cutoff variance of 0.015, remove the Open Porch SF feature, and train and test a model using the remaining features.</p>
 
 </div>
 </div>
@@ -839,7 +839,7 @@ $$</p>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Feature-transformation">Feature transformation<a class="anchor-link" href="#Feature-transformation">&#182;</a></h2><p>To understand how linear regression works, I have stuck to using features from the training dataset that contained no missing values and were already in a convenient numeric representation. In this mission, we'll explore how to transform some of the the remaining features so we can use them in our model. Broadly, the process of processing and creating new features is known as feature engineering.</p>
+<h2 id="Feature-transformation">Feature transformation<a class="anchor-link" href="#Feature-transformation"></a></h2><p>To understand how linear regression works, I have stuck to using features from the training dataset that contained no missing values and were already in a convenient numeric representation. In this mission, we'll explore how to transform some of the the remaining features so we can use them in our model. Broadly, the process of processing and creating new features is known as feature engineering.</p>
 
 </div>
 </div>
@@ -863,7 +863,7 @@ $$</p>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Categorical-Features">Categorical Features<a class="anchor-link" href="#Categorical-Features">&#182;</a></h2><p>You'll notice that some of the columns in the data frame df_no_mv contain string values. To use these features in our model, we need to transform them into numerical representations</p>
+<h2 id="Categorical-Features">Categorical Features<a class="anchor-link" href="#Categorical-Features"></a></h2><p>You'll notice that some of the columns in the data frame df_no_mv contain string values. To use these features in our model, we need to transform them into numerical representations</p>
 
 </div>
 </div>
@@ -967,7 +967,7 @@ dtype: int64</pre>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Dummy-Coding">Dummy Coding<a class="anchor-link" href="#Dummy-Coding">&#182;</a></h2><p>When we convert a column to the categorical data type, pandas assigns a number from 0 to n-1 (where n is the number of unique values in a column) for each value. The drawback with this approach is that one of the assumptions of linear regression is violated here. Linear regression operates under the assumption that the features are linearly correlated with the target column. For a categorical feature, however, there's no actual numerical meaning to the categorical codes that pandas assigned for that colum. An increase in the Utilities column from 1 to 2 has no correlation value with the target column, and the categorical codes are instead used for uniqueness and exclusivity (the category associated with 0 is different than the one associated with 1).</p>
+<h2 id="Dummy-Coding">Dummy Coding<a class="anchor-link" href="#Dummy-Coding"></a></h2><p>When we convert a column to the categorical data type, pandas assigns a number from 0 to n-1 (where n is the number of unique values in a column) for each value. The drawback with this approach is that one of the assumptions of linear regression is violated here. Linear regression operates under the assumption that the features are linearly correlated with the target column. For a categorical feature, however, there's no actual numerical meaning to the categorical codes that pandas assigned for that colum. An increase in the Utilities column from 1 to 2 has no correlation value with the target column, and the categorical codes are instead used for uniqueness and exclusivity (the category associated with 0 is different than the one associated with 1).</p>
 <p>The common solution is to use a technique called dummy coding</p>
 
 </div>
@@ -1006,7 +1006,7 @@ dtype: int64</pre>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Missing-Values">Missing Values<a class="anchor-link" href="#Missing-Values">&#182;</a></h2><p>Now I will focus on handling columns with missing values. When values are missing in a column, there are two main approaches we can take:</p>
+<h2 id="Missing-Values">Missing Values<a class="anchor-link" href="#Missing-Values"></a></h2><p>Now I will focus on handling columns with missing values. When values are missing in a column, there are two main approaches we can take:</p>
 <ul>
 <li>Remove rows containing missing values for specific columns
 Pro: Rows containing missing values are removed, leaving only clean data for modeling
@@ -1097,7 +1097,7 @@ dtype: object
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Inputing-missing-values">Inputing missing values<a class="anchor-link" href="#Inputing-missing-values">&#182;</a></h2><p>It looks like about half of the columns in df_missing_values are string columns (object data type), while about half are float64 columns. For numerical columns with missing values, a common strategy is to compute the mean, median, or mode of each column and replace all missing values in that column with that value</p>
+<h2 id="Inputing-missing-values">Inputing missing values<a class="anchor-link" href="#Inputing-missing-values"></a></h2><p>It looks like about half of the columns in df_missing_values are string columns (object data type), while about half are float64 columns. For numerical columns with missing values, a common strategy is to compute the mean, median, or mode of each column and replace all missing values in that column with that value</p>
 
 </div>
 </div>
@@ -1147,7 +1147,7 @@ dtype: int64
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Conclusion">Conclusion<a class="anchor-link" href="#Conclusion">&#182;</a></h2><hr>
+<h2 id="Conclusion">Conclusion<a class="anchor-link" href="#Conclusion"></a></h2><hr>
 <p>This note book talks about how to do linear regression in machine learning by analysing the real example -- Boston housing data. In this case, to do the linear regression not only means we need to figure out the correlation among all the variable, but also eliminate the variable with either insignificant influence or missing value.</p>
 
 </div>

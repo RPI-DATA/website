@@ -25,7 +25,7 @@ weight: 4
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Time-Series-Analysis">Time Series Analysis<a class="anchor-link" href="#Time-Series-Analysis">&#182;</a></h1><hr>
+<h1 id="Time-Series-Analysis">Time Series Analysis<a class="anchor-link" href="#Time-Series-Analysis"></a></h1><hr>
 <p>A <strong><em>time series</em></strong> is a series of data points indexed (or listed or graphed) in time order. Time series analysis pertains to methods extracting meaningful statistics from time series data. This is commonly used for forecasting and other models.</p>
 
 </div>
@@ -34,7 +34,7 @@ weight: 4
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Learning-Objectives">Learning Objectives<a class="anchor-link" href="#Learning-Objectives">&#182;</a></h1><hr>
+<h1 id="Learning-Objectives">Learning Objectives<a class="anchor-link" href="#Learning-Objectives"></a></h1><hr>
 <ol>
 <li>Understand the uses of Time Series Analysis</li>
 <li>Understand the pros and cons of various TSA methods, including differentiating between linear and non-linear methods.</li>
@@ -47,7 +47,7 @@ weight: 4
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Sections">Sections<a class="anchor-link" href="#Sections">&#182;</a></h1><hr>
+<h1 id="Sections">Sections<a class="anchor-link" href="#Sections"></a></h1><hr>
 <ol>
 <li><a href="#probdes"> Problem Description</a></li>
 <li>Exploratory Data Analysis<ol>
@@ -68,7 +68,7 @@ weight: 4
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p><a id="probdes"></a></p>
-<h1 id="Problem-Description">Problem Description<a class="anchor-link" href="#Problem-Description">&#182;</a></h1><hr>
+<h1 id="Problem-Description">Problem Description<a class="anchor-link" href="#Problem-Description"></a></h1><hr>
 <p>We will use the rossman store sales database for this notebook. Following is the description of Data from the website:</p>
 <p>"Rossmann operates over 3,000 drug stores in 7 European countries. Currently, Rossmann store managers are tasked with predicting their daily sales for up to six weeks in advance. Store sales are influenced by many factors, including promotions, competition, school and state holidays, seasonality, and locality. With thousands of individual managers predicting sales based on their unique circumstances, the accuracy of results can be quite varied."</p>
 
@@ -127,7 +127,7 @@ weight: 4
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p><a id="edat"></a></p>
-<h1 id="Exploratory-Data-Analysis-(Train)">Exploratory Data Analysis (Train)<a class="anchor-link" href="#Exploratory-Data-Analysis-(Train)">&#182;</a></h1><hr>
+<h1 id="Exploratory-Data-Analysis-(Train)">Exploratory Data Analysis (Train)<a class="anchor-link" href="#Exploratory-Data-Analysis-(Train)"></a></h1><hr>
 <p>We start by seeing what our data conists of. We want to see which variables are continuous vs which are categorical. After exploring some of the data, we see that we can create a feature. Number of sales divided by customers could give us a good metric to measure average sales per customer. We can also make an assumption that if we have missing values in this column that we have 0 customers. Since customers drive sales, we elect to remove all of these values.</p>
 <p>Notice the order in which the data is listed. It is ordered from most recent date to oldest date. This may cause a problem when we look to develop our model.</p>
 
@@ -864,7 +864,7 @@ dtype: int64</pre>
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p><a id="edasd"></a></p>
-<h1 id="Exploratory-Data-Analysis-(Store-Data)">Exploratory Data Analysis (Store Data)<a class="anchor-link" href="#Exploratory-Data-Analysis-(Store-Data)">&#182;</a></h1><hr>
+<h1 id="Exploratory-Data-Analysis-(Store-Data)">Exploratory Data Analysis (Store Data)<a class="anchor-link" href="#Exploratory-Data-Analysis-(Store-Data)"></a></h1><hr>
 <p>We do the same as we did for our training set. Exploring the data, we see that there are only 3 missing values in CompetitionDistance. Because this is such a small amount, we elect to replace these with the mean of the column. The other missing values are all dependent on Promo2. Because these missing values are because Promo2 is equal to 0, we can replace these nulls with 0.</p>
 
 </div>
@@ -1273,7 +1273,7 @@ dtype: int64</pre>
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p><a id="mam"></a></p>
-<h1 id="Moving-Average-Model-(Naive-Model)">Moving-Average Model (Naive Model)<a class="anchor-link" href="#Moving-Average-Model-(Naive-Model)">&#182;</a></h1><hr>
+<h1 id="Moving-Average-Model-(Naive-Model)">Moving-Average Model (Naive Model)<a class="anchor-link" href="#Moving-Average-Model-(Naive-Model)"></a></h1><hr>
 <p>We are going to be using a moving average model for the stock prediction of GM for our baseline model. The moving average model will take the average of different "windows" of time to come up with its forecast</p>
 <p>We reload the data because now we have a sense of how we want to maniplate it for our model. After doing the same data manipulation as before, we start to look at the trend of our sales.</p>
 
@@ -1640,7 +1640,7 @@ height=592
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p><a id="fpm"></a></p>
-<h1 id="Facebook-Prophet-Model">Facebook Prophet Model<a class="anchor-link" href="#Facebook-Prophet-Model">&#182;</a></h1><hr>
+<h1 id="Facebook-Prophet-Model">Facebook Prophet Model<a class="anchor-link" href="#Facebook-Prophet-Model"></a></h1><hr>
 <p>The Facebook Prophet package is designed to analyze time series data with daily observations, which can display patterns on different time scales. Prophet is optimized for business tasks with the following characteristics:</p>
 <p>hourly, daily, or weekly observations with at least a few months (preferably a year) of history
 strong multiple “human-scale” seasonalities: day of week and time of year
@@ -2091,7 +2091,7 @@ Name: ds, dtype: datetime64[ns]</pre>
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p><a id="c"></a></p>
-<h1 id="Conclusion">Conclusion<a class="anchor-link" href="#Conclusion">&#182;</a></h1><hr>
+<h1 id="Conclusion">Conclusion<a class="anchor-link" href="#Conclusion"></a></h1><hr>
 <p>In this notebook, we made 2 different math model for the rossmann store sales dataset to forecast the future sales. Moving-average model brings us a basic understand of how the math model works, while facebook prophet model calculates the best solid result. Those math model will give us both of the rolling average and test model.</p>
 
 </div>
@@ -2101,7 +2101,7 @@ Name: ds, dtype: datetime64[ns]</pre>
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p><a id="r"></a></p>
-<h1 id="References">References<a class="anchor-link" href="#References">&#182;</a></h1><hr>
+<h1 id="References">References<a class="anchor-link" href="#References"></a></h1><hr>
 <p>The dataset is the rossmann store sales dataset from kaggle:
 <a href="https://www.kaggle.com/c/rossmann-store-sales">https://www.kaggle.com/c/rossmann-store-sales</a></p>
 <p>Facebook Prophet Documentation:
@@ -2113,7 +2113,7 @@ Name: ds, dtype: datetime64[ns]</pre>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Contributers">Contributers<a class="anchor-link" href="#Contributers">&#182;</a></h1><ul>
+<h1 id="Contributers">Contributers<a class="anchor-link" href="#Contributers"></a></h1><ul>
 <li>nickespo21</li>
 <li>Linghao Dong</li>
 <li>Jose Figueroa</li>

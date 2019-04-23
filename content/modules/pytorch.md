@@ -83,7 +83,7 @@ Requirement already satisfied: six in /anaconda3/envs/carme/lib/python3.6/site-p
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Pytorch-Advantages-vs-Tensorflow">Pytorch Advantages vs Tensorflow<a class="anchor-link" href="#Pytorch-Advantages-vs-Tensorflow">&#182;</a></h3><ul>
+<h3 id="Pytorch-Advantages-vs-Tensorflow">Pytorch Advantages vs Tensorflow<a class="anchor-link" href="#Pytorch-Advantages-vs-Tensorflow"></a></h3><ul>
 <li>Pytorch Enables dynamic computational graphs (which change be changed) while Tensorflow is static. </li>
 <li>Tensorflow enables easier deployment. </li>
 </ul>
