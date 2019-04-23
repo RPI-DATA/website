@@ -5,7 +5,7 @@
     
       <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-<meta name="revised" content="2019-04-21T16:56:45 EDT">
+<meta name="revised" content="2019-04-23T09:04:15 EDT">
 <title>Principle Component Analysis :: Data@Rensselaer</title>
 <link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon" />
 <link href="/css/font-awesome.min.css" rel="stylesheet">
@@ -175,7 +175,7 @@
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Sections:">Sections:<a class="anchor-link" href="#Sections:">&#182;</a></h2><ul>
+<h2 id="Sections:">Sections:<a class="anchor-link" href="#Sections:"></a></h2><ul>
 <li><a href="#PCA-(Principal-Component-Analysis">PCA (Principal Component Analysis)</a>)</li>
 <li><a href="#Origin">Origin</a></li>
 <li><a href="#Learning-Objective">Learning Objective</a></li>
@@ -191,7 +191,7 @@
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Origin">Origin<a class="anchor-link" href="#Origin">&#182;</a></h2><hr>
+<h2 id="Origin">Origin<a class="anchor-link" href="#Origin"></a></h2><hr>
 <p>This notebook was adapted from amueller's notebook, "<em>1 - PCA</em>". Here is the link to his repository <a href="https://github.com/amueller/tutorial_ml_gkbionics.git">https://github.com/amueller/tutorial_ml_gkbionics.git</a> .</p>
 <p>This notebook provides examples for eigenvalues and eigenvectors in LaTeX and python.</p>
 
@@ -201,7 +201,7 @@
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Learning-Objective">Learning Objective<a class="anchor-link" href="#Learning-Objective">&#182;</a></h2><hr>
+<h2 id="Learning-Objective">Learning Objective<a class="anchor-link" href="#Learning-Objective"></a></h2><hr>
 <ol>
 <li>How the Principal Componenet Analysis (PCA) works.</li>
 <li>How PCA can be used to do dimensionality reduction.</li>
@@ -214,7 +214,7 @@
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="PCA">PCA<a class="anchor-link" href="#PCA">&#182;</a></h1><hr>
+<h1 id="PCA">PCA<a class="anchor-link" href="#PCA"></a></h1><hr>
 <p>PCA can always be used to simplify the data with high dimensions (larger than 2) into 2-dimensional data by eliminating the least influntial features on the data. However, we should know the elimination of data makes the independent variable less interpretable. Before we start to deal with the PCA, we need to first learn how PCA utilizes eigenvectors to gain a diagonalization covariance matrix.</p>
 
 </div>
@@ -223,7 +223,7 @@
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Eigenvectors">Eigenvectors<a class="anchor-link" href="#Eigenvectors">&#182;</a></h1><hr>
+<h1 id="Eigenvectors">Eigenvectors<a class="anchor-link" href="#Eigenvectors"></a></h1><hr>
 <p>Eigenvectors and eigenvalues are the main tools used by PCA to obtain a diagnolization covariance matrix. The eigenvector is a vector whos direction will not be affected by the linear transformation, hence eigenvectors represents the direction of largest variance of data while the eigenvalue decides the magnitude of this variance in those directions.</p>
 
 </div>
@@ -540,7 +540,7 @@ Luckily, PCA can do all of this by applyng the function <code>pca.fit_transform(
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Generating-Data">Generating Data<a class="anchor-link" href="#Generating-Data">&#182;</a></h1><p>To talking about PCA, we first create 200 random two-dimensional data points and have a look at the raw data.</p></p>
+<h1 id="Generating-Data">Generating Data<a class="anchor-link" href="#Generating-Data"></a></h1><p>To talking about PCA, we first create 200 random two-dimensional data points and have a look at the raw data.</p></p>
 
 <p></div>
 </div>
@@ -920,7 +920,7 @@ Luckily, PCA can do all of this by applyng the function <code>pca.fit_transform(
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Running-PCA">Running PCA<a class="anchor-link" href="#Running-PCA">&#182;</a></h1><hr>
+<h1 id="Running-PCA">Running PCA<a class="anchor-link" href="#Running-PCA"></a></h1><hr>
 <p>We would now like to analyze the directions in which the data varies most. For that, we</p>
 <ol>
 <li>place the point cloud in the center (0,0) and</li>
@@ -1104,7 +1104,7 @@ Luckily, PCA can do all of this by applyng the function <code>pca.fit_transform(
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="High-Dimensional-Data">High-Dimensional Data<a class="anchor-link" href="#High-Dimensional-Data">&#182;</a></h1><p>Our small example above was very easy, since we could get insight into the data by simply plotting it. This approach will not work once you have more than 3 dimensions, Let&rsquo;s use the famous iris dataset, which has the following 4 dimensions:</p>
+<h1 id="High-Dimensional-Data">High-Dimensional Data<a class="anchor-link" href="#High-Dimensional-Data"></a></h1><p>Our small example above was very easy, since we could get insight into the data by simply plotting it. This approach will not work once you have more than 3 dimensions, Let&rsquo;s use the famous iris dataset, which has the following 4 dimensions:</p>
 <ul>
 <li>Sepal Length</li>
 <li>Sepal Width</li>
@@ -1631,7 +1631,7 @@ Luckily, PCA can do all of this by applyng the function <code>pca.fit_transform(
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Dimension-Reduction-with-PCA">Dimension Reduction with PCA<a class="anchor-link" href="#Dimension-Reduction-with-PCA">&#182;</a></h1><p>We can see that there are actually only two dimensions in the dataset.</p>
+<h1 id="Dimension-Reduction-with-PCA">Dimension Reduction with PCA<a class="anchor-link" href="#Dimension-Reduction-with-PCA"></a></h1><p>We can see that there are actually only two dimensions in the dataset.</p>
 <p>Let&rsquo;s throw away even more data &ndash; the second dimension &ndash; and reconstruct the original data in <code>D</code>.</p></p>
 
 <p></div>
@@ -1728,7 +1728,7 @@ Luckily, PCA can do all of this by applyng the function <code>pca.fit_transform(
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Homework">Homework<a class="anchor-link" href="#Homework">&#182;</a></h2><hr>
+<h2 id="Homework">Homework<a class="anchor-link" href="#Homework"></a></h2><hr>
 <p>1) Do the PCA reduction on the ramdon 6-dimension data and plot it out.</p>
 <p>2) Explan what PCA does on your data.</p>
 <p>*The code for data are given.</p></p>

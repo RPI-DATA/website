@@ -29,7 +29,7 @@ Read more.</description>
       
       <guid>http://rpi-data.analyticsdojo.com/modules/linearregression/</guid>
       <description>This project will work on how to predict the prices of homes based on the properties of the house. I will determine which house affected the final sale price and how effectively we can predict the sale price.Here&#39;s a brief description of the columns in the data:
-   Learning Objectives&amp;#182;By the end of this notebook, the reader should be able to perform Linear Regression techniques in python.</description>
+   Learning ObjectivesBy the end of this notebook, the reader should be able to perform Linear Regression techniques in python.</description>
     </item>
     
     <item>
@@ -38,9 +38,9 @@ Read more.</description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://rpi-data.analyticsdojo.com/modules/pca/</guid>
-      <description>Sections:&amp;#182; PCA (Principal Component Analysis)) Origin Learning Objective PCA  Eigenvectors Running PCA Homework     Origin&amp;#182; This notebook was adapted from amueller&#39;s notebook, &#34;1 - PCA&#34;. Here is the link to his repository https://github.com/amueller/tutorial_ml_gkbionics.git .
+      <description>Sections: PCA (Principal Component Analysis)) Origin Learning Objective PCA  Eigenvectors Running PCA Homework     Origin This notebook was adapted from amueller&#39;s notebook, &#34;1 - PCA&#34;. Here is the link to his repository https://github.com/amueller/tutorial_ml_gkbionics.git .
 This notebook provides examples for eigenvalues and eigenvectors in LaTeX and python.
-   Learning Objective&amp;#182;  How the Principal Componenet Analysis (PCA) works. How PCA can be used to do dimensionality reduction.</description>
+   Learning Objective  How the Principal Componenet Analysis (PCA) works. How PCA can be used to do dimensionality reduction.</description>
     </item>
     
     <item>
@@ -49,8 +49,8 @@ This notebook provides examples for eigenvalues and eigenvectors in LaTeX and py
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://rpi-data.analyticsdojo.com/modules/time_series_basic/</guid>
-      <description>Time Series Analysis         Time Series Analysis&amp;#182; A time series is a series of data points indexed (or listed or graphed) in time order. Time series analysis pertains to methods extracting meaningful statistics from time series data. This is commonly used for forecasting and other models.
-   Learning Objectives&amp;#182;  Understand the uses of Time Series Analysis Understand the pros and cons of various TSA methods, including differentiating between linear and non-linear methods.</description>
+      <description>Time Series Analysis         Time Series Analysis A time series is a series of data points indexed (or listed or graphed) in time order. Time series analysis pertains to methods extracting meaningful statistics from time series data. This is commonly used for forecasting and other models.
+   Learning Objectives  Understand the uses of Time Series Analysis Understand the pros and cons of various TSA methods, including differentiating between linear and non-linear methods.</description>
     </item>
     
     <item>
