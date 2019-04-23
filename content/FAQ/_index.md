@@ -1,7 +1,7 @@
 +++
 title = "FAQ"
 description = ""
-weight = 70
+weight = 7
 alwaysopen = false
 +++
 ### Frequently Asked Question:
