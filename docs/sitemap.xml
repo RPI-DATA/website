@@ -15,11 +15,27 @@
   </url>
   
   <url>
+    <loc>http://rpi-data.analyticsdojo.com/whos-involved/</loc>
+  </url>
+  
+  <url>
+    <loc>http://rpi-data.analyticsdojo.com/about-us/</loc>
+  </url>
+  
+  <url>
     <loc>http://rpi-data.analyticsdojo.com/modules/pca/</loc>
   </url>
   
   <url>
+    <loc>http://rpi-data.analyticsdojo.com/focus-groups/</loc>
+  </url>
+  
+  <url>
     <loc>http://rpi-data.analyticsdojo.com/modules/time_series_basic/</loc>
+  </url>
+  
+  <url>
+    <loc>http://rpi-data.analyticsdojo.com/vision/</loc>
   </url>
   
   <url>

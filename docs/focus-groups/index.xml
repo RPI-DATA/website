@@ -2,12 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Focus Group on Data@Rensselaer</title>
-    <link>http://rpi-data.analyticsdojo.com/tech/</link>
+    <link>http://rpi-data.analyticsdojo.com/focus-groups/</link>
     <description>Recent content in Focus Group on Data@Rensselaer</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="http://rpi-data.analyticsdojo.com/tech/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://rpi-data.analyticsdojo.com/focus-groups/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>
