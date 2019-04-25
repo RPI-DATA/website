@@ -5,8 +5,8 @@
     
       <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-<meta name="revised" content="2019-04-25T10:33:44 EDT">
-<title>Focus Group :: Data@Rensselaer</title>
+<meta name="revised" content="2019-04-25T11:11:42 EDT">
+<title>Technology :: Data@Rensselaer</title>
 <link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon" />
 <link href="/css/font-awesome.min.css" rel="stylesheet">
 <link href="/css/nucleus.css" rel="stylesheet">
@@ -100,16 +100,10 @@
     </li>
         </ul>
     </li>
-    <li data-nav-id="/whos-involved/" class="dd-item
+    <li data-nav-id="/tech/" class="dd-item parent active
         ">
       <div>
-      <a href="/whos-involved/">Who&#39;s Involved</a>
-      </div>
-    </li>
-    <li data-nav-id="/about-us/" class="dd-item
-        ">
-      <div>
-      <a href="/about-us/">About Us</a>
+      <a href="/tech/">Technology</a>
       </div>
     </li>
     <li data-nav-id="/focus-groups/" class="dd-item
@@ -118,10 +112,10 @@
       <a href="/focus-groups/">Focus Group</a>
       </div>
     </li>
-    <li data-nav-id="/tech/" class="dd-item parent active
+    <li data-nav-id="/whos-involved/" class="dd-item
         ">
       <div>
-      <a href="/tech/">Focus Group</a>
+      <a href="/whos-involved/">Our Team</a>
       </div>
     </li>
     <li data-nav-id="/faq/" class="dd-item
@@ -151,15 +145,13 @@
       <option value="/modules/pca/" >- Principle Component Analysis</option>
       <option value="/modules/time_series_basic/" >- Time Series Analysis</option>
   
-    <option value="/whos-involved/" >
-   Who&#39;s Involved</option>
-    <option value="/about-us/" >
-   About Us</option>
+    <option value="/tech/"  selected>
+   Technology</option> 
+  
     <option value="/focus-groups/" >
    Focus Group</option>
-    <option value="/tech/"  selected>
-   Focus Group</option> 
-  
+    <option value="/whos-involved/" >
+   Our Team</option>
     <option value="/faq/" >
    FAQ</option>
 
@@ -184,32 +176,164 @@
       </div>
     
 
-    <h1>Focus Group</h1>
+    <h1>Technology</h1>
     
     
     
 
 
 
-<div class="extra-pagination inner">
-<nav class="pagination" role="navigation">
-	
-	<span class="page-number">Page 1 of 0</span>
-	
-</nav>
+<p>Often technical issues around computer configuration can be frustrating, but they are an important component of doing data science. You will need a number of different systems setup on your computer for this class.</p>
 
-</div>
+<p>We will be testing this semester a online JupyterHub instance that should simplify a lot of the setup. However this is still in an alpha release and it would be good to get an alternate compute environment setup on your laptop.</p>
 
+<p>In describing options, there are <em>cloud</em> and <em>laptop</em> based ways of doing the exercises.</p>
 
+<h2 id="cloud">Cloud</h2>
 
-<div style="margin-bottom:2rem"></div>
+<p>A cloud based way of doing data science doesn&rsquo;t require you to install anything and you can be up and running in working with concepts asap.</p>
 
-<nav class="pagination" role="navigation">
-	
-	<span class="page-number">Page 1 of 0</span>
-	
-</nav>
+<h3 id="our-cloud-lab-analyticsdojo-com">Our Cloud: lab.analyticsdojo.com</h3>
 
+<p>For the cloud instance at <a href="http://lab.analyticsdojo.com">lab.analyticsdojo.com</a>, there is some cool technology that is driving this. We are utilizing <a href="https://kubernetes.io">Kubernetes</a> on the Google Cloud Platform to run Jupyterhub.  This is based on some amazing work by a talented community of open source developers.</p>
+
+<p>When someone logs into the platform, the students obtain their own <em>container</em> to run on, giving them access to a compute environment that is much more flexible than a typical brower.</p>
+
+<p>##Laptop</p>
+
+<p>When running on your laptop, there are 2 different configuration options that that are possible.</p>
+
+<p>For most users, managing the analytics environment with Anaconda seems to work quite well. Anaconda is a package manager with detailed instructions for Mac/Windows/Linux users.  In this clase</p>
+
+<p>It is also possible to run Docker on your laptop, mirroring the same compute environment that you enjoyed on JupyterHub cloud environment. This has worked perfectly in the past for Mac users and not so well for Windows users, but I understand Docker for Windows has come a long way.</p>
+
+<h2 id="git-and-github">Git and Github</h2>
+
+<p>Git is a version control system use to track changes to code, and when combined with Github it is an extremely powerful way to collaborate.</p>
+
+<ol>
+<li><p>Install the <a href="https://git-scm.com/downloads">git command line tool</a>. There are a lot of options but you should be able to just utilize the defaults.</p></li>
+
+<li><p>Create an account on <a href="https://github.com">github.com</a>.</p></li>
+
+<li><p>Install Github desktop if using OSX or Windows. <a href="https://desktop.github.com/">Click here for download instructions for Github Desktop</a>.</p></li>
+
+<li><p>Once you are done installing Github desktop, open the program.  Sign in with your Github Credentials to link the desktop application with your Github account.</p></li>
+
+<li><p>Clone the <a href="https://github.com/jkuruzovich/techfundamentals-spring2018-materials">class repository</a> either from the desktop tool or from the command line.<br />
+From the Github tool:<br />
+<img src="/images/clone.png" alt="clone" style="width:400px"></p></li>
+</ol>
+
+<p>From the command line:</p>
+
+<pre><code>git clone https://github.com/jkuruzovich/techfundamentals-spring2018-materials  
+</code></pre>
+
+<p>In the future when you want to update the repository, you can do so either from the command line or the GitHub Desktop tool.</p>
+
+<p>From the GitHub Desktop, press the sync button after selecting the repository:<br />
+<img src="/images/sync.png" alt="clone" style="width:200px"></p>
+
+<p>From the command line:</p>
+
+<pre><code>git pull    
+</code></pre>
+
+<h2 id="step-2-install-and-configure-anaconda">Step 2: Install and Configure Anaconda</h2>
+
+<p>We will be using Anaconda to provide a Jupyter environment for both R and Python.</p>
+
+<p>Follow the following instructions to install Anaconda from <a href="https://www.continuum.io/">Continuum Analytics</a>.</p>
+
+<p><a href="#osx">OSX</a>
+<a href="#windows">Windows</a>
+<a href="#linux">Linux</a></p>
+
+<p>Once you have the Anaconda Distribution, follow below for <a href="#advanced-configuration">advanced configuration</a>.</p>
+
+<h3 id="osx">OSX</h3>
+
+<ol>
+<li>Follow the online instructions to <a href="https://docs.continuum.io/anaconda/install/mac-os">install the Anaconda Distribution with Python 3.6</a></li>
+<li>Follow below for <a href="#advanced-configuration">advanced configuration</a>.<br /></li>
+</ol>
+
+<h3 id="windows">Windows</h3>
+
+<p>Windows may often have issues associated with installation if you have had previous versions of Anaconda installed.  If it doesn&rsquo;t work, start by uninstalling everything</p>
+
+<ol>
+<li>Follow the online instructions to <a href="https://docs.continuum.io/anaconda/install/windows">install the Anaconda Distribution with Python 3.6</a><br /></li>
+<li>Follow below for <a href="#advanced-configuration">advanced configuration</a>.<br /></li>
+</ol>
+
+<h3 id="linux">Linux</h3>
+
+<p>If you are a Linux user, please help in supporting the class. You likely won&rsquo;t need my help. ;)</p>
+
+<ol>
+<li>Follow the online instructions to <a href="https://docs.continuum.io/anaconda/install/linux">install the Anaconda Distribution with Python 3.6</a><br /></li>
+<li>Follow below for <a href="#advanced-configuration">advanced configuration</a>.<br /></li>
+</ol>
+
+<h3 id="advanced-configuration">Advanced Configuration</h3>
+
+<ul>
+<li><p>Windows users, open an &lsquo;Anaconda Prompt&rsquo;.  Mac/Linux users open a standard terminal.</p></li>
+
+<li><p>Change directories to the <code>techfundamentals-spring2018-materials</code> folder you cloned earlier.</p></li>
+</ul>
+
+<pre><code>cd &lt;insert full path &gt;\techfundamentals-spring2018-materials    
+</code></pre>
+
+<p>For the above, changing directories differs for Windows or Mac users. For example, on a Mac it might be:</p>
+
+<pre><code>cd /Users/jasonkuruzovich/githubdesktop/techfundamentals-spring2018-materials   
+</code></pre>
+
+<p>On Windows, if you have a space somewhere in your path make sure that you include quotes:</p>
+
+<pre><code>cd &quot;c:\Users\jasonkuruzovich\github\techfundamentals-spring2018-materials&quot;  
+</code></pre>
+
+<ul>
+<li>Install required packages.<br />
+First install pip, which is a package manager similar to conda.
+<code>
+conda install -c anaconda pip   
+</code></li>
+</ul>
+
+<p>Then, from the repository install all the packages in requirements.txt.</p>
+
+<pre><code>pip install -r requirements.txt 
+</code></pre>
+
+<p>(d.) Launch a Jupyter notebook with the command:</p>
+
+<pre><code>jupyter notebook    
+</code></pre>
+
+<p>You will need to run c-d each time to launch Jupyter.</p>
+
+<ul>
+<li>There may be some other packages you still have to install.  You will know this is an issue if an <code>import</code> command fails.  You can install packages with:<br />
+<code>
+conda install &lt;packagename&gt; 
+</code>
+or
+<code>
+pip install &lt;packagename&gt;   
+</code>
+For example, to install the R Kernal for Jupyter, install the r-essentials package:<br />
+<code>
+conda install r-essentials  
+</code>
+Please feel free to post issues on the Slack channel.<br />
+Follow the instructions to install <a href="/setup/git/">git/GitHub Desktop</a> and <a href="/setup/anaconda">Anaconda</a>.</li>
+</ul>
 
 
 
@@ -217,8 +341,8 @@
     
         <div class="chevrons">
     <div id="navigation">
-<a class="nav nav-prev" href="/focus-groups/" title="Focus Group"> <i class="fa fa-chevron-left"></i><label>Focus Group</label></a>
-    <a class="nav nav-next" href="/faq/" title="FAQ" style="margin-right: 0px;"><label>FAQ</label><i class="fa fa-chevron-right"></i></a></div>
+<a class="nav nav-prev" href="/modules/time_series_basic/" title="Time Series Analysis"> <i class="fa fa-chevron-left"></i><label>Time Series Analysis</label></a>
+    <a class="nav nav-next" href="/focus-groups/" title="Focus Group" style="margin-right: 0px;"><label>Focus Group</label><i class="fa fa-chevron-right"></i></a></div>
   </div>
 
   </section>
