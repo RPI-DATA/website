@@ -11,7 +11,7 @@ date = "2018-09-21T18:36:24+02:00"
 	Welcome to DATA@RENSSELAR! A platform for enabling data science tools across all curriculum at RPI.
 </p>
 <p>
-	We are an open source project that helps analytics programs to both create a community and deliver the highest quality education experience in the rapidly changing world of analytics and data science.
+	We are an open source project that helps analytics programs to both create a community and deliver the highest quality education experience in the rapidly changing world of analytics and data science. Feel free to browse some sample notebooks and their live colab links.
 </p>
 <p>
 	Pardon our appearence while we continue to load content to the site!
@@ -32,11 +32,6 @@ date = "2018-09-21T18:36:24+02:00"
 <p>
 	Please contact us with any questions or inquiries below.
 </p>
-<form action="http://foo.com/contact_form" method="get">
-  Email: <input name="email" value="email@example.com"> <br>
-  Body: <input name="body" value="Just saying hello!">
-  <input type="submit" value="Submit">
-</form>
 
 <p>Email <a href="mailto:lewisd2@rpi.edu">lewisd2@rpi.edu</a> and <a href="mailto:kuruzj@rpi.edu">kuruzj@rpi.edu</a></p>
 
