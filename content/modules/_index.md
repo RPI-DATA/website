@@ -10,7 +10,7 @@ alwaysopen = true
 
 ---
 
-A "Jupyter notebook" denotes a document that contain both code and rich text elements, such as figures, links, equations, etc. Because of the mix of code and text elements, this type of documents is the ideal place to bring together results and didactic descriptions, which can be used to perform analysis in real time. Initially, Jupyter supported Julia, Python, and R, hence the loose acronym "Ju-Pyt-R". Nowadays, the notebook technology also supports many other languages, [a list of which can be found here.](https://github.com/jupyter/jupyter/wiki/Jupyter-kernels)
+A "Jupyter notebook" denotes a document that contain both code and rich text elements such as figures, links, and equations. Because of the mix of code and text elements, this type of document is the ideal place to bring together results and didactic descriptions, which can be used to perform analysis in real time. Initially, Jupyter supported Julia, Python, and R, hence the loose acronym "Ju-Pyt-R". Nowadays, the notebook technology also supports many other languages, [a list of which can be found here.](https://github.com/jupyter/jupyter/wiki/Jupyter-kernels)
 
 As a server-client application, Jupyter Notebook App allows you to edit and run your notebooks via a web browser. The application can be executed on a PC without Internet access, or it can be installed on a remote server, where you can access it through the Internet.
 Its two main components are the kernels and a dashboard. While the kernel runs and instropsect the user's code, the dashboard show you the markdown documents.
