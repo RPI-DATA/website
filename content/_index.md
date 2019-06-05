@@ -11,7 +11,7 @@ date = "2018-09-21T18:36:24+02:00"
 	Welcome to DATA@RENSSELAR! A platform for enabling data science tools across all curriculum at RPI.
 </p>
 <p>
-	We are an open source project that helps analytics programs to both create a community and deliver the highest quality education experience in the rapidly changing world of analytics and data science. Feel free to browse some sample notebooks and their live colab links.
+	We are an open-source project that helps analytics programs both create a community and deliver the highest quality education experience in the rapidly changing world of analytics and data science. Feel free to browse some sample Jupyter notebooks and their live Colab links. If you're new to Jupyter notebooks, please check out the "What are Jupyter Notebooks?" page to learn more.
 </p>
 <p>
 	Pardon our appearence while we continue to load content to the site!
@@ -21,7 +21,7 @@ date = "2018-09-21T18:36:24+02:00"
 
 ---
 <p>
-	Our current deliverables are to show proof of concept via exemplary notebooks, both static and live, as well as fleshed out documentation on the technology we use. Feel free to browse
+	Our current deliverables are to show proof-of-concept via exemplary notebooks, both static and live, as well as fleshed-out documentation on the technology we use. Feel free to browse
 </p>
 
 <h2 style="font-family: Verdana, Geneva, sans-serif;font-weight:normal;"> CONTACT US </h2>
