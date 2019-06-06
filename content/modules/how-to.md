@@ -27,7 +27,7 @@ Once open you will be greeted with the **dashboard**:
 
 To open a new notebook, you can click on the "New" in the "Files tab" and choose the kernel you would like to use.
 
-After getting in the notebook. 
+After getting in the notebook: 
 
 * you can add `crtl + b` or delete a new cell (either markdown or the language you choose).
 * Using the `shift + tab` after the code, you can see the function of it.
