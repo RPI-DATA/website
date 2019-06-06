@@ -9,7 +9,10 @@ alwaysopen = true
 ---
 
 To use the Jupyter notebook, you have to run the following command (in either Terminal for Mac or Command Prompt for Windows) to see the application in your web broswer:
-> Jupyter notebook
+
+```
+jupyter notebook
+```
 
 Once open you will be greeted with the **dashboard**:
 
@@ -29,12 +32,11 @@ After getting in the notebook.
 * you can add `crtl + b` or delete a new cell (either markdown or the language you choose).
 * Using the `shift + tab` after the code, you can see the function of it.
 * After finishing one cell, using `shift + enter` to run it
-* To apply a latex in you markdown, you can add your latex between `$$` like `$$c =\pi $$`
-You can use the botton at the top for some of those command, as well.
+* To apply LaTeX in you markdown, you can add your latex between `$$ ... $$` like `$$ c =\pi $$`. You can use the botton at the top for some of those command, as well.
 
 <img src="/images/button.png" alt="Button">
 
-You can find more markdown code by this [markdown cheatsheet](https://github.com/jupyter/jupyter/wiki/Jupyter-kernels) 
+You can find more markdown code by this [markdown cheatsheet.](https://guides.github.com/features/mastering-markdown)
 
 ### Importing a Notebook
 ---
