@@ -1,5 +1,5 @@
 +++
-title = "How to Run Notebooks"
+title = "How to Make Notebooks"
 description = ""
 weight = 1
 alwaysopen = true
@@ -8,37 +8,50 @@ alwaysopen = true
 ### Starting Up Jupyter Notebook
 ---
 
-To use the Jupyter notebook, you have to run the following command (in either Terminal for Mac or Command Prompt for Windows) to see the application in your web broswer:
+To use the Jupyter notebook, you have to run the following command (in either _Terminal_ for Mac or _Command Prompt_ for Windows) to see the application in your web broswer:
 
 ```
 jupyter notebook
 ```
 
+You can also launch it through the Anaconda Navigator startup page.
+
 Once open you will be greeted with the **dashboard**:
 
 <img src="/images/Jupyter.png" alt="Jupyter Notebook">
 
-* The "Files" tab is where all your files are kept,
+* The "Files" tab is where all of your files are kept,
 * The "Running" tab keeps track of all the processes and notebooks currently live, and
 * The "Clusters" tab is provided by IPython Parallel, Python's parallel computing framework. 
 
 ### Creating a New Notebook
 ---
 
-To open a new notebook, you can click on the "New" in the "Files tab" and choose the kernel you would like to use.
+To open a new notebook, you can click on the "New" in the "Files" tab and choose the kernel you would like to use.
 
-After getting in the notebook: 
+The main user interface for the notebook looks like this:
+<img src="..." alt="Notebook UI">
 
-* you can add `crtl + b` or delete a new cell (either markdown or the language you choose).
-* Using the `shift + tab` after the code, you can see the function of it.
-* After finishing one cell, using `shift + enter` to run it
-* To apply LaTeX in you markdown, you can add your latex between `$$ ... $$` like `$$ c =\pi $$`. You can use the botton at the top for some of those command, as well.
+Note how the Markdown cell is within a blue frame. This means that the cell is in **command** mode, which lets you modify the notebook as a whole. If you double-click on the cell or hit `Enter` you will enter **edit** mode, which lets you edit the contents of the cell itself. Note that in command mode, the keyboard changes so letter keys correspond to shortcuts. In this case, however, you can add or format text in the Markdown to give better explanation for the code.
 
-<img src="/images/button.png" alt="Button">
+Common formatting syntax include:
 
-You can find more markdown code by this [markdown cheatsheet.](https://guides.github.com/features/mastering-markdown)
+* Bookending text with `*` will make it * *italic* *
+* Bookending text with `**` will make it ** **bold** **
+* Adding `#` in front of a line will make it a header (`##` will make a secondary header, `###` will make a tertiary header, etc.
+* To apply LaTeX in your markdown, you can bookend your equation with _$_ (`$...$`) like `$c =\pi$`
 
-### Importing a Notebook
----
+You can find more markdown code in this [markdown cheatsheet.](https://guides.github.com/features/mastering-markdown)
 
-To open an existing notebook, simply drag the .ipynb file into your 'Files' directory. 
+Additionally, for code cells you can use the following shortcuts:
+
+* Add a new cell by looking under the the "Insert" tab or pressing `B` when in command mode
+* Delete a new cell by using the "Edit" tab or by pressing `D, D` when in command mode
+* Hit `shift + tab` after typing out a function to get a description of how it works
+* After finishing a cell, hit `shift + enter` to run it
+
+Once you're done with your notebook, you can export it to html to contribute it to the project using the following command:
+
+```
+jupyter nbconvert --to html --template basic [your notebook's title].ipynb
+```
