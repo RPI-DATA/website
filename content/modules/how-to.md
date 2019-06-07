@@ -50,6 +50,8 @@ Additionally, for code cells you can use the following shortcuts:
 * Hit `shift + tab` after typing out a function to get a description of how it works
 * After finishing a cell, hit `shift + enter` to run it
 
+When running code, the number next to the cell signifies the order in which the code has been run. Thus, you can have situations where you can run a cell near the beginning of your notebook that will overwrite a variable you declared in a later cell. 
+
 Once you're done with your notebook, you can export it to html to contribute it to the project using the following command:
 
 ```
