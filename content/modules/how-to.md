@@ -30,7 +30,7 @@ Once open you will be greeted with the **dashboard**:
 To open a new notebook, you can click on the "New" in the "Files" tab and choose the kernel you would like to use.
 
 The main user interface for the notebook looks like this:
-<img src="..." alt="Notebook UI">
+<img src="/images/notebook_UI.png" alt="Notebook UI">
 
 Note how the Markdown cell is within a blue frame. This means that the cell is in **command** mode, which lets you modify the notebook as a whole. If you double-click on the cell or hit `Enter` you will enter **edit** mode, which lets you edit the contents of the cell itself. Note that in command mode, the keyboard changes so letter keys correspond to shortcuts. In this case, however, you can add or format text in the Markdown to give better explanation for the code.
 
