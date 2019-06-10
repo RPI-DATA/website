@@ -32,7 +32,7 @@ One advantage of it being a living document is that you can go through different
   
 In this example, we're trying to apply a list of datasets into the linear regression. As you can see, you can plot all of the data and label everything you want with just a few lines of code. In fact, in this notebook you can make all the plots you want like heatmap, dotplot, etc.
   
-Tip: If you use python for your notebooks, [matplotlib](https://matplotlib.org/tutorials/index) is a very useful class contain all those plots.
+Tip: If you use Python for your notebooks, [matplotlib](https://matplotlib.org/tutorials/index) is a very useful class contain all those plots.
 </li>
 <li>
 <i>Assignments.</i> In addition to lesson plans, instructors can also make assignment notebooks using Jupyter Notebook.
