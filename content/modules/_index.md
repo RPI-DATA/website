@@ -7,7 +7,7 @@ alwaysopen = true
 
 ### Overview 
 ---
-A "Jupyter Notebook" is a document that contains both code and rich text elements such as paragraphs, figures, and equations. Because of the mixture of code and text elements, this type of document is the ideal place to bring together results and accompanying descriptions that help explain the data. Text elements, or **markdowns**, can be used to teach students certain concepts or help a colleague understand your thought process as you make changes to a collaborative project.
+A "Jupyter Notebook" is a document that contains both code and rich text elements such as paragraphs, figures, and equations. Because of the mixture of code and text elements, this type of document is the ideal place to bring together results and accompanying descriptions that help explain the data. Text elements, or **Markdown**, can be used to teach students certain concepts or help a colleague understand your thought process as you make changes to a collaborative project.
 
 <img src="/images/K_D.png" alt="Kernel and Dashboard">
 
