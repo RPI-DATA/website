@@ -41,4 +41,7 @@ Tip: If you use Python for your notebooks, [matplotlib](https://matplotlib.org/t
   
 This way, students can test their own skills on making heatmaps (or any other topic) without the hassle of having every student download software. Also, our upcoming grading system can give you a more efficient grading experience; students can immediately get the feedback once the instructor is finished grading using markdowns. A dataset including all student's grades will be made as well so that you don't need to collect all of the data by yourself.
 </li>
+<li>
+<i>Textbooks.</i> Lastly, a notebook can be used as a static narrative document containing a course's material. The advantage here is that the notebook can serve as an accessible repository for course information, whether students want to access it online or download it on their PC. Additionally, while a notebook could theoritically subsist on just static text, inline examples and code can be included such that students get practice visualizing certain concepts without having to change the original contents of the notebook. Sliders and call-outs for user input can also be included to enhance the interactive experience.
+</li>
 </ol>
