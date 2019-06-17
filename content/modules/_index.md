@@ -5,67 +5,43 @@ weight = 1
 alwaysopen = true
 +++
 
-
 ### Overview 
-
 ---
-
-"Jupyter notebook" denote documents that contain both code and rich text elements, such as figures, links, equations and etc. Because of the mix of code and text elements, these documents are the ideal place to bring together an analysis description, and its results, as well as, they can be executed perform the data analysis in real time. In the beginning, "Jupyter" is a loose acronym meaning Julia, Python, and R. These programming languages were the first target languages of the Jupyter application, but nowadays, the notebook technology also supports many other languages. [Here is the language they support.](https://github.com/jupyter/jupyter/wiki/Jupyter-kernels)
-
-As a server-client application, Jupyter Notebook App allows you to edit and run your notebooks via a web browser. The application can be executed on a PC without Internet access, or it can be installed on a remote server, where you can access it through the Internet.
-Its two main components are the kernels and a dashboard. While the kernel runs and instropsect the user's code, the dashboard show you the markdown documents.
+A "Jupyter Notebook" is a document that contains both code and rich text elements such as paragraphs, figures, and equations. Because of the mixture of code and text elements, this type of document is the ideal place to bring together results and accompanying descriptions that help explain the data. Text elements, or **Markdown**, can be used to teach students certain concepts or help a colleague understand your thought process as you make changes to a collaborative project.
 
 <img src="/images/K_D.png" alt="Kernel and Dashboard">
 
-### Functionality 
+The code featured in a notebook is run by a preset **kernel**, or programming language. Initially, Jupyter supported Julia, Python, and R, hence the loose acronym "Ju-Pyt-R". Nowadays, the project also supports many other kernels, [a list of which can be found here.](https://github.com/jupyter/jupyter/wiki/Jupyter-kernels) Currently, Jupyter comes pre-installed with Python 3, but if you would like to create a notebook using R, for example, you can simply download the kernel for it (IRkernel) from the list above.
 
----
-To use the Jupyter notebook, you have to run the following command:
-> Jupyter notebook
+As a server-client application, the Jupyter Notebook allows you to edit and run your notebooks via a web browser. The application can also be installed and executed on a PC without internet access.
 
-Then you will see the application opening in a web broswer.
-
-<img src="/images/Jupyter.png" alt="Jupyter Notebook">
-
-* The "Files" tab is where all your files are kept.
-* The "Running" tab keeps track of all your processes and the third tab
-* The "Clusters", is provided by IPython parallel, IPython's parallel computing framework. 
-
-To open a new notebook, you can click on the "New button" in the "Files tab" and choose the option you want.
-
-After getiing in the notebook. 
-* you can add (`Crtl + b`) or delete new cell (either markdown or the language you choose).
-* Using the `shift + tab` after the code, you can see the function of it.
-* After finishing one cell, using `shift + enter` to run it
-* To apply a latex in you markdown, you can add your latex between `$$` like `$$c =\pi $$`
-You can use the botton at the top for some of those command, as well.
-
-<img src="/images/button.png" alt="Button">
-
-You can find more markdown code by this [markdown cheatsheet](https://github.com/jupyter/jupyter/wiki/Jupyter-kernels) 
-
-
-### Example
-
+### Use Cases
 ---
 <ol>
-	<li>
- By using the Jupyter Notebook, you can combine your markdown explanation with a function doing all the real math for you.
+<li>
+<i>Lectures.</i> By using the Jupyter Notebook, you can combine your markdown explanation with a function doing all the real math for you.
+  
 <img src="/images/PCA.png" alt="PCA">
-
-One advantage of it is that you can go through different examples just by changing the variable in the function. Students can also use those function as a self-check tools or a caculator, while they solve the problem.
+  
+One advantage of it being a living document is that you can go through different examples just by changing the variables in the function. Students can also use the function as a self-check tool, or a calculator while they solve the problem. This means that your lesson plan can be on one document, eliminating the need to switch between PowerPoint and MATLAB every few minutes.
 </li>
 <li>
- Also, Jupyter Notebook can provide you a new way of making plots with the programming language you like.
-
+<i>Demos.</i> Additionally, Jupyter Notebook can provide you with a new way of making plots with the programming language you prefer.
+  
 <img src="/images/linear.png" alt="Linear">
-In this example, we're trying to apply a list of dataset into the linear regression. As you can see, you can plot the whole data and label everything you want just by coding few sentences. In fact, in this notebook you can make all the plots you want like heatmap, dotplot, and etc. Also, for all the instructors, you don't need to switch between your powerpoint and matlab any more.
-Tips: If you use python for you notebooks, matplotlib is a very useful class contain all those plots. [Here is the link](https://matplotlib.org/tutorials/index.html)
+  
+In this example, we're trying to apply a list of datasets into the linear regression. As you can see, you can plot all of the data and label everything you want with just a few lines of code. In fact, in this notebook you can make all the plots you want like heatmap, dotplot, etc.
+  
+Tip: If you use Python for your notebooks, [matplotlib](https://matplotlib.org/tutorials/index) is a very useful class contain all those plots.
 </li>
 <li>
- What's more, you can make an assignment notebook by Jupyter Notebook.
+<i>Assignments.</i> In addition to lesson plans, instructors can also make assignment notebooks using Jupyter Notebook.
 
 <img src="/images/assignment.png" alt="Assignment">
-By using this assignment, students can test their own skills of making heatmap. In fact, Instructors can use the jupyter notebook to make assignments among all the topics. Also, our upcoming grading system can give you a convinent experience while grading; students can immediately get the feedback once the instructor finished grading. A dataset including all student's grades will be made as well such that you don't need to collect all those data by yourself any more.
+  
+This way, students can test their own skills on making heatmaps (or any other topic) without the hassle of having every student download software. Also, our upcoming grading system can give you a more efficient grading experience; students can immediately get the feedback once the instructor is finished grading using markdowns. A dataset including all student's grades will be made as well so that you don't need to collect all of the data by yourself.
 </li>
-</ol?>
+<li>
+<i>Textbooks.</i> Lastly, a notebook can be used as a static narrative document containing a course's material. The advantage here is that the notebook can serve as an accessible repository for course information, whether students want to access it online or download it on their PC. Additionally, while a notebook could theoritically subsist on just static text, inline examples and code can be included such that students get practice visualizing certain concepts without having to change the original contents of the notebook. Sliders and call-outs for user input can also be included to enhance the interactive experience.
+</li>
+</ol>
