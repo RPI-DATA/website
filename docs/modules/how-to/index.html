@@ -6,7 +6,7 @@
       <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 <meta name="revised" content="2019-06-17T08:35:30 EDT">
-<title> :: Data@Rensselaer</title>
+<title>How to Make Notebooks :: Data@Rensselaer</title>
 <link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon" />
 <link href="/css/font-awesome.min.css" rel="stylesheet">
 <link href="/css/nucleus.css" rel="stylesheet">
@@ -23,7 +23,7 @@
 
     
   </head>
-  <body data-url="/_footer/">
+  <body data-url="/modules/how-to/">
     
       <header>
   <div class="logo">
@@ -63,14 +63,14 @@
             <i class="fa fa-fw fa-home"></i>
           </a>
           </li>
-    <li data-nav-id="/modules/" class="dd-item alwaysopen haschildren
+    <li data-nav-id="/modules/" class="dd-item parent alwaysopen haschildren
         ">
       <div>
       <a href="/modules/">Notebooks</a>
             <i class="fa fa-angle-down fa-lg category-icon"></i>
       </div>
         <ul>
-      <li data-nav-id="/modules/how-to/" class="dd-item">
+      <li data-nav-id="/modules/how-to/" class="dd-item active">
         <div>
           <a href="/modules/how-to/">
             How to Make Notebooks
@@ -141,7 +141,7 @@
           
     <option value="/modules/" >
    Notebooks</option> 
-      <option value="/modules/how-to/" >- How to Make Notebooks</option>
+      <option value="/modules/how-to/"  selected>- How to Make Notebooks</option>
       <option value="/modules/pytorch/" >- PyTorch</option>
       <option value="/modules/linearregression/" >- Linear Regression</option>
       <option value="/modules/pca/" >- Principle Component Analysis</option>
@@ -175,18 +175,78 @@
       </div>
     
 
-    <h1></h1>
+    <h1>How to Make Notebooks</h1>
     
     
     
-    <p>DATA@RENSSELAER was funded by the teaching and learning collaboratory.</p>
+    
+
+<h3 id="starting-up-jupyter-notebook">Starting Up Jupyter Notebook</h3>
+
+<hr />
+
+<p>To use the Jupyter notebook, you have to run the following command (in either <em>Terminal</em> for Mac or <em>Command Prompt</em> for Windows) to see the application in your web broswer:</p>
+
+<pre><code>jupyter notebook
+</code></pre>
+
+<p>You can also launch it through the Anaconda Navigator startup page.</p>
+
+<p>Once open you will be greeted with the <strong>dashboard</strong>:</p>
+
+<p><img src="/images/Jupyter.png" alt="Jupyter Notebook"></p>
+
+<ul>
+<li>The &ldquo;Files&rdquo; tab is where all of your files are kept,</li>
+<li>The &ldquo;Running&rdquo; tab keeps track of all the processes and notebooks currently live, and</li>
+<li>The &ldquo;Clusters&rdquo; tab is provided by IPython Parallel, Python&rsquo;s parallel computing framework.</li>
+</ul>
+
+<h3 id="creating-a-new-notebook">Creating a New Notebook</h3>
+
+<hr />
+
+<p>To open a new notebook, you can click on the &ldquo;New&rdquo; in the &ldquo;Files&rdquo; tab and choose the kernel you would like to use.</p>
+
+<p>The main user interface for the notebook looks like this:
+<img src="/images/notebook_UI.png" alt="Notebook UI"></p>
+
+<p>Note how the Markdown cell is within a blue frame. This means that the cell is in <strong>command</strong> mode, which lets you modify the notebook as a whole. If you double-click on the cell or hit <code>Enter</code> you will enter <strong>edit</strong> mode, which lets you edit the contents of the cell itself. Note that in command mode, the keyboard changes so letter keys correspond to shortcuts. In this case, however, you can add or format text in the Markdown to give better explanation for the code.</p>
+
+<p>Common formatting syntax include:</p>
+
+<ul>
+<li>Bookending text with <code>*</code> will make it * <em>italic</em> *</li>
+<li>Bookending text with <code>**</code> will make it ** <strong>bold</strong> **</li>
+<li>Adding <code>#</code> in front of a line will make it a header (<code>##</code> will make a secondary header, <code>###</code> will make a tertiary header, etc.</li>
+<li>To apply LaTeX in your markdown, you can bookend your equation with <em>$</em> (<code>$...$</code>) like <code>$c =\pi$</code></li>
+</ul>
+
+<p>You can find more markdown code in this <a href="https://guides.github.com/features/mastering-markdown">markdown cheatsheet.</a></p>
+
+<p>Additionally, for code cells you can use the following shortcuts:</p>
+
+<ul>
+<li>Add a new cell by looking under the the &ldquo;Insert&rdquo; tab or pressing <code>B</code> when in command mode</li>
+<li>Delete a new cell by using the &ldquo;Edit&rdquo; tab or by pressing <code>D, D</code> when in command mode</li>
+<li>Hit <code>shift + tab</code> after typing out a function to get a description of how it works</li>
+<li>After finishing a cell, hit <code>shift + enter</code> to run it</li>
+</ul>
+
+<p>When running code, the number next to the cell signifies the order in which the code has been run. Thus, you can have situations where you can run a cell near the beginning of your notebook that will overwrite a variable you declared in a later cell.</p>
+
+<p>Once you&rsquo;re done with your notebook, you can export it to html to contribute it to the project using the following command:</p>
+
+<pre><code>jupyter nbconvert --to html --template basic [your notebook's title].ipynb
+</code></pre>
 
 
     
     
         <div class="chevrons">
     <div id="navigation">
-<a class="nav nav-next" href="/modules/" title="Notebooks" style="margin-right: 0px;"><label>Notebooks</label><i class="fa fa-chevron-right"></i></a></div>
+<a class="nav nav-prev" href="/modules/" title="Notebooks"> <i class="fa fa-chevron-left"></i><label>Notebooks</label></a>
+    <a class="nav nav-next" href="/modules/pytorch/" title="PyTorch" style="margin-right: 0px;"><label>PyTorch</label><i class="fa fa-chevron-right"></i></a></div>
   </div>
 
   </section>

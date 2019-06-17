@@ -12,6 +12,18 @@
     
     
     <item>
+      <title>How to Make Notebooks</title>
+      <link>http://rpi-data.analyticsdojo.com/modules/how-to/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://rpi-data.analyticsdojo.com/modules/how-to/</guid>
+      <description>Starting Up Jupyter Notebook To use the Jupyter notebook, you have to run the following command (in either Terminal for Mac or Command Prompt for Windows) to see the application in your web broswer:
+jupyter notebook  You can also launch it through the Anaconda Navigator startup page.
+Once open you will be greeted with the dashboard:
+ The &amp;ldquo;Files&amp;rdquo; tab is where all of your files are kept, The &amp;ldquo;Running&amp;rdquo; tab keeps track of all the processes and notebooks currently live, and The &amp;ldquo;Clusters&amp;rdquo; tab is provided by IPython Parallel, Python&amp;rsquo;s parallel computing framework.</description>
+    </item>
+    
+    <item>
       <title>PyTorch</title>
       <link>http://rpi-data.analyticsdojo.com/modules/pytorch/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>

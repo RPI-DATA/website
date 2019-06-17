@@ -5,7 +5,7 @@
     
       <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-<meta name="revised" content="2019-04-30T13:50:03 EDT">
+<meta name="revised" content="2019-06-17T08:35:30 EDT">
 <title>Notebooks :: Data@Rensselaer</title>
 <link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon" />
 <link href="/css/font-awesome.min.css" rel="stylesheet">
@@ -30,7 +30,7 @@
     
 	
   
-    <p><img src="/images/rpi.png" alt="This is the header."></p>
+    <img src="/images/rpi.png" alt="This is the header.">
 
   
 
@@ -70,6 +70,13 @@
             <i class="fa fa-angle-down fa-lg category-icon"></i>
       </div>
         <ul>
+      <li data-nav-id="/modules/how-to/" class="dd-item">
+        <div>
+          <a href="/modules/how-to/">
+            How to Make Notebooks
+          </a>
+        </div>
+    </li>
       <li data-nav-id="/modules/pytorch/" class="dd-item">
         <div>
           <a href="/modules/pytorch/">
@@ -134,6 +141,7 @@
           
     <option value="/modules/"  selected>
    Notebooks</option> 
+      <option value="/modules/how-to/" >- How to Make Notebooks</option>
       <option value="/modules/pytorch/" >- PyTorch</option>
       <option value="/modules/linearregression/" >- Linear Regression</option>
       <option value="/modules/pca/" >- Principle Component Analysis</option>
@@ -178,68 +186,46 @@
 
 <hr />
 
-<p>&ldquo;Jupyter notebook&rdquo; denote documents that contain both code and rich text elements, such as figures, links, equations and etc. Because of the mix of code and text elements, these documents are the ideal place to bring together an analysis description, and its results, as well as, they can be executed perform the data analysis in real time. In the beginning, &ldquo;Jupyter&rdquo; is a loose acronym meaning Julia, Python, and R. These programming languages were the first target languages of the Jupyter application, but nowadays, the notebook technology also supports many other languages. <a href="https://github.com/jupyter/jupyter/wiki/Jupyter-kernels">Here is the language they support.</a></p>
-
-<p>As a server-client application, Jupyter Notebook App allows you to edit and run your notebooks via a web browser. The application can be executed on a PC without Internet access, or it can be installed on a remote server, where you can access it through the Internet.
-Its two main components are the kernels and a dashboard. While the kernel runs and instropsect the user&rsquo;s code, the dashboard show you the markdown documents.</p>
+<p>A &ldquo;Jupyter Notebook&rdquo; is a document that contains both code and rich text elements such as paragraphs, figures, and equations. Because of the mixture of code and text elements, this type of document is the ideal place to bring together results and accompanying descriptions that help explain the data. Text elements, or <strong>Markdown</strong>, can be used to teach students certain concepts or help a colleague understand your thought process as you make changes to a collaborative project.</p>
 
 <p><img src="/images/K_D.png" alt="Kernel and Dashboard"></p>
 
-<h3 id="functionality">Functionality</h3>
+<p>The code featured in a notebook is run by a preset <strong>kernel</strong>, or programming language. Initially, Jupyter supported Julia, Python, and R, hence the loose acronym &ldquo;Ju-Pyt-R&rdquo;. Nowadays, the project also supports many other kernels, <a href="https://github.com/jupyter/jupyter/wiki/Jupyter-kernels">a list of which can be found here.</a> Currently, Jupyter comes pre-installed with Python 3, but if you would like to create a notebook using R, for example, you can simply download the kernel for it (IRkernel) from the list above.</p>
+
+<p>As a server-client application, the Jupyter Notebook allows you to edit and run your notebooks via a web browser. The application can also be installed and executed on a PC without internet access.</p>
+
+<h3 id="use-cases">Use Cases</h3>
 
 <hr />
 
-<p>To use the Jupyter notebook, you have to run the following command:
-&gt; Jupyter notebook</p>
-
-<p>Then you will see the application opening in a web broswer.</p>
-
-<p><img src="/images/Jupyter.png" alt="Jupyter Notebook"></p>
-
-<ul>
-<li>The &ldquo;Files&rdquo; tab is where all your files are kept.</li>
-<li>The &ldquo;Running&rdquo; tab keeps track of all your processes and the third tab</li>
-<li>The &ldquo;Clusters&rdquo;, is provided by IPython parallel, IPython&rsquo;s parallel computing framework.</li>
-</ul>
-
-<p>To open a new notebook, you can click on the &ldquo;New button&rdquo; in the &ldquo;Files tab&rdquo; and choose the option you want.</p>
-
-<p>After getiing in the notebook.
-* you can add (<code>Crtl + b</code>) or delete new cell (either markdown or the language you choose).
-* Using the <code>shift + tab</code> after the code, you can see the function of it.
-* After finishing one cell, using <code>shift + enter</code> to run it
-* To apply a latex in you markdown, you can add your latex between <code>$$</code> like <code>$$c =\pi $$</code>
-You can use the botton at the top for some of those command, as well.</p>
-
-<p><img src="/images/button.png" alt="Button"></p>
-
-<p>You can find more markdown code by this <a href="https://github.com/jupyter/jupyter/wiki/Jupyter-kernels">markdown cheatsheet</a></p>
-
-<h3 id="example">Example</h3>
-
-<hr />
-
-<p><ol>
-    <li>
- By using the Jupyter Notebook, you can combine your markdown explanation with a function doing all the real math for you.
-<img src="/images/PCA.png" alt="PCA"></p>
-
-<p>One advantage of it is that you can go through different examples just by changing the variable in the function. Students can also use those function as a self-check tools or a caculator, while they solve the problem.
+<ol>
+<li>
+<i>Lectures.</i> By using the Jupyter Notebook, you can combine your markdown explanation with a function doing all the real math for you.
+  
+<img src="/images/PCA.png" alt="PCA">
+  
+One advantage of it being a living document is that you can go through different examples just by changing the variables in the function. Students can also use the function as a self-check tool, or a calculator while they solve the problem. This means that your lesson plan can be on one document, eliminating the need to switch between PowerPoint and MATLAB every few minutes.
 </li>
 <li>
- Also, Jupyter Notebook can provide you a new way of making plots with the programming language you like.</p>
-
-<p><img src="/images/linear.png" alt="Linear">
-In this example, we&rsquo;re trying to apply a list of dataset into the linear regression. As you can see, you can plot the whole data and label everything you want just by coding few sentences. In fact, in this notebook you can make all the plots you want like heatmap, dotplot, and etc. Also, for all the instructors, you don&rsquo;t need to switch between your powerpoint and matlab any more.
-Tips: If you use python for you notebooks, matplotlib is a very useful class contain all those plots. <a href="https://matplotlib.org/tutorials/index.html">Here is the link</a>
+<i>Demos.</i> Additionally, Jupyter Notebook can provide you with a new way of making plots with the programming language you prefer.
+  
+<img src="/images/linear.png" alt="Linear">
+  
+In this example, we're trying to apply a list of datasets into the linear regression. As you can see, you can plot all of the data and label everything you want with just a few lines of code. In fact, in this notebook you can make all the plots you want like heatmap, dotplot, etc.
+  
+Tip: If you use Python for your notebooks, [matplotlib](https://matplotlib.org/tutorials/index) is a very useful class contain all those plots.
 </li>
 <li>
- What&rsquo;s more, you can make an assignment notebook by Jupyter Notebook.</p>
+<i>Assignments.</i> In addition to lesson plans, instructors can also make assignment notebooks using Jupyter Notebook.
 
-<p><img src="/images/assignment.png" alt="Assignment">
-By using this assignment, students can test their own skills of making heatmap. In fact, Instructors can use the jupyter notebook to make assignments among all the topics. Also, our upcoming grading system can give you a convinent experience while grading; students can immediately get the feedback once the instructor finished grading. A dataset including all student&rsquo;s grades will be made as well such that you don&rsquo;t need to collect all those data by yourself any more.
+<img src="/images/assignment.png" alt="Assignment">
+  
+This way, students can test their own skills on making heatmaps (or any other topic) without the hassle of having every student download software. Also, our upcoming grading system can give you a more efficient grading experience; students can immediately get the feedback once the instructor is finished grading using markdowns. A dataset including all student's grades will be made as well so that you don't need to collect all of the data by yourself.
 </li>
-</ol?></p>
+<li>
+<i>Textbooks.</i> Lastly, a notebook can be used as a static narrative document containing a course's material. The advantage here is that the notebook can serve as an accessible repository for course information, whether students want to access it online or download it on their PC. Additionally, while a notebook could theoritically subsist on just static text, inline examples and code can be included such that students get practice visualizing certain concepts without having to change the original contents of the notebook. Sliders and call-outs for user input can also be included to enhance the interactive experience.
+</li>
+</ol>
 
 
 
@@ -248,7 +234,7 @@ By using this assignment, students can test their own skills of making heatmap. 
         <div class="chevrons">
     <div id="navigation">
 <a class="nav nav-prev" href="/" title="DATA@RENSSELAER"> <i class="fa fa-chevron-left"></i><label>DATA@RENSSELAER</label></a>
-    <a class="nav nav-next" href="/modules/pytorch/" title="PyTorch" style="margin-right: 0px;"><label>PyTorch</label><i class="fa fa-chevron-right"></i></a></div>
+    <a class="nav nav-next" href="/modules/how-to/" title="How to Make Notebooks" style="margin-right: 0px;"><label>How to Make Notebooks</label><i class="fa fa-chevron-right"></i></a></div>
   </div>
 
   </section>
